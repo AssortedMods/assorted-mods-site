@@ -1,6 +1,8 @@
 <template>
-  <div id="content">
-    <h1><a name="sea_creatures">Sea Creatures</a></h1>
+  <PartPage
+    family="mobs"
+    part="sea-creatures"
+  >
     <p>
       Four water based mobs that live in rivers, lakes and oceans, and in snowy and frozen biomes.
     </p>
@@ -23,7 +25,7 @@
       and then one comes up and stands its tusk out of the water. They want nothing of anyone. Using the horn of a narwhal you can craft a sword.
     </p>
     <img src="\mods\mobs\narwhal.png">
-    <Recipe id="assortedmobs:narwhal_sword" />
+    <Recipe id="assortedseacreatures:narwhal_sword" />
 
     <h2><a name="sea_otter">Sea Otter</a></h2>
     <p>
@@ -36,13 +38,13 @@
       Sea shells make a set of armor and a shovel.
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <Recipe id="assortedmobs:shell_helmet" />
-      <Recipe id="assortedmobs:shell_chestplate" />
-      <Recipe id="assortedmobs:shell_leggings" />
-      <Recipe id="assortedmobs:shell_boots" />
-      <Recipe id="assortedmobs:shell_shovel" />
+      <Recipe id="assortedseacreatures:shell_helmet" />
+      <Recipe id="assortedseacreatures:shell_chestplate" />
+      <Recipe id="assortedseacreatures:shell_leggings" />
+      <Recipe id="assortedseacreatures:shell_boots" />
+      <Recipe id="assortedseacreatures:shell_shovel" />
     </div>
-  </div>
+  </PartPage>
 </template>
 
 <script setup lang="ts">

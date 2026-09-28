@@ -1,11 +1,14 @@
 <template>
-  <div id="content">
-    <h1><a name="portable_workbench">Portable Workbench</a></h1>
+  <PartPage
+    family="tools"
+    part="portable-workbench"
+  >
     <p>
       A crafting table you can carry. Right click with it to open a crafting grid on the spot.
     </p>
-    <Recipe id="assortedtools:portable_workbench" />
-  </div>
+    <img src="\mods\tools\portable-workbench.webp">
+    <Recipe id="assortedportableworkbench:portable_workbench" />
+  </PartPage>
 </template>
 
 <script setup lang="ts">

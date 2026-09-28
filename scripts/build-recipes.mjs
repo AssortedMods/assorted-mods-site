@@ -59,7 +59,7 @@ async function main() {
   }
   const res = new Resources()
   for (const mod of cfg.mods) {
-    const src = join(cfg.modsRoot, mod, 'common', 'src')
+    const src = join(mod, 'common', 'src')
     res.addDir(join(src, 'main', 'resources'))
     res.addDir(join(src, 'generated', 'client'))
     res.addDir(join(src, 'generated', 'server'))

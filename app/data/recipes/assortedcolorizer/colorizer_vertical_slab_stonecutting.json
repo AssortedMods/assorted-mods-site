@@ -1,0 +1,35 @@
+{
+  "id": "assortedcolorizer:colorizer_vertical_slab_stonecutting",
+  "type": "stonecutting",
+  "typeLabel": "Stonecutting",
+  "station": "Stonecutter",
+  "gui": "stonecutter",
+  "result": {
+    "kind": "item",
+    "count": 2,
+    "items": [
+      {
+        "id": "assortedcolorizer:colorizer_vertical_slab",
+        "name": "Colorizer Vertical Slab",
+        "icon": {
+          "src": "/icons/assortedcolorizer/colorizer_vertical_slab.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcolorizer:colorizer",
+        "name": "Colorizer",
+        "icon": {
+          "src": "/icons/assortedcolorizer/colorizer.png",
+          "pixelated": false
+        }
+      }
+    ]
+  }
+}

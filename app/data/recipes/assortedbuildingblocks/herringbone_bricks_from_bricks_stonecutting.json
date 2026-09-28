@@ -1,0 +1,35 @@
+{
+  "id": "assortedbuildingblocks:herringbone_bricks_from_bricks_stonecutting",
+  "type": "stonecutting",
+  "typeLabel": "Stonecutting",
+  "station": "Stonecutter",
+  "gui": "stonecutter",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedbuildingblocks:herringbone_bricks",
+        "name": "Herringbone Bricks",
+        "icon": {
+          "src": "/icons/assortedbuildingblocks/herringbone_bricks.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:bricks",
+        "name": "Bricks",
+        "icon": {
+          "src": "/icons/minecraft/bricks.png",
+          "pixelated": false
+        }
+      }
+    ]
+  }
+}

@@ -1,15 +1,17 @@
 <template>
-  <div id="content">
-    <h1><a name="treasure_mob">Treasure Mob</a></h1>
+  <PartPage
+    family="mobs"
+    part="treasure-mob"
+  >
     <p>
       Now and then a chest walks off on its own. Treasure mobs turn up inside mineshafts, temples,
       strongholds, trial chambers, ancient cities, mansions, bastions, fortresses and end cities, and
       in the structures of
       <NuxtLink
         class="page-link"
-        to="/world/ruins"
+        to="/world/structures"
       >
-        Assorted World
+        Assorted Structures
       </NuxtLink>
       when it is installed.
     </p>
@@ -27,7 +29,7 @@
     <p>
       A tamed treasure mob follows you and sits when told to. Sneak and use it to open it as a chest.
     </p>
-  </div>
+  </PartPage>
 </template>
 
 <script setup lang="ts">

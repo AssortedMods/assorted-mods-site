@@ -1,0 +1,109 @@
+{
+  "id": "assortedbuildingblocks:framed_cobblestone",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedbuildingblocks:framed_cobblestone",
+        "name": "Framed Cobblestone",
+        "icon": {
+          "src": "/icons/assortedbuildingblocks/framed_cobblestone.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:cobblestone",
+            "name": "Cobblestone",
+            "icon": {
+              "src": "/icons/minecraft/cobblestone.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

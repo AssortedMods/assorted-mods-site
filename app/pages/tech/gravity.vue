@@ -1,6 +1,8 @@
 <template>
-  <div id="content">
-    <h1><a name="gravity">Gravity</a></h1>
+  <PartPage
+    family="tech"
+    part="gravity"
+  >
     <p>
       Have you wanted to control the movement of entities in a range. Then you can with these blocks
       below! All gravity blocks can be Right-Clicked to adjust the range that it has. If you would
@@ -16,8 +18,8 @@
       placed.
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <Recipe id="assortedtech:attractor" />
-      <Recipe id="assortedtech:attractor_directional" />
+      <Recipe id="assortedgravity:attractor" />
+      <Recipe id="assortedgravity:attractor_directional" />
     </div>
 
     <h2><a name="repulsor">Repulsor</a></h2>
@@ -27,8 +29,8 @@
       is placed.
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <Recipe id="assortedtech:repulsor" />
-      <Recipe id="assortedtech:repulsor_directional" />
+      <Recipe id="assortedgravity:repulsor" />
+      <Recipe id="assortedgravity:repulsor_directional" />
     </div>
 
     <h2><a name="gravitor">Gravitor</a></h2>
@@ -37,8 +39,8 @@
       directional variant only floats entities in the range in the direction the block is placed.
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <Recipe id="assortedtech:gravitor" />
-      <Recipe id="assortedtech:gravitor_directional" />
+      <Recipe id="assortedgravity:gravitor" />
+      <Recipe id="assortedgravity:gravitor_directional" />
     </div>
 
     <h2><a name="gravity_boots">Gravity Boots</a></h2>
@@ -52,8 +54,8 @@
         Bridges
       </NuxtLink>.
     </p>
-    <Recipe id="assortedtech:gravity_boots" />
-  </div>
+    <Recipe id="assortedgravity:gravity_boots" />
+  </PartPage>
 </template>
 
 <script setup lang="ts">

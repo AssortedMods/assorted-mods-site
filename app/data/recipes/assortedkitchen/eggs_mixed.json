@@ -1,0 +1,53 @@
+{
+  "id": "assortedkitchen:eggs_mixed",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedkitchen:eggs_mixed",
+        "name": "Mixed Eggs",
+        "icon": {
+          "src": "/icons/assortedkitchen/eggs_mixed.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedkitchen:eggs_unmixed",
+          "name": "Cracked Eggs",
+          "icon": {
+            "src": "/icons/assortedkitchen/eggs_unmixed.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:tools/whisk",
+      "label": "whisk tools",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedkitchen:whisk",
+          "name": "Whisk",
+          "icon": {
+            "src": "/icons/assortedkitchen/whisk.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

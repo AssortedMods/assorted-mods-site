@@ -1,0 +1,111 @@
+{
+  "id": "assortedmachines:steel_gear",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedmachines:steel_gear",
+        "name": "Steel Gear",
+        "icon": {
+          "src": "/icons/assortedmachines/steel_gear.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/steel",
+        "label": "steel ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmachines:steel_ingot",
+            "name": "Steel Ingot",
+            "icon": {
+              "src": "/icons/assortedmachines/steel_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/steel",
+        "label": "steel ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmachines:steel_ingot",
+            "name": "Steel Ingot",
+            "icon": {
+              "src": "/icons/assortedmachines/steel_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:rods/wooden",
+        "label": "wooden rods",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:stick",
+            "name": "Stick",
+            "icon": {
+              "src": "/icons/minecraft/stick.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/steel",
+        "label": "steel ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmachines:steel_ingot",
+            "name": "Steel Ingot",
+            "icon": {
+              "src": "/icons/assortedmachines/steel_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/steel",
+        "label": "steel ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedmachines:steel_ingot",
+            "name": "Steel Ingot",
+            "icon": {
+              "src": "/icons/assortedmachines/steel_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

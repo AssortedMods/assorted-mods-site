@@ -9,7 +9,8 @@ yarn recipes          # regenerate everything the pages use
 yarn recipes --check  # only report problems, write nothing into the site
 ```
 
-Needs Node 26, the mod repos checked out next to this one (`../AssortedCore` and so on), and a
+Needs Node 26, the mod repos checked out next to this one (`../AssortedCore` and so on, each with its
+mods under `mods/`), and a
 gradle cache that has built any of the mods once, which is where the Minecraft client jar and
 the NeoForge jar come from. `config.mjs` lists the environment variables that point elsewhere
 (`ASSORTED_MODS_ROOT`, `MC_CLIENT_JAR`, `NEOFORGE_JAR`, `MC_VERSION`).
@@ -17,7 +18,7 @@ the NeoForge jar come from. `config.mjs` lists the environment variables that po
 ## What it does
 
 1. Scans `app/pages` for every `<Recipe id="namespace:path" />`.
-2. Loads each recipe from `../<Mod>/common/src/generated/server/data/<namespace>/recipe`, or
+2. Loads each recipe from `../<Repo>/mods/<mod>/common/src/generated/server/data/<namespace>/recipe`, or
    from `extra/<namespace>/<path>.json` here when the game has no JSON for it (bag dyeing,
    locking an ender chest). Extras use the game's recipe format plus an optional `site.note`.
 3. Resolves tags (mod, vanilla and NeoForge `c:` tags), display names and counts, and writes
@@ -33,6 +34,6 @@ Outputs are committed, so building and deploying the site needs none of the abov
 
 ## Adding a recipe to a page
 
-Put `<Recipe id="assortedcore:machine_core" />` where the screenshot used to go, run
+Put `<Recipe id="assortedmachines:machine_core" />` where the screenshot used to go, run
 `yarn recipes`, commit the page together with the new files under `app/data` and `public/icons`.
 The script prints a warning for anything it could not find or draw.

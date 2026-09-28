@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "assortedpaint:paint_roller_orange",
+    "#minecraft:wool"
+  ],
+  "result": {
+    "id": "minecraft:orange_wool"
+  },
+  "site": {
+    "note": "Any roller with one wool or carpet of another color. The wool or carpet takes the roller's color."
+  }
+}

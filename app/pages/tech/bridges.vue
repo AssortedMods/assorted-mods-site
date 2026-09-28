@@ -1,21 +1,23 @@
 <template>
-  <div id="content">
-    <h1><a name="bridges">Bridges</a></h1>
+  <PartPage
+    family="tech"
+    part="bridges"
+  >
     <p>
       laser bridges sound pretty cool right?! Well here is a variety of different Laser bridges to
       choose from.
     </p>
     <img src="\mods\tech\bridges.png">
 
-    <h2><a name="attractor">Bridges</a></h2>
+    <h2><a name="bridges">Bridges</a></h2>
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
-      <Recipe id="assortedtech:bridge_control_laser" />
-      <Recipe id="assortedtech:bridge_control_accel" />
-      <Recipe id="assortedtech:bridge_control_trick" />
+      <Recipe id="assortedbridges:bridge_control_laser" />
+      <Recipe id="assortedbridges:bridge_control_accel" />
+      <Recipe id="assortedbridges:bridge_control_trick" />
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <Recipe id="assortedtech:bridge_control_death" />
-      <Recipe id="assortedtech:bridge_control_gravity" />
+      <Recipe id="assortedbridges:bridge_control_death" />
+      <Recipe id="assortedbridges:bridge_control_gravity" />
     </div>
 
     <p>
@@ -50,7 +52,7 @@
       If you right click on a bridge with a supported block the bridge blocks will be changed to
       look like that block. Shift Right-Click with an empty hand to clear the saved block.
     </p>
-  </div>
+  </PartPage>
 </template>
 
 <script setup lang="ts">

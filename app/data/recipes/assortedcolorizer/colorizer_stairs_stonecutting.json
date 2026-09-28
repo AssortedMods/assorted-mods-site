@@ -1,0 +1,35 @@
+{
+  "id": "assortedcolorizer:colorizer_stairs_stonecutting",
+  "type": "stonecutting",
+  "typeLabel": "Stonecutting",
+  "station": "Stonecutter",
+  "gui": "stonecutter",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcolorizer:colorizer_stairs",
+        "name": "Colorizer Stairs",
+        "icon": {
+          "src": "/icons/assortedcolorizer/colorizer_stairs.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedcolorizer:colorizer",
+        "name": "Colorizer",
+        "icon": {
+          "src": "/icons/assortedcolorizer/colorizer.png",
+          "pixelated": false
+        }
+      }
+    ]
+  }
+}

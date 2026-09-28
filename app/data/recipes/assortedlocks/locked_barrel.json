@@ -1,0 +1,62 @@
+{
+  "id": "assortedlocks:locked_barrel",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedlocks:locked_barrel",
+        "name": "Locked Barrel",
+        "icon": {
+          "src": "/icons/assortedlocks/locked_barrel.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "note": "The lock needs a code set on a Locksmith Workbench first. The barrel is locked with that code.",
+  "ingredients": [
+    {
+      "kind": "tag",
+      "tag": "c:barrels/wooden",
+      "label": "wooden barrels",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:barrel",
+          "name": "Barrel",
+          "icon": {
+            "src": "/icons/minecraft/barrel.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlocks:locked_barrel",
+          "name": "Locked Barrel",
+          "icon": {
+            "src": "/icons/assortedlocks/locked_barrel.png",
+            "pixelated": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedlocks:locksmith_lock",
+          "name": "Locksmith Lock",
+          "icon": {
+            "src": "/icons/assortedlocks/locksmith_lock.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

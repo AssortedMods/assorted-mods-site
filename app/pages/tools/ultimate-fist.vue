@@ -1,22 +1,27 @@
 <template>
-  <div id="content">
-    <h1><a name="ultimate_fist">Ultimate Fist</a></h1>
+  <PartPage
+    family="tools"
+    part="ultimate-fist"
+  >
     <p>
       The Ultimate Fist is an overpowered tool left behind by an ancient civilization. The fragments
-      of which can be found across all three dimensions and are required to be able to craft it.
+      of which can be found across all three dimensions and are required to be able to craft it. All
+      eight fragments and a nether star make the Ultimate Fist.
     </p>
-    <Recipe id="assortedtools:ultimate_fist" />
+    <img src="\mods\tools\ultimate-fist.webp">
+    <Recipe id="assortedultimatefist:ultimate_fist" />
 
     <p>
       The Ultimate Fist by default is absurdly powerful and can break blocks extremely fast and one
-      shot many mobs. All of the tools are configurable using the same configuration that is
-      explained at
+      shot many mobs. Its values are under <i>ultimate_fist.ultimate</i> in the
+      <i class="text-gray-600">assortedultimatefist-common</i> config file and work the same way as
+      the tool materials explained on the
       <NuxtLink
         class="page-link"
-        to="/tools/material-config"
+        to="/tools/gear-sets"
       >
-        Material Config
-      </NuxtLink>.
+        Gear Sets
+      </NuxtLink> page.
       <br>
       <br>
       <b>Side note</b>: A number of the configuration values are unused since this does not have other
@@ -90,7 +95,7 @@
         </tr>
       </tbody>
     </table>
-  </div>
+  </PartPage>
 </template>
 
 <script setup lang="ts">

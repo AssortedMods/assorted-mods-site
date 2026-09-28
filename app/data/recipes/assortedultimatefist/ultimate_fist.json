@@ -1,0 +1,151 @@
+{
+  "id": "assortedultimatefist:ultimate_fist",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedultimatefist:ultimate_fist",
+        "name": "Ultimate Fist",
+        "icon": {
+          "src": "/icons/assortedultimatefist/ultimate_fist.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedultimatefist:u_fragment",
+          "name": "§1U§r Fragment",
+          "icon": {
+            "src": "/icons/assortedultimatefist/u_fragment.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedultimatefist:l_fragment",
+          "name": "§2L§r Fragment",
+          "icon": {
+            "src": "/icons/assortedultimatefist/l_fragment.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedultimatefist:t_fragment",
+          "name": "§4T§r Fragment",
+          "icon": {
+            "src": "/icons/assortedultimatefist/t_fragment.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedultimatefist:i_fragment",
+          "name": "§5I§r Fragment",
+          "icon": {
+            "src": "/icons/assortedultimatefist/i_fragment.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedultimatefist:m_fragment",
+          "name": "§6M§r Fragment",
+          "icon": {
+            "src": "/icons/assortedultimatefist/m_fragment.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedultimatefist:a_fragment",
+          "name": "§8A§r Fragment",
+          "icon": {
+            "src": "/icons/assortedultimatefist/a_fragment.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedultimatefist:missing_fragment",
+          "name": "§k???§r Fragment",
+          "icon": {
+            "src": "/icons/assortedultimatefist/missing_fragment.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedultimatefist:e_fragment",
+          "name": "§dE§r Fragment",
+          "icon": {
+            "src": "/icons/assortedultimatefist/e_fragment.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "c:nether_stars",
+      "label": "nether stars",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:nether_star",
+          "name": "Nether Star",
+          "icon": {
+            "src": "/icons/minecraft/nether_star.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "assortedextruder:netherite_extruder",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedextruder:netherite_extruder",
+        "name": "Netherite Extruder",
+        "icon": {
+          "src": "/icons/assortedextruder/netherite_extruder.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:pickaxes/netherite",
+        "label": "netherite pickaxes",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:netherite_pickaxe",
+            "name": "Netherite Pickaxe",
+            "icon": {
+              "src": "/icons/minecraft/netherite_pickaxe.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:axes/netherite",
+        "label": "netherite axes",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:netherite_axe",
+            "name": "Netherite Axe",
+            "icon": {
+              "src": "/icons/minecraft/netherite_axe.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "assortedextruder:extruders/level_3",
+        "label": "level 3 extruders",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedextruder:diamond_extruder",
+            "name": "Diamond Extruder",
+            "icon": {
+              "src": "/icons/assortedextruder/diamond_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedextruder:emerald_extruder",
+            "name": "Emerald Extruder",
+            "icon": {
+              "src": "/icons/assortedextruder/emerald_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedextruder:silver_extruder",
+            "name": "Silver Extruder",
+            "icon": {
+              "src": "/icons/assortedextruder/silver_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedextruder:platinum_extruder",
+            "name": "Platinum Extruder",
+            "icon": {
+              "src": "/icons/assortedextruder/platinum_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedextruder:electrum_extruder",
+            "name": "Electrum Extruder",
+            "icon": {
+              "src": "/icons/assortedextruder/electrum_extruder.png",
+              "pixelated": false
+            }
+          },
+          {
+            "id": "assortedextruder:steel_extruder",
+            "name": "Steel Extruder",
+            "icon": {
+              "src": "/icons/assortedextruder/steel_extruder.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:shovels/netherite",
+        "label": "netherite shovels",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:netherite_shovel",
+            "name": "Netherite Shovel",
+            "icon": {
+              "src": "/icons/minecraft/netherite_shovel.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

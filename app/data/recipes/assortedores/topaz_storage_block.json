@@ -1,0 +1,39 @@
+{
+  "id": "assortedores:topaz_storage_block",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 9,
+    "items": [
+      {
+        "id": "assortedores:topaz",
+        "name": "Topaz",
+        "icon": {
+          "src": "/icons/assortedores/topaz.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "tag",
+      "tag": "c:storage_blocks/topaz",
+      "label": "topaz storage blocks",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedores:topaz_block",
+          "name": "Block of Topaz",
+          "icon": {
+            "src": "/icons/assortedores/topaz_block.png",
+            "pixelated": false
+          }
+        }
+      ]
+    }
+  ]
+}

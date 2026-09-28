@@ -51,14 +51,14 @@ export const GUI_LAYOUTS = {
   // GrindingMillContainer: input (51, 27), tool (80, 5), fuel (80, 62), result (115, 27); the
   // mod's JEI category crops (50, 4) 86x75.
   grinding_mill: {
-    crop: { texture: 'assortedcore:gui/container/grinding_mill', x: 50, y: 4, width: 86, height: 75 },
+    crop: { texture: 'assortedmachines:gui/container/grinding_mill', x: 50, y: 4, width: 86, height: 75 },
     footer: true,
     slots: { input: [1, 23], tool: [30, 1], fuel: [30, 58], result: [65, 23] }
   },
   // AlloyForgeContainer: inputs (32, 27) and (56, 27), fuel (80, 62), result (115, 27); JEI
   // crops (31, 22) 105x57.
   alloy_forge: {
-    crop: { texture: 'assortedcore:gui/container/alloy_forge', x: 31, y: 22, width: 105, height: 57 },
+    crop: { texture: 'assortedmachines:gui/container/alloy_forge', x: 31, y: 22, width: 105, height: 57 },
     footer: true,
     slots: { input1: [1, 5], input2: [25, 5], fuel: [49, 40], result: [84, 5] }
   },
@@ -66,7 +66,7 @@ export const GUI_LAYOUTS = {
   // category and the instruction manual both draw, already sized to the recipe
   // (CuisineMachineRecipeCategory: 98x26, station 5, input 27, output 77, all at y 5).
   cuisine_machine: {
-    crop: { texture: 'assortedcuisine:gui/container/cuisine_machine', x: 0, y: 0, width: 98, height: 26 },
+    crop: { texture: 'assortedkitchen:gui/container/cuisine_machine', x: 0, y: 0, width: 98, height: 26 },
     footer: true,
     slots: { station: [5, 5], input: [27, 5], result: [77, 5] }
   }

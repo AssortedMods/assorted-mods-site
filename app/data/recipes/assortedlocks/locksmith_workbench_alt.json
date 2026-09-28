@@ -1,0 +1,69 @@
+{
+  "id": "assortedlocks:locksmith_workbench_alt",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedlocks:locksmith_workbench",
+        "name": "Locksmith Workbench",
+        "icon": {
+          "src": "/icons/assortedlocks/locksmith_workbench.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedlocks:locksmith_key",
+            "name": "Locksmith Key",
+            "icon": {
+              "src": "/icons/assortedlocks/locksmith_key.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedlocks:locksmith_lock",
+            "name": "Locksmith Lock",
+            "icon": {
+              "src": "/icons/assortedlocks/locksmith_lock.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:crafting_table",
+            "name": "Crafting Table",
+            "icon": {
+              "src": "/icons/minecraft/crafting_table.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -10,7 +10,14 @@ export const siteRoot = resolve(here, '..', '..')
 
 // The sibling mod checkouts. Each contributes its hand-written and datagen'd resources.
 export const modsRoot = process.env.ASSORTED_MODS_ROOT || resolve(siteRoot, '..')
-export const mods = ['AssortedLib', 'AssortedCore', 'AssortedCuisine', 'AssortedDecor', 'AssortedMobs', 'AssortedStorage', 'AssortedTech', 'AssortedTools', 'AssortedWorld']
+export const repos = ['AssortedLib', 'AssortedCore', 'AssortedCuisine', 'AssortedDecor', 'AssortedMobs', 'AssortedStorage', 'AssortedTech', 'AssortedTools', 'AssortedUtil', 'AssortedWorld']
+
+// A family repo builds each of its mods from mods/<dir>; a repo that is one mod builds from its root.
+export const mods = repos.flatMap((repo) => {
+  const family = join(modsRoot, repo, 'mods')
+  if (!existsSync(family)) return [join(modsRoot, repo)]
+  return readdirSync(family).map(dir => join(family, dir)).filter(dir => existsSync(join(dir, 'common')))
+})
 
 export const minecraftVersion = process.env.MC_VERSION || '26.2'
 
@@ -51,11 +58,12 @@ export const pagesDir = join(siteRoot, 'app', 'pages')
 export const extraRecipesDir = join(here, 'extra')
 export const iconOverridesDir = join(here, 'icon-overrides')
 
-// The icon exports: each mod's `./gradlew :neoforge:runExportIcons` renders every item it loads
-// into neoforge/build/icons. ICON_EXPORT_DIRS (path-separator delimited) overrides the list.
+// The icon exports. `./gradlew :all:neoforge:runExportIcons` in a family repo renders every item its mods load
+// into build/icons in one game; `:<dir>:neoforge:runExportIcons` does one mod into its neoforge/build/icons, and a
+// repo that is one mod uses its own neoforge/build/icons. ICON_EXPORT_DIRS (path-separator delimited) overrides.
 export const iconExportDirs = process.env.ICON_EXPORT_DIRS
   ? process.env.ICON_EXPORT_DIRS.split(delimiter).filter(Boolean)
-  : mods.map(mod => join(modsRoot, mod, 'neoforge', 'build', 'icons'))
+  : [...repos.map(repo => join(modsRoot, repo, 'build', 'icons')), ...mods.map(mod => join(mod, 'neoforge', 'build', 'icons'))]
 
 // Component-dependent icons the pages need (a coloured siding); the export runs read this file.
 export const iconStacksFile = join(here, 'icon-stacks.json')

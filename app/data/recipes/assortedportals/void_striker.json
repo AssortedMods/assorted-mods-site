@@ -1,0 +1,65 @@
+{
+  "id": "assortedportals:void_striker",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedportals:void_striker",
+        "name": "Void Striker",
+        "icon": {
+          "src": "/icons/assortedportals/void_striker.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:flint_and_steel",
+          "name": "Flint and Steel",
+          "icon": {
+            "src": "/icons/minecraft/flint_and_steel.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedportals:void_crystal",
+          "name": "Void Crystal",
+          "icon": {
+            "src": "/icons/assortedportals/void_crystal.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:dragon_breath",
+          "name": "Dragon's Breath",
+          "icon": {
+            "src": "/icons/minecraft/dragon_breath.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

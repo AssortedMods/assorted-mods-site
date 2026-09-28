@@ -1,0 +1,149 @@
+{
+  "id": "assortedbuildingblocks:meat_block",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedbuildingblocks:meat_block",
+        "name": "Meat Block",
+        "icon": {
+          "src": "/icons/assortedbuildingblocks/meat_block.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:porkchop",
+          "name": "Raw Porkchop",
+          "icon": {
+            "src": "/icons/minecraft/porkchop.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:porkchop",
+          "name": "Raw Porkchop",
+          "icon": {
+            "src": "/icons/minecraft/porkchop.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:porkchop",
+          "name": "Raw Porkchop",
+          "icon": {
+            "src": "/icons/minecraft/porkchop.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:porkchop",
+          "name": "Raw Porkchop",
+          "icon": {
+            "src": "/icons/minecraft/porkchop.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:porkchop",
+          "name": "Raw Porkchop",
+          "icon": {
+            "src": "/icons/minecraft/porkchop.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:porkchop",
+          "name": "Raw Porkchop",
+          "icon": {
+            "src": "/icons/minecraft/porkchop.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:porkchop",
+          "name": "Raw Porkchop",
+          "icon": {
+            "src": "/icons/minecraft/porkchop.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:porkchop",
+          "name": "Raw Porkchop",
+          "icon": {
+            "src": "/icons/minecraft/porkchop.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:porkchop",
+          "name": "Raw Porkchop",
+          "icon": {
+            "src": "/icons/minecraft/porkchop.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

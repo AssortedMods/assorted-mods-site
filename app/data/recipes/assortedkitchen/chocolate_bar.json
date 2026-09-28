@@ -1,0 +1,37 @@
+{
+  "id": "assortedkitchen:chocolate_bar",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 9,
+    "items": [
+      {
+        "id": "assortedkitchen:chocolate_bar",
+        "name": "Chocolate Bar",
+        "icon": {
+          "src": "/icons/assortedkitchen/chocolate_bar.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedkitchen:chocolate_block",
+          "name": "Chocolate Block",
+          "icon": {
+            "src": "/icons/assortedkitchen/chocolate_block.png",
+            "pixelated": false
+          }
+        }
+      ]
+    }
+  ]
+}

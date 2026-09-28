@@ -12,14 +12,11 @@
         </p>
       </div>
       <div class="flex flex-wrap -m-4">
-        <ModCard mod="core" />
-        <ModCard mod="cuisine" />
-        <ModCard mod="decor" />
-        <ModCard mod="mobs" />
-        <ModCard mod="storage" />
-        <ModCard mod="tech" />
-        <ModCard mod="tools" />
-        <ModCard mod="world" />
+        <ModCard
+          v-for="family in FAMILIES"
+          :key="family.key"
+          :family="family.key"
+        />
       </div>
     </div>
   </section>

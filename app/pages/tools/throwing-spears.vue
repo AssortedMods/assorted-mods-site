@@ -1,31 +1,38 @@
 <template>
-  <div id="content">
-    <h1><a name="throwing_spears">Throwing Spears</a></h1>
+  <PartPage
+    family="tools"
+    part="throwing-spears"
+  >
     <p>
       This mod adds Throwing Spears with any default Minecraft tool material as well as all of the
-      tool materials provided in <NuxtLink
+      extra materials in <NuxtLink
         class="page-link"
-        to="/core/materials"
+        to="/tools/gear-sets"
       >
-        Assorted Core
+        Gear Sets
       </NuxtLink>. These
       throwing spears function similar to tridents in the fact that they can damage entities by
-      swinging as well as they are able to be thrown from the hand. Every material uses the same
-      recipe, two sticks and the material, shown below for a vanilla one and an Assorted Core one.
+      swinging as well as they are able to be thrown from the hand. A thrown spear sticks where it
+      lands, ready to be picked back up. Every material uses the same recipe, two sticks and the
+      material, shown below for a vanilla one and an extra one.
     </p>
     <p>
-      Minecraft has its own plain Spear for each of its tool materials. Assorted Tools adds a
-      matching plain Spear for every Assorted Core material so the extra materials are not left out.
-      Those are separate items from the Throwing Spears on this page, and they use the vanilla
-      spear recipe instead.
+      These are separate items from the plain Spears Minecraft has for each of its tool materials.
+      The matching plain Spears for the extra materials come with
+      <NuxtLink
+        class="page-link"
+        to="/tools/gear-sets"
+      >
+        Gear Sets
+      </NuxtLink>.
     </p>
     <img src="\mods\tools\throwing_spears_all.png">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <Recipe id="assortedtools:diamond_throwing_spear" />
-      <Recipe id="assortedtools:sapphire_throwing_spear" />
+      <Recipe id="assortedthrowingspears:diamond_throwing_spear" />
+      <Recipe id="assortedthrowingspears:sapphire_throwing_spear" />
     </div>
     <p>The Diamond Throwing Spear is also able to upgraded to the Netherite Throwing Spear using a smithing table.</p>
-    <Recipe id="assortedtools:netherite_throwing_spear_smithing" />
+    <Recipe id="assortedthrowingspears:netherite_throwing_spear_smithing" />
     <h2><a name="enchantments">Enchantments</a></h2>
     <p>
       Besides just the being able to throw them you are also able to enchant Throwing Spears with an
@@ -66,14 +73,16 @@
       <li>
         <b>Conductive</b> (max-level:3) - When it hits a block or an entity it will try and cause a
         lightning strike. Each level improves the chances of the lightning strike happening
-        (configurable). Conductive is not compatible with Unstable.
+        (configurable with <i>better_spears.conductivityLightningChances</i> in the
+        <i class="text-gray-600">assortedthrowingspears-common</i> config file). Conductive is not
+        compatible with Unstable.
       </li>
       <li>
         <b>Bounciness</b> (max-level:5) - When it hits a block it will try and bounce up to the
         number of levels you have. Bounciness is not compatible with Unstable.
       </li>
     </ul>
-  </div>
+  </PartPage>
 </template>
 
 <script setup lang="ts">

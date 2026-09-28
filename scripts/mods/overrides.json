@@ -1,0 +1,38 @@
+{
+  "families": {
+    "util": {
+      "description": "Small helpers that each do one job, like graves, double doors, item replacing, a clock, a light overlay and damage numbers.",
+      "logo": "AssortedUtil-photos/logos/logo_util_family.png"
+    }
+  },
+  "mods": {
+    "assortedcore": {
+      "modrinthSlug": "assorted-core"
+    },
+    "assortedcuisine": {
+      "modrinthSlug": "assortedcuisine"
+    },
+    "assorteddecor": {
+      "modrinthSlug": "assorted-decor"
+    },
+    "assortedmobs": {
+      "curseforgeSlug": "assorted-mobs",
+      "modrinthSlug": "assorted-mobs"
+    },
+    "assortedstorage": {
+      "modrinthSlug": "assorted-storage"
+    },
+    "assortedtech": {
+      "modrinthSlug": "assorted-tech"
+    },
+    "assortedtools": {
+      "modrinthSlug": "assorted-tools"
+    },
+    "assortedworld": {
+      "modrinthSlug": "assorted-world"
+    },
+    "assortedeightbit": {
+      "slug": "eight-bit-mobs"
+    }
+  }
+}

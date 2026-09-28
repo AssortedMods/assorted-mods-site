@@ -1,0 +1,37 @@
+{
+  "id": "assortedkitchen:chocolate_ball",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 2,
+    "items": [
+      {
+        "id": "assortedkitchen:chocolate_ball",
+        "name": "Chocolate Ball",
+        "icon": {
+          "src": "/icons/assortedkitchen/chocolate_ball.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedkitchen:hot_chocolate",
+          "name": "Hot Chocolate",
+          "icon": {
+            "src": "/icons/assortedkitchen/hot_chocolate.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "assortedcolorizer:colorizer_lamp_post",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 2,
+    "items": [
+      {
+        "id": "assortedcolorizer:colorizer_lamp_post",
+        "name": "Colorizer Lamp Post",
+        "icon": {
+          "src": "/icons/assortedcolorizer/colorizer_lamp_post.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:glowstone",
+            "name": "Glowstone",
+            "icon": {
+              "src": "/icons/minecraft/glowstone.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

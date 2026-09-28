@@ -1,6 +1,8 @@
 <template>
-  <div id="content">
-    <h1><a name="ice_pixie">Ice Pixie</a></h1>
+  <PartPage
+    family="mobs"
+    part="ice-pixie"
+  >
     <p>
       Ice pixies live in snowy biomes and can be found during both day and night. They throw ice at any
       player they see, and they move faster on ice and snow.
@@ -21,10 +23,10 @@
         class="page-link"
         to="/tools/staffs"
       >
-        Assorted Tools
+        Assorted Staffs
       </NuxtLink>.
     </p>
-  </div>
+  </PartPage>
 </template>
 
 <script setup lang="ts">

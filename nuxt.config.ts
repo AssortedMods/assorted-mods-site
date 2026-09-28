@@ -1,4 +1,5 @@
 import tailwindcss from '@tailwindcss/vite'
+import redirects from './redirects.json'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -18,16 +19,16 @@ export default defineNuxtConfig({
     name: 'Assorted Mods',
     indexable: true
   },
-  routeRules: {
-    '/tools/spears': { redirect: { to: '/tools/throwing-spears', statusCode: 301 } }
-  },
+  // Old pages moved when the mods split into smaller ones; redirects.json maps each to its new home.
+  routeRules: Object.fromEntries(
+    Object.entries(redirects).map(([from, to]) => [from, { redirect: { to, statusCode: 301 } }])
+  ),
   compatibilityDate: '2026-09-13',
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: [
-        '/'
-      ]
+      // The old paths are listed so the static site still has a page at each that sends you on.
+      routes: ['/', ...Object.keys(redirects)]
     }
   },
   vite: {

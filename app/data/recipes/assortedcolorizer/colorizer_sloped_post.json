@@ -1,0 +1,98 @@
+{
+  "id": "assortedcolorizer:colorizer_sloped_post",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 4,
+    "items": [
+      {
+        "id": "assortedcolorizer:colorizer_sloped_post",
+        "name": "Colorizer Sloped Post",
+        "icon": {
+          "src": "/icons/assortedcolorizer/colorizer_sloped_post.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 2,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -11,6 +11,7 @@
     "lint": "eslint .",
     "typecheck": "nuxt typecheck",
     "recipes": "node scripts/build-recipes.mjs",
+    "mods": "node scripts/build-mods.mjs",
     "deploy": "nuxt generate && npm run deploy:assets && npm run deploy:rest",
     "deploy:assets": "aws s3 sync .output/public/_nuxt s3://www.assortedmods.com/_nuxt --delete --cache-control \"public,max-age=31536000,immutable\"",
     "deploy:rest": "aws s3 sync .output/public s3://www.assortedmods.com --delete --exclude \"_nuxt/*\" --cache-control \"public,max-age=300\""

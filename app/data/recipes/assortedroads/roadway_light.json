@@ -1,0 +1,57 @@
+{
+  "id": "assortedroads:roadway_light",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedroads:roadway_light",
+        "name": "Roadway Light",
+        "icon": {
+          "src": "/icons/assortedroads/roadway_light.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "assortedlights:illumination_plates",
+        "label": "illumination plates",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedlights:illumination_plate",
+            "name": "Illumination Plate",
+            "icon": {
+              "src": "/icons/assortedlights/illumination_plate.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedroads:roadway",
+            "name": "Roadway",
+            "icon": {
+              "src": "/icons/assortedroads/roadway.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

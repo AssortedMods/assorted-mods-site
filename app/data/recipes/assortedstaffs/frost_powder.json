@@ -1,0 +1,39 @@
+{
+  "id": "assortedstaffs:frost_powder",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 2,
+    "items": [
+      {
+        "id": "assortedstaffs:frost_powder",
+        "name": "Frost Powder",
+        "icon": {
+          "src": "/icons/assortedstaffs/frost_powder.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "tag",
+      "tag": "c:rods/frost",
+      "label": "frost rods",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedstaffs:frost_rod",
+          "name": "Frost Rod",
+          "icon": {
+            "src": "/icons/assortedstaffs/frost_rod.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}
