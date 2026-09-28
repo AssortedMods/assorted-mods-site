@@ -39,7 +39,7 @@
     <h2><a name="frames">Frames</a></h2>
     <p>
       If you would also like to add depth to your house then frames are for you. Frames come in
-      either wood or iron. Frames are stronger then wallpaper so if their supporting block is
+      either wood or iron. Frames are stronger than wallpaper so if their supporting block is
       removed they will still be there. To dye a frame you just need to right click with a dye in
       your hand on them. These support
       <NuxtLink
@@ -62,7 +62,7 @@
 
     <h2><a name="calendar">Calendar</a></h2>
     <p>
-      Calendar are a good way to keep track of how much time has passed in your Minecraft world.
+      Calendars are a good way to keep track of how much time has passed in your Minecraft world.
       They will automatically add up the amount of time that has passed and give the appropriate
       year, month, and day for the current day. No needing to tear off the previous day.
     </p>

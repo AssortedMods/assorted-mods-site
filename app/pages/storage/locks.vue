@@ -38,8 +38,8 @@
     <h2><a name="key_ring">Key Ring</a></h2>
     <p>
       If you have a ton of spare keys lying around taking up your inventory there is a simple
-      solution the <b>Key Ring</b>. This neat item allows you to store up to 12 seperate keys in one
-      item and will allow you to unlock any block just the same as if you had each key seperate.
+      solution the <b>Key Ring</b>. This neat item allows you to store up to 12 separate keys in one
+      item and will allow you to unlock any block just the same as if you had each key separate.
     </p>
     <Recipe id="assortedlocks:key_ring" />
     <p>
@@ -66,7 +66,7 @@
 
     <h2><a name="ender_chest">Locked Ender Chest</a></h2>
     <p>
-      The Locked Ender Chest adds the ability to have multiple seperate Ender Chest inventories
+      The Locked Ender Chest adds the ability to have multiple separate Ender Chest inventories
       saved and can be accessed by anyone else who has the same code use to lock it.
     </p>
     <p>
@@ -82,8 +82,8 @@
     </p>
     <img src="\mods\storage\locked_ender_chest.png">
     <p>
-      Each separate Locked Ender Chest locked with a different code is a completely seperate
-      inventory then the others. So you can have an huge amount of seperate Locked Ender Chests to
+      Each separate Locked Ender Chest locked with a different code is a completely separate
+      inventory than the others. So you can have a huge amount of separate Locked Ender Chests to
       store different items in.
     </p>
     <p>
@@ -115,7 +115,7 @@
     <br>
     <p>
       To remove the lock from a door shift-right click on the locked door with an empty hand. Make
-      sure yo have a key in your inventory with the combination.
+      sure you have a key in your inventory with the combination.
     </p>
   </PartPage>
 </template>

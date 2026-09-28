@@ -38,7 +38,7 @@
     </p>
     <Recipe id="assorteddecorations:unfired_planter_pot" />
     <p>
-      You will need to smelt and unfired planter pot to get a block you can actually place.
+      You will need to smelt an unfired planter pot to get a block you can actually place.
     </p>
     <Recipe id="assorteddecorations:planter_pot" />
     <img src="\mods\decor\planter_pot.png">

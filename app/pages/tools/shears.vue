@@ -12,7 +12,7 @@
       >
         Gear Sets
       </NuxtLink>. These extra Shears work
-      the exact same way that vanilla Shears work except that their durability is dependant on the
+      the exact same way that vanilla Shears work except that their durability is dependent on the
       material that they are made out of.
     </p>
     <img src="\mods\tools\shears.webp">

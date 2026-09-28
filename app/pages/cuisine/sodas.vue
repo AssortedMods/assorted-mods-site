@@ -19,9 +19,9 @@
       <Recipe id="assortedsodas:soda_carbonated_water" />
     </div>
 
-    <h2><a name="types">Flavours</a></h2>
+    <h2><a name="types">Flavors</a></h2>
     <p>
-      Ten flavours on top of the plain carbonated water. Each one heals differently and may have a different effect once drunk.
+      Ten flavors on top of the plain carbonated water. Each one heals differently and may have a different effect once drunk.
     </p>
     <table class="table-auto my-4">
       <thead>

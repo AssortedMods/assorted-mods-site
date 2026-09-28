@@ -5,7 +5,7 @@
   >
     <p>
       Multitools are one combined tool to do all the work of the parts it is made out of. This will
-      help save hotbar space so you only need one tools rather than 5.
+      help save hotbar space so you only need one tool rather than 5.
     </p>
     <img src="\mods\tools\multitools.webp">
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">

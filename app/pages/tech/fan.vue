@@ -24,7 +24,7 @@
 
     <br>
     <p>
-      You are able to configure the fans speed, max range, and if to show the air particles via the
+      You are able to configure the fans speed, max range, and whether to show the air particles via the
       config file.
     </p>
   </PartPage>

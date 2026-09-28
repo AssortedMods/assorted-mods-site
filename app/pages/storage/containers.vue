@@ -37,13 +37,13 @@
     </div>
 
     <h2><a name="obsidian_safe">Obsidian Safe</a></h2>
-    <p>The obsidian safe is resitant to explosions and has 27 slots for storage.</p>
+    <p>The obsidian safe is resistant to explosions and has 27 slots for storage.</p>
     <Recipe id="assortedcontainers:obsidian_safe" />
 
     <h2><a name="gold_safe">Gold Safe</a></h2>
     <p>
-      The gold safe works just like Shulker boxes where when you break it, it will keeps its
-      inventory. Once placed again the invetory will still remain when you open it up. The gold safe
+      The gold safe works just like Shulker boxes where when you break it, it will keep its
+      inventory. Once placed again the inventory will still remain when you open it up. The gold safe
       is an upgrade to the Obsidian Safe so is just as strong as well as has 36 slots instead of 27.
     </p>
     <Recipe id="assortedcontainers:gold_safe" />
@@ -61,7 +61,7 @@
     <h2><a name="lockers">Lockers</a></h2>
     <p>
       Lockers can be placed either one or two high. When placed two high you can access twice the
-      items. Similar to a double chest but on it's side. The inventory for the locker scrolls and
+      items. Similar to a double chest but on its side. The inventory for the locker scrolls and
       you can use the right side buttons to navigate as well.
     </p>
     <Recipe id="assortedcontainers:locker" />

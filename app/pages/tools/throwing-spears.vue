@@ -31,13 +31,13 @@
       <Recipe id="assortedthrowingspears:diamond_throwing_spear" />
       <Recipe id="assortedthrowingspears:sapphire_throwing_spear" />
     </div>
-    <p>The Diamond Throwing Spear is also able to upgraded to the Netherite Throwing Spear using a smithing table.</p>
+    <p>The Diamond Throwing Spear is also able to be upgraded to the Netherite Throwing Spear using a smithing table.</p>
     <Recipe id="assortedthrowingspears:netherite_throwing_spear_smithing" />
     <h2><a name="enchantments">Enchantments</a></h2>
     <p>
-      Besides just the being able to throw them you are also able to enchant Throwing Spears with an
+      Besides just being able to throw them you are also able to enchant Throwing Spears with an
       assortment of different enchantments. Some of the enchantments only Throwing Spears are able to
-      get. The current list of enchanments is below:
+      get. The current list of enchantments is below:
     </p>
     <ul class="list-disc list-inside">
       <li>Curse of Vanishing</li>

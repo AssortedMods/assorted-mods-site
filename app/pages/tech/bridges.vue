@@ -21,7 +21,7 @@
     </div>
 
     <p>
-      There are 5 different types of bridges to choose from. For a description of what each on can
+      There are 5 different types of bridges to choose from. For a description of what each one can
       do check below.
     </p>
     <ul class="list-disc list-inside">
@@ -42,7 +42,7 @@
       </li>
       <li>
         <b>Gravity Lift</b> - Sends out bridge blocks that have no collision but when walked into
-        will start sending entites in the direction they are facing.
+        will start sending entities in the direction they are facing.
       </li>
     </ul>
 

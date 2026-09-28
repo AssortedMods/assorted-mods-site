@@ -14,7 +14,7 @@
 
     <h2><a name="flip_flop">Flip Flop Torch</a></h2>
     <p>
-      Works just like a flip-flop logic gate, provide it power it holds it. Power it again and it no
+      Works just like a flip-flop logic gate, provide it power and it holds it. Power it again and it no
       longer is providing power.
     </p>
     <Recipe id="assortedredstone:flip_flop_torch" />

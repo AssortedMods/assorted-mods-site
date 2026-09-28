@@ -10,7 +10,7 @@
       you want an item to sit in, and right click it again empty handed to take it back from a specific shelf.
     </p>
     <p>
-      Wooden, stone, copper, iron, gold and diamond cases differ only in the colour of their frame.
+      Wooden, stone, copper, iron, gold and diamond cases differ only in the color of their frame.
       Breaking a case drops whatever is shown, and a comparator reads how full it is.
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">

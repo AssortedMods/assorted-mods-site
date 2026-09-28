@@ -186,7 +186,7 @@
     <img src="\mods\decor\new_doors.png">
     <p>
       There are 4 new doors. Quartz, Steel, Glass, and Chain Link. The Quartz and Steel door both
-      function the same as the Iron Door in vanilla. The Steel door is able to crafted if a mod is
+      function the same as the Iron Door in vanilla. The Steel door is able to be crafted if a mod is
       installed alongside it that includes steel like
       <NuxtLink
         class="page-link"

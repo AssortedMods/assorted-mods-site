@@ -45,7 +45,7 @@
 
     <h2><a name="gravity_boots">Gravity Boots</a></h2>
     <p>
-      Gravity Boots if they are on a player will stop the effects of the all of the gravity blocks
+      Gravity Boots if they are on a player will stop the effects of all of the gravity blocks
       from doing anything to the player. They also will negate the Gravity Lift from
       <NuxtLink
         class="page-link"

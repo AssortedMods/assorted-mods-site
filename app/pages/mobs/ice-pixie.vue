@@ -12,7 +12,7 @@
     <h2><a name="fire">Only Fire</a></h2>
     <p>
       Nothing hurts an ice pixie unless you are holding a torch or flint and steel when you hit it.
-      Anything hot nearby burns will burn it too. Like torches, fire, campfires, magma, and lava.
+      Anything hot nearby will burn it too. Like torches, fire, campfires, magma, and lava.
     </p>
 
     <h2><a name="drops">Drops</a></h2>

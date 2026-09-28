@@ -10,7 +10,7 @@
     <img src="\mods\core\machines.webp">
     <p>
       The machines added each have 4 tiers which determine how fast they process. The 4 tiers are
-      Basic, Intermediate, Advanced, and Expert. <b>All machines are setup to support JEI.</b>
+      Basic, Intermediate, Advanced, and Expert. <b>All machines are set up to support JEI.</b>
     </p>
     <h2><a name="machine_core">Machine Core</a></h2>
     <p>

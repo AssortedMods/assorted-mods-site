@@ -67,7 +67,7 @@
     <h2><a name="locking">Locking</a></h2>
     <p>
       Locking the bags is a bit different than other Storage options. You lock it via the bags
-      inventory. There is a new slot off to the right for place a padlock with a lock set. Once
+      inventory. There is a new slot off to the right to place a padlock with a lock set. Once
       locked you will need to have a key on you with that code in the future or you will not be able
       to unlock or open the bag.
     </p>

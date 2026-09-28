@@ -12,7 +12,7 @@
     <p>
       The base <i>Colorizer Block</i> is required to all the other types of blocks that are
       possible. The red, green, and blue dye are required while the other can be substituted with
-      any dye. The can be any stone.
+      any dye. They can be any stone.
     </p>
     <Recipe id="assortedcolorizer:colorizer" />
     <h2><a name="brush">Colorizer Brush</a></h2>
@@ -21,7 +21,7 @@
       The <i>Colorizer Brush</i> is the method that you use to texture all of the different
       colorizer blocks. Shift right click on a block you want to use and if you don't already have
       a block selected and the block is supported it will consume the block and set the texture for
-      the brush. If the brush consumes a block is configurable. Once you have a brush setup just
+      the brush. If the brush consumes a block is configurable. Once you have a brush set up just
       right click on a <i>Colorizer Block</i> to texture it.
     </p>
     <img src="\mods\decor\brush.png">
@@ -43,7 +43,7 @@
     </p>
     <h3><a name="table">Colorizer Table</a></h3>
     <p>
-      Tables are part of some of the new furniture. Tables when placed to one another automatically
+      Tables are part of some of the new furniture. Tables when placed next to one another automatically
       place the legs at the correct positions for a table so you can have enough room to eat your
       cereal. Tables will adjust the legs no matter what side of a block the table was placed on so
       even upside down and on the sides it will look like the table was just flipped or on its side.
@@ -161,7 +161,7 @@
       <Recipe id="assortedcolorizer:colorizer_sloped_angle_stonecutting" />
     </div>
     <h3><a name="slanted_corner">Colorizer Slanted Corner</a></h3>
-    <p>Slanted corners are a sharper incline the sloped angles but can still be walked up.</p>
+    <p>Slanted corners are a sharper incline than the sloped angles but can still be walked up.</p>
     <div class="flex flex-wrap gap-4">
       <Recipe id="assortedcolorizer:colorizer_slanted_corner" />
       <Recipe id="assortedcolorizer:colorizer_slanted_corner_stonecutting" />
@@ -204,7 +204,7 @@
       <Recipe id="assortedcolorizer:colorizer_full_pyramid_stonecutting" />
     </div>
     <h3><a name="sloped_post">Colorizer Sloped Post</a></h3>
-    <p>Sloped post can not be climbed up and are just a large post.</p>
+    <p>Sloped posts can not be climbed up and are just a large post.</p>
     <div class="flex flex-wrap gap-4">
       <Recipe id="assortedcolorizer:colorizer_sloped_post" />
       <Recipe id="assortedcolorizer:colorizer_sloped_post_stonecutting" />
@@ -214,7 +214,7 @@
     <p>
       The Colorizer Fireplaces are <i>almost</i> all blocks that can be lit to have a burning state,
       chimneys do not have this luxury. All fireplaces can not be waterlogged or placed upside down
-      or on sides. All the lighteable fireplaces can be lit with <i>flint and steel</i> or a
+      or on sides. All the lightable fireplaces can be lit with <i>flint and steel</i> or a
       <i>fire charge</i>. Punch these blocks with an empty hand to put them out.
     </p>
     <h3><a name="fireplace">Colorizer Fireplace</a></h3>
@@ -240,7 +240,7 @@
     <p>Covered firepits are as the name suggests a covered variant of firepits.</p>
     <Recipe id="assortedcolorizer:colorizer_firepit_covered" />
     <h3><a name="firering">Colorizer Firering</a></h3>
-    <p>Firerings are great for ghost stories and a just a small ring on the ground.</p>
+    <p>Firerings are great for ghost stories and are just a small ring on the ground.</p>
     <Recipe id="assortedcolorizer:colorizer_firering" />
   </PartPage>
 </template>

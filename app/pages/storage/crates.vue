@@ -87,7 +87,7 @@
       you to interact with it to add items to your storage system.
     </p>
     <p>
-      Storage Crates will automatically be connected to the controller as long as their is a direct
+      Storage Crates will automatically be connected to the controller as long as there is a direct
       connection of Crates back to the Controller.
     </p>
     <Recipe id="assortedcrates:crate_controller" />
@@ -123,7 +123,7 @@
     <h3><a name="item_locking">Item Locking</a></h3>
     <p>
       Within the Storage Crate interface you can click the checkbox for a specific slot to lock the
-      item in it. So even if you run out new items will not be able to take it's place.
+      item in it. So even if you run out new items will not be able to take its place.
       <i>For Compacting Crates the checkbox is for the whole Crate rather than just one slot</i>.
     </p>
     <br>
@@ -144,19 +144,19 @@
     </p>
     <ul class="list-disc list-inside">
       <li>
-        <strong>All Slots</strong> - The different between all of the slots combined max storage and
+        <strong>All Slots</strong> - The difference between all of the slots combined max storage and
         the current amount stored in them all
       </li>
       <li>
-        <strong>Most Full Slot</strong> - The different between the slot with the most items max
+        <strong>Most Full Slot</strong> - The difference between the slot with the most items max
         storage and current amount stored in that slot
       </li>
       <li>
-        <strong>Least Full Slot</strong> - The different between the slot with the least items max
+        <strong>Least Full Slot</strong> - The difference between the slot with the least items max
         storage and current amount stored in that slot
       </li>
       <li>
-        <strong>Slot {0,1,2,3}</strong> - The different between the slot that is specified's max
+        <strong>Slot {0,1,2,3}</strong> - The difference between the slot that is specified's max
         storage and current amount stored in that slot
       </li>
     </ul>
@@ -194,7 +194,7 @@
       installed Storage Crates support installing Level Upgrades. These Level Upgrades will provide
       a boost to the amount you can store in each slot. Each Level Upgrade has an associated
       multiplier which you can see within the Storage Crate interface. Each Level Upgrade you add
-      multiplies it's multiplier by whatever the base stack size was and adds it.
+      multiplies its multiplier by whatever the base stack size was and adds it.
     </p>
     <img src="\mods\storage\crate_interface_level.png">
 

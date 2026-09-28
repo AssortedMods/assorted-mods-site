@@ -64,7 +64,7 @@
       </NuxtLink>, when those mods are installed.
     </p>
     <p>
-      Each tool or armor can be repaired use the ingot or gem form of the material and is crafted
+      Each tool or armor can be repaired using the ingot or gem form of the material and is crafted
       the same way you craft vanilla tools and armor but replacing them for the material of your
       choice. Each tool and armor material is completely configurable if you would like to change
       the values.
@@ -112,7 +112,7 @@
       <li><i>efficiency</i> for tools, refers to how quickly the material can break blocks.</li>
       <li><i>damage</i> refers to damage to entities.</li>
       <li>
-        <i>enchantability</i> refers to how enchantible the material is. The higher the number the
+        <i>enchantability</i> refers to how enchantable the material is. The higher the number the
         better enchantments are likely to appear.
       </li>
       <li><i>axeDamage</i> is the damage modifier for axes in each material.</li>
@@ -149,7 +149,7 @@
         points the player gets for wearing that piece.
       </li>
       <li>
-        <i>enchantability</i> refers to how enchantible the material is. The higher the number the
+        <i>enchantability</i> refers to how enchantable the material is. The higher the number the
         better enchantments are likely to appear.
       </li>
       <li>

@@ -32,7 +32,7 @@
     <br>
     <table class="border-collapse border border-slate-500 table-fixed">
       <caption class="caption-bottom text-sm">
-        The default fragment distrubution across dimensions and chest loot.
+        The default fragment distribution across dimensions and chest loot.
       </caption>
       <thead>
         <tr>
