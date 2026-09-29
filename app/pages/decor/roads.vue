@@ -9,13 +9,20 @@
       stone paths.
     </p>
     <img src="\mods\decor\roadways.png">
-    <h2><a name="required">Requirements</a></h2>
+    <SectionHeading name="required">
+      Requirements
+    </SectionHeading>
     <p>
       Before you can start crafting and playing around with the Roadways you will need some items
       that form the structure for these Roadway blocks.
     </p>
     <br>
-    <h3><a name="tarball">Tarball</a></h3>
+    <SectionHeading
+      name="tarball"
+      :level="3"
+    >
+      Tarball
+    </SectionHeading>
     <p>
       To get started you need to craft some Tarballs which will be used to create some
       <i>Asphalt</i> for the roads. But, you are also able to use Tarball to craft some Siding
@@ -28,7 +35,12 @@
     </p>
     <Recipe id="assortedroads:tarball" />
 
-    <h3><a name="asphalt">Asphalt</a></h3>
+    <SectionHeading
+      name="asphalt"
+      :level="3"
+    >
+      Asphalt
+    </SectionHeading>
     <p>
       Once you have turned some tar into Asphalt you can get started crafting some Roadways.
       <i>You are also able to Right-Click with the Asphalt in your hand to transform stone into
@@ -36,7 +48,9 @@
     </p>
     <Recipe id="assortedroads:asphalt" />
 
-    <h2><a name="block">Roadway</a></h2>
+    <SectionHeading name="block">
+      Roadway
+    </SectionHeading>
     <p>
       The base <i>Roadway</i> is required to craft all of the other types of Roadways and is what
       you paint to get different patterns on top. Using
@@ -56,7 +70,9 @@
       <Recipe id="assortedpaint:roadway_orange" />
       <Recipe id="assortedroads:roadway_wash" />
     </div>
-    <h2><a name="manhole">Roadway Manhole</a></h2>
+    <SectionHeading name="manhole">
+      Roadway Manhole
+    </SectionHeading>
     <img src="\mods\decor\roadway_manhole.png">
     <p>
       With a Roadway Manhole you can create a block that you are able to toggle (Right-Click) to
@@ -73,7 +89,9 @@
       <Recipe id="assortedroads:roadway_manhole" />
       <Recipe id="assortedroads:steel_roadway_manhole" />
     </div>
-    <h2><a name="light">Roadway Light</a></h2>
+    <SectionHeading name="light">
+      Roadway Light
+    </SectionHeading>
     <p>
       Using an
       <NuxtLink
@@ -86,13 +104,17 @@
       redstone to turn it on!
     </p>
     <Recipe id="assortedroads:roadway_light" />
-    <h2><a name="sidewalk">Sidewalk</a></h2>
+    <SectionHeading name="sidewalk">
+      Sidewalk
+    </SectionHeading>
     <p>
       To accompany your Roadway there is a sidewalk block. This block has the special ability of
       speeding up your movement when you walk on it.
     </p>
     <Recipe id="assortedroads:sidewalk" />
-    <h2><a name="stone_path">Stone Path</a></h2>
+    <SectionHeading name="stone_path">
+      Stone Path
+    </SectionHeading>
     <p>
       A stone path is the quieter surface for a garden, cut from plain stone on the stonecutter.
     </p>

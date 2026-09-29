@@ -28,7 +28,9 @@
     </p>
     <img src="\mods\storage\barrels.webp">
 
-    <h2><a name="materials">Materials and Levels</a></h2>
+    <SectionHeading name="materials">
+      Materials and Levels
+    </SectionHeading>
     <p>
       Barrels come in a set of materials, and the material decides how much one holds. Stone is the
       smallest and netherite the largest.
@@ -39,7 +41,9 @@
       its storage level.
     </p>
 
-    <h2><a name="upgrading">Upgrading</a></h2>
+    <SectionHeading name="upgrading">
+      Upgrading
+    </SectionHeading>
     <p>
       To upgrade a barrel to the next material have the previous storage level barrel in your
       inventory and surround it with a material of the next tier. Anything inside and any lock on it

@@ -3,13 +3,20 @@
     family="cuisine"
     part="kitchen"
   >
-    <h2><a name="dairy">Dairy</a></h2>
+    <SectionHeading name="dairy">
+      Dairy
+    </SectionHeading>
     <p>
       We have two machines that convert milk into a Dairy product.
     </p>
     <img src="\mods\cuisine\machines.png">
 
-    <h3><a name="butter_churn">Butter Churn</a></h3>
+    <SectionHeading
+      name="butter_churn"
+      :level="3"
+    >
+      Butter Churn
+    </SectionHeading>
     <p>
       Right click the churn with a milk bucket to fill it. Every right
       click while it is working speeds up the output. Right click once more
@@ -17,7 +24,12 @@
     </p>
     <Recipe id="assortedkitchen:butter_churn" />
 
-    <h3><a name="cheese_maker">Cheese Maker</a></h3>
+    <SectionHeading
+      name="cheese_maker"
+      :level="3"
+    >
+      Cheese Maker
+    </SectionHeading>
     <p>
       The cheese maker takes a milk bucket and ages cheese slowly.
       Watch it turn from pale to a yellow orange, right click it to
@@ -25,7 +37,12 @@
     </p>
     <Recipe id="assortedkitchen:cheese_maker" />
 
-    <h3><a name="making">What Goes In</a></h3>
+    <SectionHeading
+      name="making"
+      :level="3"
+    >
+      What Goes In
+    </SectionHeading>
     <p>
       Both machines take any milk bucket, and both hand the empty bucket back with the result.
     </p>
@@ -34,27 +51,44 @@
       <Recipe id="assortedkitchen:cheese_making" />
     </div>
 
-    <h3><a name="cheese">Cheese</a></h3>
+    <SectionHeading
+      name="cheese"
+      :level="3"
+    >
+      Cheese
+    </SectionHeading>
     <p>A block of cheese cuts into nine pieces, and nine pieces press back into a block.</p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedkitchen:cheese" />
       <Recipe id="assortedkitchen:cheese_block" />
     </div>
 
-    <h3><a name="hot_cheese">Cheese Sandwich</a></h3>
+    <SectionHeading
+      name="hot_cheese"
+      :level="3"
+    >
+      Cheese Sandwich
+    </SectionHeading>
     <p>
       Cheese between two pieces of bread makes a cheese sandwich. It is better food than the cold
       piece was.
     </p>
     <Recipe id="assortedkitchen:hot_cheese" />
 
-    <h2><a name="food">Food</a></h2>
+    <SectionHeading name="food">
+      Food
+    </SectionHeading>
     <p>
       Eggs, sandwiches, and the two tools that allow you to make the rest of the food. The knife and the
       whisk both stay in the crafting grid instead of being used up.
     </p>
 
-    <h3><a name="eggs">Eggs</a></h3>
+    <SectionHeading
+      name="eggs"
+      :level="3"
+    >
+      Eggs
+    </SectionHeading>
     <p>
       Crack eggs into a pan, mix them with a whisk, then cook them in a furnace. Cooked eggs can be a filling meal.
     </p>
@@ -64,7 +98,12 @@
       <Recipe id="assortedkitchen:eggs_cooked_smelting" />
     </div>
 
-    <h3><a name="sandwiches">Sandwiches</a></h3>
+    <SectionHeading
+      name="sandwiches"
+      :level="3"
+    >
+      Sandwiches
+    </SectionHeading>
     <p>
       Bread cuts into slices, and slices with meat and cheese can make a burger. The
       cheese it needs comes from the <a href="#cheese_maker">Cheese Maker</a>.
@@ -74,7 +113,12 @@
       <Recipe id="assortedkitchen:cheese_burger" />
     </div>
 
-    <h3><a name="knife">Knife</a></h3>
+    <SectionHeading
+      name="knife"
+      :level="3"
+    >
+      Knife
+    </SectionHeading>
     <p>
       The knife slices bread and pumpkins. With <NuxtLink to="/cuisine/dragon-fruit">
         Assorted Dragon Fruit
@@ -82,45 +126,82 @@
     </p>
     <Recipe id="assortedkitchen:knife" />
 
-    <h3><a name="whisk">Whisk</a></h3>
+    <SectionHeading
+      name="whisk"
+      :level="3"
+    >
+      Whisk
+    </SectionHeading>
     <p>The whisk beats eggs, and wears out the same way the knife does.</p>
     <Recipe id="assortedkitchen:whisk" />
 
-    <h2><a name="chocolate">Chocolate</a></h2>
+    <SectionHeading name="chocolate">
+      Chocolate
+    </SectionHeading>
     <p>
       Making chocolate is a long chain of crafting steps. Grind the beans, mix the dust with
       milk, heat it, and then either eat it, set it into bars, or bake it into something else.
     </p>
 
-    <h3><a name="mortar_and_pestle">Mortar and Pestle</a></h3>
+    <SectionHeading
+      name="mortar_and_pestle"
+      :level="3"
+    >
+      Mortar and Pestle
+    </SectionHeading>
     <p>
       The mortar and pestle grinds cocoa beans. Like the knife and the whisk it stays in the
       crafting grid and wears out a little with every use.
     </p>
     <Recipe id="assortedkitchen:mortar_and_pestle" />
 
-    <h3><a name="dust">Cocoa Dust</a></h3>
+    <SectionHeading
+      name="dust"
+      :level="3"
+    >
+      Cocoa Dust
+    </SectionHeading>
     <p>Ground down in a mortar and pestle, cocoa beans give cocoa dust.</p>
     <Recipe id="assortedkitchen:cocoa_dust" />
 
-    <h3><a name="bowl">Chocolate Bowl</a></h3>
+    <SectionHeading
+      name="bowl"
+      :level="3"
+    >
+      Chocolate Bowl
+    </SectionHeading>
     <p>
       Combine cocoa dust and milk in a bowl to make cold chocolate. Any milk
       bucket will do, including the ones <NuxtLink to="/tools">Assorted Tools</NuxtLink> adds.
     </p>
     <Recipe id="assortedkitchen:chocolate_bowl" />
 
-    <h3><a name="hot">Hot Chocolate</a></h3>
+    <SectionHeading
+      name="hot"
+      :level="3"
+    >
+      Hot Chocolate
+    </SectionHeading>
     <p>Heat the bowl in a furnace and it becomes hot chocolate.</p>
     <Recipe id="assortedkitchen:hot_chocolate_smelting" />
 
-    <h3><a name="ball">Chocolate Balls</a></h3>
+    <SectionHeading
+      name="ball"
+      :level="3"
+    >
+      Chocolate Balls
+    </SectionHeading>
     <p>
       You can eat the hot chocolate rolled into balls or use them to make a cake and pie.
     </p>
     <Recipe id="assortedkitchen:chocolate_ball" />
 
-    <h3><a name="mould">Chocolate Bar Mould</a></h3>
+    <SectionHeading
+      name="mould"
+      :level="3"
+    >
+      Chocolate Bar Mould
+    </SectionHeading>
     <p>
       Place the mould and right click it with hot chocolate to pour. It steams while it sets, and
       every block of ice or snow packed against its sides cools it faster. Once it has set, right
@@ -131,7 +212,12 @@
       <Recipe id="assortedkitchen:chocolate_moulding" />
     </div>
 
-    <h3><a name="bar">Chocolate Bars</a></h3>
+    <SectionHeading
+      name="bar"
+      :level="3"
+    >
+      Chocolate Bars
+    </SectionHeading>
     <p>
       Make a wrapper to wrap the Chocolate bars to make it complete.
     </p>
@@ -141,24 +227,41 @@
       <Recipe id="assortedkitchen:chocolate_bar_wrapped" />
     </div>
 
-    <h3><a name="storage">Storage</a></h3>
+    <SectionHeading
+      name="storage"
+      :level="3"
+    >
+      Storage
+    </SectionHeading>
     <p>Nine bars press into a block, and a block converts back to 9 chocolate bars.</p>
     <Recipe id="assortedkitchen:chocolate_block" />
 
-    <h3><a name="cake">Chocolate Cake</a></h3>
+    <SectionHeading
+      name="cake"
+      :level="3"
+    >
+      Chocolate Cake
+    </SectionHeading>
     <p>
       Chocolate balls and milk make a tasty Chocolate Cake.
     </p>
     <Recipe id="assortedkitchen:chocolate_cake" />
 
-    <h2><a name="pies">Pies</a></h2>
+    <SectionHeading name="pies">
+      Pies
+    </SectionHeading>
     <p>
       Every pie starts as dough in a pan, gets a filling, and then bakes in a furnace. A baked pie
       can be placed and eaten a slice at a time, the way a cake works.
     </p>
     <img src="\mods\cuisine\pies.png">
 
-    <h3><a name="ingredients">Ingredients</a></h3>
+    <SectionHeading
+      name="ingredients"
+      :level="3"
+    >
+      Ingredients
+    </SectionHeading>
     <p>
       The pan is reusable and the dough is not. Pumpkin slices are the one filling you have to cut
       yourself.
@@ -169,7 +272,12 @@
       <Recipe id="assortedkitchen:pumpkin_slice" />
     </div>
 
-    <h3><a name="raw">Filling a Pie</a></h3>
+    <SectionHeading
+      name="raw"
+      :level="3"
+    >
+      Filling a Pie
+    </SectionHeading>
     <p>
       Make an empty pie, then fill it with apple, pumpkin, melon or pork. A raw pie cannot be eaten.
     </p>
@@ -181,7 +289,12 @@
       <Recipe id="assortedkitchen:raw_pork_pie" />
     </div>
 
-    <h3><a name="baking">Baking</a></h3>
+    <SectionHeading
+      name="baking"
+      :level="3"
+    >
+      Baking
+    </SectionHeading>
     <p>A raw pie bakes in a furnace, and what comes out is the block you place and can eat.</p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedkitchen:apple_pie_smelting" />
@@ -190,7 +303,12 @@
       <Recipe id="assortedkitchen:pork_pie_smelting" />
     </div>
 
-    <h3><a name="chocolate_pie">Chocolate Pie</a></h3>
+    <SectionHeading
+      name="chocolate_pie"
+      :level="3"
+    >
+      Chocolate Pie
+    </SectionHeading>
     <p>
       Chocolate balls fill a pie too, and it bakes the same way. Just grab some
       <a href="#ball">Chocolate Balls</a> from above.

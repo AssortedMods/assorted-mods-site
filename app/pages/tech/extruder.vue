@@ -10,7 +10,9 @@
       block from its top slots behind itself at every step.
     </p>
     <img src="\mods\tech\extruder.webp">
-    <h2><a name="materials">Materials</a></h2>
+    <SectionHeading name="materials">
+      Materials
+    </SectionHeading>
     <p>
       An extruder is made from a pickaxe, shovel and axe of one material and mines only what those
       tools can mine. There is one for every material that
@@ -41,13 +43,27 @@
       <Recipe id="assortedextruder:diamond_extruder" />
       <Recipe id="assortedextruder:netherite_extruder" />
     </div>
-    <h2><a name="levels">Levels</a></h2>
+    <SectionHeading name="levels">
+      Levels
+    </SectionHeading>
     <ul class="list-disc list-inside">
       <li>Level 0 - Wood, Gold</li>
       <li>Level 1 - Stone, Copper, Tin, Aluminum</li>
       <li>Level 2 - Iron, Amethyst, Nickel, Lead, Bronze, Invar, Ruby, Sapphire, Topaz, Peridot</li>
       <li>Level 3 - Diamond, Emerald, Silver, Platinum, Electrum, Steel</li>
       <li>Level 4 - Netherite</li>
+    </ul>
+
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
+    <p>
+      These are in the <i class="text-gray-600">assortedextruder-common</i> config file.
+    </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>extruder.moveSpeed</i> is how many blocks the extruder moves each tick before its material changes it. 0.1 by default.</li>
+      <li><i>extruder.fuelPerMinedBlock</i> is the fuel it uses for every block it mines. 400 by default, plus one every tick it runs.</li>
+      <li><i>extruder.fuelPerExtrudedBlock</i> is the fuel it uses for every block it places behind itself. 200 by default.</li>
     </ul>
   </PartPage>
 </template>

@@ -17,7 +17,9 @@
     </p>
     <img src="\mods\storage\storage_crates.png">
 
-    <h2><a name="crates">Crates</a></h2>
+    <SectionHeading name="crates">
+      Crates
+    </SectionHeading>
     <p>
       A crate holds one kind of item and a lot of it. By default 32 stacks. There is a crate for
       every wood, and they are all the same size.
@@ -35,7 +37,12 @@
       <Recipe id="assortedcrates:oak_crate_quadruple" />
     </div>
 
-    <h3><a name="interacting">Interacting</a></h3>
+    <SectionHeading
+      name="interacting"
+      :level="3"
+    >
+      Interacting
+    </SectionHeading>
     <p>
       There are a number of different ways you can interact with crates to add and remove items from
       them.
@@ -62,7 +69,9 @@
       </li>
     </ul>
 
-    <h2><a name="compacting">Compacting</a></h2>
+    <SectionHeading name="compacting">
+      Compacting
+    </SectionHeading>
     <p>
       A Compacting Storage Crate will allow the automatic conversion of certain recipes that have
       different compact representations. For example Iron has 3 states in vanilla. Iron Block ->
@@ -80,7 +89,9 @@
       <Recipe id="assortedcrates:crate_compacting_steel" />
     </div>
 
-    <h2><a name="controller">Controller</a></h2>
+    <SectionHeading name="controller">
+      Controller
+    </SectionHeading>
     <p>
       If you would like to be manage a lot of Storage Crates at once you can use a Storage Crate
       Controller. This block allows for you to pipe items in or pipe items out as well as allows for
@@ -92,7 +103,12 @@
     </p>
     <Recipe id="assortedcrates:crate_controller" />
 
-    <h3><a name="bridge">Bridge</a></h3>
+    <SectionHeading
+      name="bridge"
+      :level="3"
+    >
+      Bridge
+    </SectionHeading>
     <p>
       If you would like to connect some Storage Crates to your controller that do not have a direct
       connection you can join them using the Storage Bridge to "bridge" the gap and have those
@@ -104,7 +120,9 @@
       <Recipe id="assortedcrates:crate_bridge_bronze" />
     </div>
 
-    <h2><a name="upgrades">Upgrades</a></h2>
+    <SectionHeading name="upgrades">
+      Upgrades
+    </SectionHeading>
     <p>
       There are 4 Storage Crate specific upgrades that you can craft and add to your Storage Crates
       as well as each of the Level Upgrades from
@@ -120,7 +138,12 @@
     <p>The Blank Upgrade is the base the other upgrades are made from.</p>
     <Recipe id="assortedcrates:blank_upgrade" />
 
-    <h3><a name="item_locking">Item Locking</a></h3>
+    <SectionHeading
+      name="item_locking"
+      :level="3"
+    >
+      Item Locking
+    </SectionHeading>
     <p>
       Within the Storage Crate interface you can click the checkbox for a specific slot to lock the
       item in it. So even if you run out new items will not be able to take its place.
@@ -128,14 +151,24 @@
     </p>
     <br>
 
-    <h3><a name="void_upgrade">Void Upgrade</a></h3>
+    <SectionHeading
+      name="void_upgrade"
+      :level="3"
+    >
+      Void Upgrade
+    </SectionHeading>
     <p>
       The Void Upgrade will allow you to still be able to input new items in the Storage Crate but
       each one past the maximum will get "voided" and you will not be able to recover them.
     </p>
     <Recipe id="assortedcrates:void_upgrade" />
 
-    <h3><a name="redstone_upgrade">Redstone Upgrade</a></h3>
+    <SectionHeading
+      name="redstone_upgrade"
+      :level="3"
+    >
+      Redstone Upgrade
+    </SectionHeading>
     <p>
       The Redstone Upgrade will make the Storage Crate emit a redstone signal if certain conditions
       are met. You can cycle modes by right clicking the air with the Redstone Upgrade in your hand.
@@ -162,7 +195,12 @@
     </ul>
     <Recipe id="assortedcrates:redstone_upgrade" />
 
-    <h3><a name="amount_upgrade">Amount Upgrade</a></h3>
+    <SectionHeading
+      name="amount_upgrade"
+      :level="3"
+    >
+      Amount Upgrade
+    </SectionHeading>
     <p>
       The Amount Upgrade will let you see the number of items that are currently in each slot. It
       has two modes, <strong>Simple</strong> will show only the amount in each slot
@@ -171,7 +209,12 @@
     <Recipe id="assortedcrates:amount_upgrade" />
     <img src="\mods\storage\amount_upgrade.png">
 
-    <h3><a name="glow_upgrade">Glow Upgrade</a></h3>
+    <SectionHeading
+      name="glow_upgrade"
+      :level="3"
+    >
+      Glow Upgrade
+    </SectionHeading>
     <p>
       The Glow Upgrade will light the items stored in the slots when it is dark so that it is a bit
       easier to see what is stored in each Crate.
@@ -182,7 +225,12 @@
     </div>
     <img src="\mods\storage\glow_upgrade.png">
 
-    <h3><a name="level_upgrades">Level Upgrades</a></h3>
+    <SectionHeading
+      name="level_upgrades"
+      :level="3"
+    >
+      Level Upgrades
+    </SectionHeading>
     <p>
       With
       <NuxtLink
@@ -198,7 +246,12 @@
     </p>
     <img src="\mods\storage\crate_interface_level.png">
 
-    <h3><a name="locking">Locking</a></h3>
+    <SectionHeading
+      name="locking"
+      :level="3"
+    >
+      Locking
+    </SectionHeading>
     <p>
       With
       <NuxtLink
@@ -212,7 +265,9 @@
       <i>Make sure to use a locked hopper if you still want to pipe items in</i>.
     </p>
 
-    <h2><a name="rotator_majig">Rotator Majig</a></h2>
+    <SectionHeading name="rotator_majig">
+      Rotator Majig
+    </SectionHeading>
     <p>
       Another new item added is a Rotator Majig which will allow you to rotate blocks assuming they
       allow it. But you are also able to rotate the items in each slot of a Storage Crate. Maybe you
@@ -222,6 +277,23 @@
       <Recipe id="assortedcrates:rotator_majig_iron" />
       <Recipe id="assortedcrates:rotator_majig_iron_alt" />
     </div>
+
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
+    <p>
+      These are in the <i class="text-gray-600">assortedcrates-common</i> config file.
+    </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>crates.maxControllerSearchRange</i> is how far a crate controller looks for crates. 64 blocks by default.</li>
+    </ul>
+    <p>
+      These are in the <i class="text-gray-600">assortedcrates-client</i> config file. They only change your own game, so everyone can set
+      their own.
+    </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>crates.crateMaxRenderDistance</i> is how far away you can still see the items on the front of crates. 16 blocks by default.</li>
+    </ul>
   </PartPage>
 </template>
 

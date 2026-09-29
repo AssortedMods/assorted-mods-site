@@ -29,7 +29,9 @@
     </p>
     <img src="\mods\storage\bags.png">
 
-    <h2><a name="crafting">Crafting</a></h2>
+    <SectionHeading name="crafting">
+      Crafting
+    </SectionHeading>
     <p>
       To start off you will need to craft a basic bag which has the same inventory space as a normal
       chest.
@@ -53,7 +55,9 @@
       <Recipe id="assortedbags:bag_iron_chest" />
     </div>
 
-    <h2><a name="dyeing">Dyeing</a></h2>
+    <SectionHeading name="dyeing">
+      Dyeing
+    </SectionHeading>
     <p>
       You are able to change the primary and secondary colors of all the different bags using dye in
       an inventory. In the same column or to the right of the bag in a crafting table would be the
@@ -64,7 +68,9 @@
       <Recipe id="assortedbags:bag_coloring" />
     </div>
 
-    <h2><a name="locking">Locking</a></h2>
+    <SectionHeading name="locking">
+      Locking
+    </SectionHeading>
     <p>
       Locking the bags is a bit different than other Storage options. You lock it via the bags
       inventory. There is a new slot off to the right to place a padlock with a lock set. Once
@@ -80,7 +86,9 @@
       <img src="\mods\storage\bag_tooltip.png">
     </div>
 
-    <h2><a name="ender_bag">Ender Bag</a></h2>
+    <SectionHeading name="ender_bag">
+      Ender Bag
+    </SectionHeading>
     <p>
       The Ender Bag is a useful bag that allows you to access the Vanilla Ender Chests inventory or
       any of the

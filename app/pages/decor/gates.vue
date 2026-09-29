@@ -9,7 +9,9 @@
       down and gives back the one item it was placed from.
     </p>
     <img src="\mods\decor\gates.webp">
-    <h2><a name="castle_gate">Castle Gate</a></h2>
+    <SectionHeading name="castle_gate">
+      Castle Gate
+    </SectionHeading>
     <p>
       Gates placed side by side and facing the same way open and close together. The gate trumpet can open a gate from afar. Redstone at the top block holds the gate open for as long
       as it is powered.
@@ -19,7 +21,9 @@
       <Recipe id="assortedgates:castle_gate" />
       <Recipe id="assortedgates:gate_trumpet" />
     </div>
-    <h2><a name="garage_door">Garage Door</a></h2>
+    <SectionHeading name="garage_door">
+      Garage Door
+    </SectionHeading>
     <p>
       A garage door hangs and fills down the same way a castle gate does. The garage remote opens and closes it from afar just like the gate trumpet does for a castle gate.
       Redstone at the top block works on it too.

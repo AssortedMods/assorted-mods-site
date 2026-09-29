@@ -7,13 +7,17 @@
       Paint adds the ability to paint Decor blocks as well as some Vanilla blocks. To do this it uses
       Paint Rollers to apply the paint in the world and in crafting recipes.
     </p>
-    <h2><a name="paint_roller">Paint Roller</a></h2>
+    <SectionHeading name="paint_roller">
+      Paint Roller
+    </SectionHeading>
     <p>
       This is the basic Paint Roller with no color applied to it. It is effectively useless as you
       can't do anything with it but craft the colored Paint Rollers.
     </p>
     <Recipe id="assortedpaint:paint_roller" />
-    <h2><a name="colors">Paint Roller Colors</a></h2>
+    <SectionHeading name="colors">
+      Paint Roller Colors
+    </SectionHeading>
     <p>
       These are the all powerful Paint Rollers that can apply all 16 default colors in Minecraft to
       a multitude of blocks. They are crafted with a matching dye and the basic Paint Roller above.
@@ -91,7 +95,9 @@
       <Recipe id="assortedpaint:roadway_orange" />
     </div>
 
-    <h2><a name="siding">Siding</a></h2>
+    <SectionHeading name="siding">
+      Siding
+    </SectionHeading>
     <img src="\mods\decor\siding_example.png">
     <p>
       To go with the Paint Rollers are some basic design blocks from

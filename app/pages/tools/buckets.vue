@@ -29,13 +29,17 @@
     <p>You are able to upgrade from Diamond Bucket to Netherite Bucket using a Netherite ingot.</p>
     <Recipe id="assortedbuckets:netherite_bucket_smithing" />
 
-    <h2><a name="milk">Milk</a></h2>
+    <SectionHeading name="milk">
+      Milk
+    </SectionHeading>
     <p>
       Any of these buckets can be used to milk cows. What you can milk depends on the bucket. All of
       them can manage a cow, better ones also manage a sheep, and the best of them a pig as well.
     </p>
 
-    <h2><a name="config">Config</a></h2>
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
     <p>
       Each material has its own bucket settings under <i>better_buckets.&lt;material&gt;</i> in the
       <i class="text-gray-600">assortedbuckets-common.toml</i> config file on NeoForge, or
@@ -54,6 +58,10 @@
         fluid.
       </li>
     </ul>
+    <p>
+      The same file has <i>better_buckets.allowPartialBucketAmounts</i>. Turn it on to let buckets hold
+      part of a bucket, so some can be left over after pouring out all the full ones. Off by default.
+    </p>
   </PartPage>
 </template>
 

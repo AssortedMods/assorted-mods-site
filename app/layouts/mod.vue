@@ -171,6 +171,41 @@
                 </li>
               </ul>
             </div>
+            <div class="mb-6">
+              <NuxtLink
+                class="
+                    text-gray-300
+                    hover:text-gray-500
+                    text-xs
+                    uppercase
+                    font-bold
+                    block
+                    py-1
+                    px-4
+                    no-underline
+                    toplevel-route
+                  "
+                :to="LIB.route"
+              >
+                {{ LIB.name }}
+              </NuxtLink>
+              <ul
+                v-if="route.path === LIB.route || route.path.startsWith(LIB.route + '/')"
+                class="block flex-wrap list-none pl-0 mb-0 mt-2"
+              >
+                <li
+                  v-for="page in LIB_PAGES"
+                  :key="page.route"
+                >
+                  <NuxtLink
+                    class="text-gray-300 hover:text-gray-500 text-sm block mb-2 mx-4 no-underline"
+                    :to="page.route"
+                  >
+                    {{ page.name }}
+                  </NuxtLink>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="w-full sm:w-9/12 lg:w-8/12 px-4 sm:pr-10 lg:pr-4">
@@ -240,7 +275,7 @@ function toggleMenu() {
 #content .muted {
   @apply text-gray-600;
 }
-#content a:not(.page-link):not(.changelog) {
+#content a:not(.page-link):not(.changelog):not(.heading-anchor) {
   @apply text-blue-600 border-l-2 border-solid border-blue-600 pl-1;
 }
 #content a.page-link {

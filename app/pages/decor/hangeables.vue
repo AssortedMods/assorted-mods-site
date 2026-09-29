@@ -3,7 +3,9 @@
     family="decor"
     part="hangeables"
   >
-    <h2><a name="neon_sign">Neon Sign</a></h2>
+    <SectionHeading name="neon_sign">
+      Neon Sign
+    </SectionHeading>
     <p>
       Neon Signs work just like regular signs except colored text will glow and it has a fancy GUI
       to get the text to look just the way you want it. It also comes with three different
@@ -13,7 +15,9 @@
     <img src="\mods\decor\neon_sign_gui.png">
     <img src="\mods\decor\neon_signs.png">
 
-    <h2><a name="wallpaper">Wallpaper</a></h2>
+    <SectionHeading name="wallpaper">
+      Wallpaper
+    </SectionHeading>
     <p>
       Are your walls lacking substance? Maybe they need some wallpaper. Wallpaper gives you many
       options to decorate your home with. By default you have 24 different designs. Other than just
@@ -36,7 +40,9 @@
     </p>
     <img src="\mods\decor\wallpaper.png">
 
-    <h2><a name="frames">Frames</a></h2>
+    <SectionHeading name="frames">
+      Frames
+    </SectionHeading>
     <p>
       If you would also like to add depth to your house then frames are for you. Frames come in
       either wood or iron. Frames are stronger than wallpaper so if their supporting block is
@@ -60,7 +66,9 @@
     </p>
     <img src="\mods\decor\frames.png">
 
-    <h2><a name="calendar">Calendar</a></h2>
+    <SectionHeading name="calendar">
+      Calendar
+    </SectionHeading>
     <p>
       Calendars are a good way to keep track of how much time has passed in your Minecraft world.
       They will automatically add up the amount of time that has passed and give the appropriate
@@ -72,7 +80,9 @@
     </p>
     <Recipe id="assortedhangeables:calendar" />
 
-    <h2><a name="wall_clock">Wall Clock</a></h2>
+    <SectionHeading name="wall_clock">
+      Wall Clock
+    </SectionHeading>
     <p>
       Wall Clocks are basically a better looking clock on the wall. Who needs items frames when you
       can get a clean looking wall clock that functions the exact same as a normal clock.
@@ -81,6 +91,28 @@
       <Recipe id="assortedhangeables:wall_clock" />
       <Recipe id="assortedhangeables:wall_clock_alt" />
     </div>
+
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
+    <p>
+      These are in the <i class="text-gray-600">assortedhangeables-common</i> config file.
+    </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>frames.framesBurn</i> lets frames burn. On by default.</li>
+      <li><i>frames.dyeFrames</i> lets you dye frames. On by default.</li>
+      <li><i>wallpaper.wallpapersBurn</i> lets wallpaper burn. On by default.</li>
+      <li><i>wallpaper.dyeWallpapers</i> lets you dye wallpaper. On by default.</li>
+      <li><i>wallpaper.wallpapersCopyDye</i> lets wallpaper copy the dye color of wallpaper next to it. On by default.</li>
+      <li><i>wallpaper.numWallpaperOptions</i> is how many wallpaper patterns there are to pick from. 24 by default. Only change it if a resource pack adds more.</li>
+    </ul>
+    <p>
+      These are in the <i class="text-gray-600">assortedhangeables-client</i> config file. They only change your own game, so everyone can set
+      their own.
+    </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>wallpaper.wallpaperWidth</i> is how far wallpaper sticks out from the wall. 1 by default.</li>
+    </ul>
   </PartPage>
 </template>
 

@@ -9,13 +9,17 @@
     </p>
     <img src="\mods\mobs\ice_pixie.png">
 
-    <h2><a name="fire">Only Fire</a></h2>
+    <SectionHeading name="fire">
+      Only Fire
+    </SectionHeading>
     <p>
       Nothing hurts an ice pixie unless you are holding a torch or flint and steel when you hit it.
       Anything hot nearby will burn it too. Like torches, fire, campfires, magma, and lava.
     </p>
 
-    <h2><a name="drops">Drops</a></h2>
+    <SectionHeading name="drops">
+      Drops
+    </SectionHeading>
     <p>
       Snowballs, and sometimes ice will drop when one is killed. They may also drop a
       frost rod when a mod adds them, such as

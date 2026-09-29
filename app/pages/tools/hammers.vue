@@ -26,6 +26,19 @@
       <Recipe id="assortedhammers:netherite_hammer" />
       <Recipe id="assortedhammers:netherite_hammer_smithing" />
     </div>
+
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
+    <p>
+      Hammers uses the tool materials every Assorted mod shares. Their values are explained on the
+      <NuxtLink
+        class="page-link"
+        to="/tools/gear-sets#tiers"
+      >
+        Gear Sets
+      </NuxtLink> page.
+    </p>
   </PartPage>
 </template>
 

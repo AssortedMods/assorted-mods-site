@@ -4,7 +4,9 @@
     part="suits"
   >
     <img src="\mods\tools\suits.webp">
-    <h2><a name="chicken_suit">Chicken Suit</a></h2>
+    <SectionHeading name="chicken_suit">
+      Chicken Suit
+    </SectionHeading>
     <p>
       The Chicken Suit is a unique armor set. With every piece of the suit you get an extra jump.
       With these you can 'fly' around as good as a chicken and get the chicken glide effect rather
@@ -16,7 +18,9 @@
       <Recipe id="assortedsuits:chicken_suit_leggings" />
       <Recipe id="assortedsuits:chicken_suit_boots" />
     </div>
-    <h2><a name="enchantment">Chicken Jump Enchantment</a></h2>
+    <SectionHeading name="enchantment">
+      Chicken Jump Enchantment
+    </SectionHeading>
     <p>
       There is also a new Chicken Jump enchantment that allows other armor sets to gain the unique
       ability that the Chicken Suit had. You can get it from enchanting or finding an enchantment
@@ -28,7 +32,9 @@
       <img src="\mods\tools\chicken_jump_enchantment_armor.png">
     </div>
 
-    <h2><a name="scuba_suit">Scuba Suit</a></h2>
+    <SectionHeading name="scuba_suit">
+      Scuba Suit
+    </SectionHeading>
     <p>
       The scuba suit works in halves to allow for an easier time under water. The mask and tank
       together let you breathe under water and see better than you would without it. The legs and
@@ -41,7 +47,9 @@
       <Recipe id="assortedsuits:scuba_boots" />
     </div>
 
-    <h2><a name="lava_suit">Lava Suit</a></h2>
+    <SectionHeading name="lava_suit">
+      Lava Suit
+    </SectionHeading>
     <p>
       The lava suit is like the scuba suit and works in lava. A full set will allow you to safely traverse through lava and become immune to fire.
       The legs and boots on their own let you swim through lava as you would through water.
@@ -53,6 +61,24 @@
       <Recipe id="assortedsuits:lava_leggings" />
       <Recipe id="assortedsuits:lava_boots" />
     </div>
+
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
+    <p>
+      These are in the <i class="text-gray-600">assortedsuits-common</i> config file. They are read once at startup, so changes need a
+      restart.
+    </p>
+    <p>
+      Each suit has its own armor values under <i>chicken_suit</i>, <i>scuba_suit</i> and
+      <i>lava_suit</i>. They are the same values as the armor explained on the
+      <NuxtLink
+        class="page-link"
+        to="/tools/gear-sets#armor"
+      >
+        Gear Sets
+      </NuxtLink> page.
+    </p>
   </PartPage>
 </template>
 

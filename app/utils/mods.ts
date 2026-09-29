@@ -37,6 +37,14 @@ export const Constants = {
 
 export const FAMILIES: Family[] = data.families
 
+/** Assorted Lib, which every family needs. It has its own page but is not a family. */
+export const LIB: ModDetails & { github: string } = data.lib
+
+/** Lib's own pages, listed under it in the sidebar. */
+export const LIB_PAGES = [
+  { name: 'Instruction Manual', route: '/lib/instruction-manual' }
+]
+
 export function getFamily(key: string): Family {
   const family = FAMILIES.find(f => f.key === key)
   if (!family) throw new Error(`no family ${key} in mods.json; run yarn mods`)

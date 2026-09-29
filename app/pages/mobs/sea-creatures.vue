@@ -8,7 +8,9 @@
     </p>
     <img src="\mods\mobs\sea_creatures.png">
 
-    <h2><a name="seal">Seal and Walrus</a></h2>
+    <SectionHeading name="seal">
+      Seal and Walrus
+    </SectionHeading>
     <p>
       Both can be found out on the ice and snow of snowy and frozen biomes. Both follow anyone holding a fish and breed for one, and both drop fish currently.
     </p>
@@ -19,7 +21,9 @@
     </p>
     <img src="\mods\mobs\seals.png">
 
-    <h2><a name="narwhal">Narwhal</a></h2>
+    <SectionHeading name="narwhal">
+      Narwhal
+    </SectionHeading>
     <p>
       The unicorn of the cold seas. Narwhals swim cold and frozen oceans, under the ice too, and now
       and then one comes up and stands its tusk out of the water. They want nothing of anyone. Using the horn of a narwhal you can craft a sword.
@@ -27,7 +31,9 @@
     <img src="\mods\mobs\narwhal.png">
     <Recipe id="assortedseacreatures:narwhal_sword" />
 
-    <h2><a name="sea_otter">Sea Otter</a></h2>
+    <SectionHeading name="sea_otter">
+      Sea Otter
+    </SectionHeading>
     <p>
       Sea otters float on their backs in rivers and along milder coasts, and dive to get about. Afloat
       one cracks open sea shells and leaves one behind every so often, and it drops a few when it

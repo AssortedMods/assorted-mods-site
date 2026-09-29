@@ -33,7 +33,9 @@
     </div>
     <p>The Diamond Throwing Spear is also able to be upgraded to the Netherite Throwing Spear using a smithing table.</p>
     <Recipe id="assortedthrowingspears:netherite_throwing_spear_smithing" />
-    <h2><a name="enchantments">Enchantments</a></h2>
+    <SectionHeading name="enchantments">
+      Enchantments
+    </SectionHeading>
     <p>
       Besides just being able to throw them you are also able to enchant Throwing Spears with an
       assortment of different enchantments. Some of the enchantments only Throwing Spears are able to
@@ -50,13 +52,17 @@
       <li>Conductive</li>
       <li>Bounciness</li>
     </ul>
-    <h2><a name="vanilla-enchants">Vanilla Enchantments</a></h2>
+    <SectionHeading name="vanilla-enchants">
+      Vanilla Enchantments
+    </SectionHeading>
     <p>
       The top 5 enchantments function the exact same way as they do in Vanilla. Specifically
       Impaling and Loyalty function just like they would on a Trident. So, if you have Loyalty it
       will come back to you, and Impaling does extra damage on Water creatures.
     </p>
-    <h2><a name="throwing-spear-enchants">Throwing Spear Enchantments</a></h2>
+    <SectionHeading name="throwing-spear-enchants">
+      Throwing Spear Enchantments
+    </SectionHeading>
     <p>
       The bottom 4 enchantments are added just for the Throwing Spears themselves.
     </p>
@@ -72,16 +78,33 @@
       </li>
       <li>
         <b>Conductive</b> (max-level:3) - When it hits a block or an entity it will try and cause a
-        lightning strike. Each level improves the chances of the lightning strike happening
-        (configurable with <i>better_spears.conductivityLightningChances</i> in the
-        <i class="text-gray-600">assortedthrowingspears-common</i> config file). Conductive is not
-        compatible with Unstable.
+        lightning strike. Each level improves the chances of the lightning strike happening. Conductive
+        is not compatible with Unstable.
       </li>
       <li>
         <b>Bounciness</b> (max-level:5) - When it hits a block it will try and bounce up to the
         number of levels you have. Bounciness is not compatible with Unstable.
       </li>
     </ul>
+
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
+    <p>
+      These are in the <i class="text-gray-600">assortedthrowingspears-common</i> config file.
+    </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>better_spears.conductivityLightningChances</i> is the chance of lightning for each level of Conductive. 0.6, 0.3 and 0.1 by default. Smaller numbers are a better chance.</li>
+    </ul>
+    <p>
+      Throwing spears uses the tool materials every Assorted mod shares. Their values are explained on the
+      <NuxtLink
+        class="page-link"
+        to="/tools/gear-sets#tiers"
+      >
+        Gear Sets
+      </NuxtLink> page.
+    </p>
   </PartPage>
 </template>
 

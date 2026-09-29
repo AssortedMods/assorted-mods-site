@@ -27,6 +27,19 @@
       <Recipe id="assortedmachetes:diamond_machete" />
       <Recipe id="assortedmachetes:netherite_machete_smithing" />
     </div>
+
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
+    <p>
+      Machetes uses the tool materials every Assorted mod shares. Their values are explained on the
+      <NuxtLink
+        class="page-link"
+        to="/tools/gear-sets#tiers"
+      >
+        Gear Sets
+      </NuxtLink> page.
+    </p>
   </PartPage>
 </template>
 

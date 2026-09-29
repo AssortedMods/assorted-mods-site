@@ -9,13 +9,20 @@
     </p>
     <img src="\mods\decor\decorations.png">
 
-    <h2><a name="decorations">Decorations</a></h2>
+    <SectionHeading name="decorations">
+      Decorations
+    </SectionHeading>
     <p>
       These decorations have a number of different designs that they can cycle between with a right
       click to find the right look just for you.
     </p>
     <br>
-    <h3><a name="clay_decoration">Clay</a></h3>
+    <SectionHeading
+      name="clay_decoration"
+      :level="3"
+    >
+      Clay
+    </SectionHeading>
     <p>
       The clay decoration you will need to make sure that you smelt the unfired version to be able
       to place the fired version.
@@ -24,11 +31,18 @@
       <Recipe id="assorteddecorations:unfired_clay_decoration" />
       <Recipe id="assorteddecorations:clay_decoration" />
     </div>
-    <h3><a name="bone_decoration">Bone</a></h3>
+    <SectionHeading
+      name="bone_decoration"
+      :level="3"
+    >
+      Bone
+    </SectionHeading>
     <p>A bone decoration needs no firing. Place it and right click to cycle through the shapes.</p>
     <Recipe id="assorteddecorations:bone_decoration" />
 
-    <h2><a name="planter">Planter Pot</a></h2>
+    <SectionHeading name="planter">
+      Planter Pot
+    </SectionHeading>
     <p>
       The planter pot can be used to plant all sorts of different plants on it depending on the top
       that is currently set. Right clicking on the block with an empty hand will rotate the type
@@ -43,7 +57,9 @@
     <Recipe id="assorteddecorations:planter_pot" />
     <img src="\mods\decor\planter_pot.png">
 
-    <h2><a name="fountain">Fountain</a></h2>
+    <SectionHeading name="fountain">
+      Fountain
+    </SectionHeading>
     <Recipe id="assorteddecorations:fountain" />
     <p>
       The Fountain is a block that when powered provides a tiny little splash of water effect. Steel

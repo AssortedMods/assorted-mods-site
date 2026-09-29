@@ -1,0 +1,187 @@
+{
+  "id": "assortedlib:instruction_manual",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedlib:instruction_manual",
+        "name": "Instruction Manual",
+        "icon": {
+          "src": "/icons/assortedlib/instruction_manual.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:book",
+          "name": "Book",
+          "icon": {
+            "src": "/icons/minecraft/book.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:leather",
+          "name": "Leather",
+          "icon": {
+            "src": "/icons/minecraft/leather.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "minecraft:dyes",
+      "label": "dyes",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:white_dye",
+          "name": "White Dye",
+          "icon": {
+            "src": "/icons/minecraft/white_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:orange_dye",
+          "name": "Orange Dye",
+          "icon": {
+            "src": "/icons/minecraft/orange_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:magenta_dye",
+          "name": "Magenta Dye",
+          "icon": {
+            "src": "/icons/minecraft/magenta_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:light_blue_dye",
+          "name": "Light Blue Dye",
+          "icon": {
+            "src": "/icons/minecraft/light_blue_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:yellow_dye",
+          "name": "Yellow Dye",
+          "icon": {
+            "src": "/icons/minecraft/yellow_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:lime_dye",
+          "name": "Lime Dye",
+          "icon": {
+            "src": "/icons/minecraft/lime_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:pink_dye",
+          "name": "Pink Dye",
+          "icon": {
+            "src": "/icons/minecraft/pink_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:gray_dye",
+          "name": "Gray Dye",
+          "icon": {
+            "src": "/icons/minecraft/gray_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:light_gray_dye",
+          "name": "Light Gray Dye",
+          "icon": {
+            "src": "/icons/minecraft/light_gray_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:cyan_dye",
+          "name": "Cyan Dye",
+          "icon": {
+            "src": "/icons/minecraft/cyan_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:purple_dye",
+          "name": "Purple Dye",
+          "icon": {
+            "src": "/icons/minecraft/purple_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:blue_dye",
+          "name": "Blue Dye",
+          "icon": {
+            "src": "/icons/minecraft/blue_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:brown_dye",
+          "name": "Brown Dye",
+          "icon": {
+            "src": "/icons/minecraft/brown_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:green_dye",
+          "name": "Green Dye",
+          "icon": {
+            "src": "/icons/minecraft/green_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:red_dye",
+          "name": "Red Dye",
+          "icon": {
+            "src": "/icons/minecraft/red_dye.png",
+            "pixelated": true
+          }
+        },
+        {
+          "id": "minecraft:black_dye",
+          "name": "Black Dye",
+          "icon": {
+            "src": "/icons/minecraft/black_dye.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

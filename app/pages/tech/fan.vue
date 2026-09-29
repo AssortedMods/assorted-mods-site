@@ -22,11 +22,24 @@
     </p>
     <img src="\mods\tech\fan_turn_off.png">
 
-    <br>
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
     <p>
-      You are able to configure the fans speed, max range, and whether to show the air particles via the
-      config file.
+      These are in the <i class="text-gray-600">assortedfan-common</i> config file.
     </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>fans.fanSpeed</i> is how fast a fan pushes or pulls things. 0.13 by default.</li>
+      <li><i>fans.fanModSpeed</i> is the extra speed a fan gets the higher its range is set. 0.065 by default.</li>
+      <li><i>fans.fanMaxRange</i> is the highest range a fan can be set to. 32 blocks by default.</li>
+    </ul>
+    <p>
+      These are in the <i class="text-gray-600">assortedfan-client</i> config file. They only change your own game, so everyone can set
+      their own.
+    </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>fans.showFanParticles</i> shows the air coming out of a fan. On by default.</li>
+    </ul>
   </PartPage>
 </template>
 

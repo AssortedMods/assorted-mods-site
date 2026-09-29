@@ -122,9 +122,27 @@ async function main() {
     families.push(family)
   }
 
+  // Every family needs Lib, so it gets its own page rather than a place among them.
+  const libProps = properties(join(modsRoot, 'AssortedLib', 'gradle.properties'))
+  const lib = {
+    id: libProps.mod_id,
+    dir: 'lib',
+    name: libProps.mod_name,
+    shortName: shortName(libProps.mod_name || ''),
+    slug: 'lib',
+    description: libProps.mod_description || '',
+    curseforgeSlug: libProps.curseforge_slug || '',
+    modrinthSlug: libProps.modrinth_id || '',
+    logo: `/logos/${libProps.mod_id}.webp`,
+    route: '/lib',
+    github: 'https://github.com/AssortedMods/AssortedLib'
+  }
+  if (!lib.id) problems.push('AssortedLib has no mod_id')
+  await writeLogo(join(modsRoot, 'AssortedLib', 'common', 'src', 'main', 'resources', 'logo.png'), join(logoDir, `${lib.id}.webp`))
+
   if (!checkOnly) {
     mkdirSync(dirname(dataFile), { recursive: true })
-    writeFileSync(dataFile, JSON.stringify({ families }, null, 2) + '\n')
+    writeFileSync(dataFile, JSON.stringify({ families, lib }, null, 2) + '\n')
   }
   const parts = families.reduce((n, f) => n + f.parts.length, 0)
   console.log(`${families.length} families, ${parts} mods`)

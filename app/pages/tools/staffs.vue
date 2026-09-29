@@ -8,21 +8,27 @@
       <b>Z</b> by default. It sits under Assorted Mods in Controls.
     </p>
     <img src="\mods\tools\staffs.webp">
-    <h2><a name="neptune">Neptune Staff</a></h2>
+    <SectionHeading name="neptune">
+      Neptune Staff
+    </SectionHeading>
     <p>
       <b>Place Water</b> pours a water source where you click. <b>Freeze Mobs</b> freezes every mob
       around you solid, and <b>Freeze Water</b> turns the still water around you to ice. A frozen mob stands still and silent,
       turned to ice, until a Phoenix Staff thaws it or it catches fire.
     </p>
     <Recipe id="assortedstaffs:neptune_staff" />
-    <h2><a name="phoenix">Phoenix Staff</a></h2>
+    <SectionHeading name="phoenix">
+      Phoenix Staff
+    </SectionHeading>
     <p>
       The Neptune Staff's the opposite. <b>Place Lava</b> and <b>Place Fire</b> work where you click,
       <b>Thaw Mobs</b> frees every frozen mob around you, and <b>Melt Ice</b> melts the ice around
       you. A hit with it thaws a frozen mob.
     </p>
     <Recipe id="assortedstaffs:phoenix_staff" />
-    <h2><a name="power">Power Staff</a></h2>
+    <SectionHeading name="power">
+      Power Staff
+    </SectionHeading>
     <p>
       Right click a block to push it one step away from the face you clicked, or in a pull mode to
       drag it one step toward you. The <b>Floating</b> modes leave the block where it ends up and
@@ -30,7 +36,9 @@
       blocks with the block tag <b>assortedstaffs:power_staff_immovable</b>.
     </p>
     <Recipe id="assortedstaffs:power_staff" />
-    <h2><a name="frost">Frost Rods</a></h2>
+    <SectionHeading name="frost">
+      Frost Rods
+    </SectionHeading>
     <p>
       The blaze rod's cold counterpart. Strays drop them as blazes drop theirs, and any other
       monster killed by a player in a snowy biome (<b>c:is_snowy</b>) sometimes does. A frost rod

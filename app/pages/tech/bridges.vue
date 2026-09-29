@@ -9,7 +9,9 @@
     </p>
     <img src="\mods\tech\bridges.png">
 
-    <h2><a name="bridges">Bridges</a></h2>
+    <SectionHeading name="bridges">
+      Bridges
+    </SectionHeading>
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
       <Recipe id="assortedbridges:bridge_control_laser" />
       <Recipe id="assortedbridges:bridge_control_accel" />
@@ -46,12 +48,24 @@
       </li>
     </ul>
 
-    <h2><a name="camo">Bridge Camo</a></h2>
+    <SectionHeading name="camo">
+      Bridge Camo
+    </SectionHeading>
     <img src="\mods\tech\bridge_camo.png">
     <p>
       If you right click on a bridge with a supported block the bridge blocks will be changed to
       look like that block. Shift Right-Click with an empty hand to clear the saved block.
     </p>
+
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
+    <p>
+      These are in the <i class="text-gray-600">assortedbridges-common</i> config file.
+    </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>bridges.bridgeMaxLength</i> is how far a bridge can reach. 128 blocks by default.</li>
+    </ul>
   </PartPage>
 </template>
 

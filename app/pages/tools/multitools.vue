@@ -22,7 +22,9 @@
     </p>
     <Recipe id="assortedmultitools:netherite_multitool_smithing" />
 
-    <h2><a name="config">Config</a></h2>
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
     <p>
       A multitool lasts longer than a single tool of its material. Its durability is the material's
       <i>maxUses</i> times <i>multitools.&lt;material&gt;.durabilityModifier</i>, which is 1.5 by

@@ -3,7 +3,9 @@
     family="decor"
     part="displays"
   >
-    <h2><a name="display_cases">Display Cases</a></h2>
+    <SectionHeading name="display_cases">
+      Display Cases
+    </SectionHeading>
     <img src="\mods\decor\display_cases.png">
     <p>
       A display case holds items on a shelf behind glass. There is no screen. You can right click the spot
@@ -22,7 +24,9 @@
       <Recipe id="assorteddisplays:diamond_display_case" />
     </div>
 
-    <h2><a name="resizing_tool">Resizing Tool</a></h2>
+    <SectionHeading name="resizing_tool">
+      Resizing Tool
+    </SectionHeading>
     <p>
       A case is placed showing one item on one shelf, and that one item is drawn large. Use the
       resizing tool on it to grow it to four items on two shelves, or to nine items on three shelves. You can then use it once
@@ -33,7 +37,9 @@
     </p>
     <Recipe id="assorteddisplays:resizing_tool" />
 
-    <h2><a name="copper">Copper Display Cases</a></h2>
+    <SectionHeading name="copper">
+      Copper Display Cases
+    </SectionHeading>
     <p>
       A copper case weathers where it stands, through exposed, weathered and oxidized, like any other
       copper. What is on show stays on show through every step. An axe scrapes a stage back off it,
@@ -47,7 +53,9 @@
       <Recipe id="assorteddisplays:waxed_oxidized_copper_display_case" />
     </div>
 
-    <h2><a name="museum">Museum Display Case</a></h2>
+    <SectionHeading name="museum">
+      Museum Display Case
+    </SectionHeading>
     <p>
       The museum edition stands two blocks tall. A carpeted plinth with the glass case on top of it.
       Everything goes in the glass half, the same nine slots as any other case.
@@ -58,7 +66,9 @@
     </p>
     <Recipe id="assorteddisplays:museum_display_case" />
 
-    <h2><a name="cage">Cage</a></h2>
+    <SectionHeading name="cage">
+      Cage
+    </SectionHeading>
     <p>Cages are blocks that can be used to display mobs like they have been captured.</p>
     <Recipe id="assorteddisplays:cage" />
     <p>
@@ -73,6 +83,17 @@
       and variants are supported unlike the Spawn Eggs.
     </p>
     <img src="\mods\decor\cage.gif">
+
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
+    <p>
+      These are in the <i class="text-gray-600">assorteddisplays-client</i> config file. They only change your own game, so everyone can set
+      their own.
+    </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>cage.cageSpinMod</i> is how fast mobs spin inside a cage. 3 by default.</li>
+    </ul>
   </PartPage>
 </template>
 

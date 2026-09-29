@@ -13,11 +13,18 @@
     </p>
     <img src="\mods\util\double-doors-demo.webp">
 
-    <h2><a name="config">Config</a></h2>
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
     <p>
-      The server decides which of doors, trapdoors and fence gates open together, and how many
-      trapdoors or gates one click can open. It is 16 by default.
+      These are in the <i class="text-gray-600">assorteddoubledoors-common</i> config file.
     </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>doubleDoors.doors</i> opens both doors of a double door together. On by default.</li>
+      <li><i>doubleDoors.trapdoors</i> opens every trapdoor of a hatch together. On by default.</li>
+      <li><i>doubleDoors.fenceGates</i> opens fence gates next to or on top of each other together. On by default.</li>
+      <li><i>doubleDoors.maxConnected</i> is the most trapdoors or fence gates one click opens. 16 by default.</li>
+    </ul>
   </PartPage>
 </template>
 

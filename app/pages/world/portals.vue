@@ -3,7 +3,9 @@
     family="world"
     part="portals"
   >
-    <h2><a name="void_portals">Void Portals</a></h2>
+    <SectionHeading name="void_portals">
+      Void Portals
+    </SectionHeading>
     <img src="\mods\world\portals.webp">
     <p>
       A void portal frame is an end portal frame you can make yourself. They are very slow to break as
@@ -14,14 +16,18 @@
       You can place them in an opening of 3x3 to 9x9 on a floor, wall or ceiling. If they all face the
       same way you can build an End Portal of your own.
     </p>
-    <h2><a name="void_striker">Void Striker and Ender Flames</a></h2>
+    <SectionHeading name="void_striker">
+      Void Striker and Ender Flames
+    </SectionHeading>
     <p>
       Strike any frame of a finished ring with a void striker and the end portal will open. Ender
       flames set inside a closed ring of void portal frames will also open the portal. On end stone the
       flames will burn forever.
     </p>
     <Recipe id="assortedportals:void_striker" />
-    <h2><a name="void_crystal">Void Crystal</a></h2>
+    <SectionHeading name="void_crystal">
+      Void Crystal
+    </SectionHeading>
     <p>
       Void crystal is found on the End islands. It is quite rare and needs an iron pickaxe or better
       to break.

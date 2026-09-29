@@ -43,7 +43,9 @@ yarn mods --check  # only report what is missing
 ```
 
 It reads each repo's root `gradle.properties` (`family_name`, `assorted_mods`) and every mod's own
-`gradle.properties` (`mod_name`, `mod_description`, `curseforge_slug`, `modrinth_id`). A download link
+`gradle.properties` (`mod_name`, `mod_description`, `curseforge_slug`, `modrinth_id`). Assorted Lib is
+read the same way from `../AssortedLib` but is not a family. It has its own page at `/lib`, last in the
+sidebar and left off the landing page, where the config every mod shares is listed. A download link
 shows as "soon" until the mod has that id. `scripts/mods/overrides.json` holds what gradle.properties
 does not, like a nicer Modrinth slug or a family with no bundle. Rerun it when a mod gets its store
 pages or a new logo. When a page moves, add the old path to `redirects.json` so links keep working.

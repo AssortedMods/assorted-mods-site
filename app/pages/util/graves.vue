@@ -13,7 +13,9 @@
       things drop on the ground like normal.
     </p>
 
-    <h2><a name="restore">Getting It Back</a></h2>
+    <SectionHeading name="restore">
+      Getting It Back
+    </SectionHeading>
     <p>
       Right click your grave to get everything back where it was, in the same slots.
     </p>
@@ -23,12 +25,17 @@
       break a grave.
     </p>
 
-    <h2><a name="config">Config</a></h2>
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
     <p>
-      The server decides how graves work. It can leave experience to drop the normal way, make it so
-      only the player who died can open or break their grave, and change how far from where you died
-      it looks for room.
+      These are in the <i class="text-gray-600">assortedgraves-common</i> config file.
     </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>graves.keepAllExperience</i> puts all of your experience in the grave. On by default. Turn it off and experience drops the normal way.</li>
+      <li><i>graves.ownerOnly</i> makes it so only the player who died, or someone in creative, can open or break a grave. Off by default.</li>
+      <li><i>graves.searchRadius</i> is how far from where you died it looks for room for a grave. 4 blocks by default.</li>
+    </ul>
   </PartPage>
 </template>
 

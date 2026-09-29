@@ -23,7 +23,9 @@
       <Recipe id="assortedgrates:gold_item_grate" />
     </div>
 
-    <h2><a name="copper">Copper Item Grates</a></h2>
+    <SectionHeading name="copper">
+      Copper Item Grates
+    </SectionHeading>
     <p>
       A copper grate weathers where it stands, through exposed, weathered and oxidized, like any
       other copper.

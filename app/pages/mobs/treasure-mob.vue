@@ -21,7 +21,9 @@
     </p>
     <img src="\mods\mobs\treasure_mob.png">
 
-    <h2><a name="taming">Taming</a></h2>
+    <SectionHeading name="taming">
+      Taming
+    </SectionHeading>
     <p>
       A wild one keeps away from players, but gold nuggets lure it in. Feed it nuggets and it may
       decide to stay.

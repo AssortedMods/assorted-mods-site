@@ -22,7 +22,9 @@
     </p>
     <img src="\mods\storage\hoppers.webp">
 
-    <h2><a name="materials">Materials and Levels</a></h2>
+    <SectionHeading name="materials">
+      Materials and Levels
+    </SectionHeading>
     <p>
       Hoppers come in a whole set of materials, and the material decides how much one holds. Stone
       is the smallest and netherite the largest.
@@ -33,7 +35,9 @@
       its storage level.
     </p>
 
-    <h2><a name="upgrading">Upgrading</a></h2>
+    <SectionHeading name="upgrading">
+      Upgrading
+    </SectionHeading>
     <p>
       To upgrade a hopper to the next material have the previous storage level hopper in your
       inventory and surround it with a material of the next tier. With
@@ -58,7 +62,9 @@
       <Recipe id="assortedhoppers:hopper_iron_chest" />
     </div>
 
-    <h2><a name="locking">Locking</a></h2>
+    <SectionHeading name="locking">
+      Locking
+    </SectionHeading>
     <p>
       With
       <NuxtLink

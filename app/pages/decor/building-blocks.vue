@@ -14,7 +14,9 @@
       tiles as walls.
     </p>
 
-    <h2><a name="lumber_mill">Lumber Mill</a></h2>
+    <SectionHeading name="lumber_mill">
+      Lumber Mill
+    </SectionHeading>
     <p>
       The stonecutter's twin for wood. Put in planks and pick what to cut them into. It also
       supports logs to break up into any of the child blocks and items.
@@ -29,21 +31,27 @@
       <Recipe id="assortedbuildingblocks:oak_door_from_oak_logs_lumber_mill" />
     </div>
 
-    <h2><a name="timber">Timber</a></h2>
+    <SectionHeading name="timber">
+      Timber
+    </SectionHeading>
     <p>The lumber mill cuts every kind of planks into parquet and framed planks.</p>
     <div class="flex flex-wrap gap-4">
       <Recipe id="assortedbuildingblocks:oak_parquet_from_oak_planks_lumber_mill" />
       <Recipe id="assortedbuildingblocks:framed_oak_planks_from_oak_planks_lumber_mill" />
     </div>
 
-    <h2><a name="panels">Panels</a></h2>
+    <SectionHeading name="panels">
+      Panels
+    </SectionHeading>
     <p>
       The lumber mill cuts a plank into eight panels. A panel lines the face you place it against.
       It can be placed against a wall, a floor or a ceiling.
     </p>
     <Recipe id="assortedbuildingblocks:oak_panel_from_oak_planks_lumber_mill" />
 
-    <h2><a name="beams">Beams</a></h2>
+    <SectionHeading name="beams">
+      Beams
+    </SectionHeading>
     <p>
       The lumber mill cuts a plank into four beams, and the stonecutter an iron ingot into an iron
       beam. They run along the top or bottom of the block, the way you are facing. A beam placed
@@ -54,7 +62,9 @@
       <Recipe id="assortedbuildingblocks:iron_beam_from_iron_ingot_stonecutting" />
     </div>
 
-    <h2><a name="stone_patterns">Stone Patterns</a></h2>
+    <SectionHeading name="stone_patterns">
+      Stone Patterns
+    </SectionHeading>
     <p>
       Every stone is cut into bricks, tiles and a carved creeper face. Stone, granite, diorite,
       andesite, calcite, tuff, dripstone, deepslate, blackstone, sandstone and red sandstone. The
@@ -66,7 +76,9 @@
       <Recipe id="assortedbuildingblocks:carved_granite_from_granite_stonecutting" />
     </div>
 
-    <h2><a name="weathering">Mossy and Cracked Bricks</a></h2>
+    <SectionHeading name="weathering">
+      Mossy and Cracked Bricks
+    </SectionHeading>
     <p>
       Every stone's bricks have a mossy and a cracked form, made the way vanilla stone bricks are.
       Vines or moss for mossy, a furnace for cracked.
@@ -76,7 +88,9 @@
       <Recipe id="assortedbuildingblocks:cracked_granite_bricks" />
     </div>
 
-    <h2><a name="columns">Columns</a></h2>
+    <SectionHeading name="columns">
+      Columns
+    </SectionHeading>
     <p>
       Fluted stone and columns come off the stonecutter from any of the stones. Columns have a base
       at the bottom, a capital at the top and a plain shaft between. They can also be placed against
@@ -87,14 +101,18 @@
       <Recipe id="assortedbuildingblocks:fluted_granite_from_granite_stonecutting" />
     </div>
 
-    <h2><a name="bricks">Bricks</a></h2>
+    <SectionHeading name="bricks">
+      Bricks
+    </SectionHeading>
     <p>Brick blocks are cut into basketweave and herringbone patterns on the stonecutter.</p>
     <div class="flex flex-wrap gap-4">
       <Recipe id="assortedbuildingblocks:basketweave_bricks_from_bricks_stonecutting" />
       <Recipe id="assortedbuildingblocks:herringbone_bricks_from_bricks_stonecutting" />
     </div>
 
-    <h2><a name="cobblestone">Cobblestone</a></h2>
+    <SectionHeading name="cobblestone">
+      Cobblestone
+    </SectionHeading>
     <p>
       Cobblestone can be reinforced with iron or framed in sticks, and calcite and cobbled deepslate
       together make a checkerboard.
@@ -105,14 +123,18 @@
       <Recipe id="assortedbuildingblocks:checkered_stone" />
     </div>
 
-    <h2><a name="decorative_stone">Decorative Stone</a></h2>
+    <SectionHeading name="decorative_stone">
+      Decorative Stone
+    </SectionHeading>
     <p>
       Decorative stone comes off the stonecutter from plain stone, which makes it cheap enough to
       use by the wall.
     </p>
     <Recipe id="assortedbuildingblocks:decorative_path_stonecutting" />
 
-    <h2><a name="metal_bricks">Metal and Gem Bricks</a></h2>
+    <SectionHeading name="metal_bricks">
+      Metal and Gem Bricks
+    </SectionHeading>
     <p>
       Iron, gold and diamond blocks are cut into bricks on the stonecutter, one for one. Obsidian is
       cut into polished obsidian, and lapis and redstone blocks into bricks, tiles and polished
@@ -125,7 +147,9 @@
       <Recipe id="assortedbuildingblocks:glowstone_bricks_from_glowstone_stonecutting" />
     </div>
 
-    <h2><a name="meat_block">Meat Block</a></h2>
+    <SectionHeading name="meat_block">
+      Meat Block
+    </SectionHeading>
     <p>
       Nine porkchops pressed around a bone. It comes apart into the nine porkchops again.
     </p>
@@ -134,7 +158,9 @@
       <Recipe id="assortedbuildingblocks:porkchop_from_meat_block" />
     </div>
 
-    <h2><a name="siding">Siding</a></h2>
+    <SectionHeading name="siding">
+      Siding
+    </SectionHeading>
     <img src="\mods\decor\siding_example.png">
     <p>
       Siding boards a wall in horizontal or vertical planking, in any of the sixteen colors. The
@@ -147,7 +173,9 @@
       </NuxtLink>. The siding recipes are shown there.
     </p>
 
-    <h2><a name="chain_link">Chain Link</a></h2>
+    <SectionHeading name="chain_link">
+      Chain Link
+    </SectionHeading>
     <img src="\mods\decor\chain_link_fence.png">
     <p>
       Chain Links allow for the construction of Chain Link fences and Chain Link doors. To build
@@ -175,14 +203,18 @@
       <Recipe id="assortedbuildingblocks:chain_link_steel" />
     </div>
 
-    <h2><a name="chain_link_fence">Chain Link Fence</a></h2>
+    <SectionHeading name="chain_link_fence">
+      Chain Link Fence
+    </SectionHeading>
     <Recipe id="assortedbuildingblocks:chain_link_fence" />
     <p>
       Chain Links Fences work just like Iron Bars do and will connect to solid blocks alongside
       them.
     </p>
 
-    <h2><a name="doors">Doors</a></h2>
+    <SectionHeading name="doors">
+      Doors
+    </SectionHeading>
     <img src="\mods\decor\new_doors.png">
     <p>
       There are 4 new doors. Quartz, Steel, Glass, and Chain Link. The Quartz and Steel door both

@@ -69,13 +69,17 @@
       choice. Each tool and armor material is completely configurable if you would like to change
       the values.
     </p>
-    <h2><a name="spears">Spears</a></h2>
+    <SectionHeading name="spears">
+      Spears
+    </SectionHeading>
     <p>
       Minecraft has its own plain Spear for each of its tool materials. These spears act exactly like
       the vanilla ones but in all of the extra materials, so they are not left out. They use the
       vanilla spear recipe.
     </p>
-    <h2><a name="recipes">Example recipes</a></h2>
+    <SectionHeading name="recipes">
+      Example recipes
+    </SectionHeading>
     <p>
       If you forgot what the recipes look like or maybe just want a refresher here you go. Replace
       the Topaz Gem with the material of your choice to craft any of the tools or armor.
@@ -93,7 +97,9 @@
       <Recipe id="assortedgearsets:topaz_boots" />
     </div>
 
-    <h2><a name="tiers">Tool Materials</a></h2>
+    <SectionHeading name="tiers">
+      Tool Materials
+    </SectionHeading>
     <p>
       The tool materials are shared by every Assorted mod, so a tin hammer and a tin bucket agree.
       They live in the <i class="text-gray-600">assortedlib-tool-tiers.toml</i> config file on
@@ -119,11 +125,14 @@
       <li><i>axeSpeed</i> is the speed modifier for axes in each material.</li>
     </ul>
     <p>
-      The same file has <i>general.hideUnobtainableItems</i>. Set it to true to hide the tools and
-      armor of an extra material no installed mod adds from the creative menu and JEI.
+      To hide the tools and armor of a material no installed mod adds, turn on
+      <i>creative.hideUncraftableItems</i> in the
+      <i class="text-gray-600">assortedlib-common</i> config file.
     </p>
 
-    <h2><a name="armor">Armor Materials</a></h2>
+    <SectionHeading name="armor">
+      Armor Materials
+    </SectionHeading>
     <p>
       The armor for each extra material is under <i>extra_armor</i> in the
       <i class="text-gray-600">assortedgearsets-common.toml</i> config file on NeoForge, or

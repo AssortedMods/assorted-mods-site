@@ -9,7 +9,9 @@
     </p>
     <img src="\mods\cuisine\sodas.png">
 
-    <h2><a name="carbonated">Carbonated Water</a></h2>
+    <SectionHeading name="carbonated">
+      Carbonated Water
+    </SectionHeading>
     <p>
       Every soda needs a soda bottle, some carbon dioxide, and water to carbonate.
     </p>
@@ -19,7 +21,9 @@
       <Recipe id="assortedsodas:soda_carbonated_water" />
     </div>
 
-    <h2><a name="types">Flavors</a></h2>
+    <SectionHeading name="types">
+      Flavors
+    </SectionHeading>
     <p>
       Ten flavors on top of the plain carbonated water. Each one heals differently and may have a different effect once drunk.
     </p>

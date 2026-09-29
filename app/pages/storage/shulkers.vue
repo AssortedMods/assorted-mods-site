@@ -28,7 +28,9 @@
     </p>
     <img src="\mods\storage\shulkers.webp">
 
-    <h2><a name="materials">Materials and Levels</a></h2>
+    <SectionHeading name="materials">
+      Materials and Levels
+    </SectionHeading>
     <p>
       Shulker boxes come in a whole set of materials, and the material decides how much one holds.
       Stone is the smallest and netherite the largest.
@@ -40,7 +42,9 @@
     </p>
     <p>Material shulker boxes can be dyed the same way as a vanilla one.</p>
 
-    <h2><a name="upgrading">Upgrading</a></h2>
+    <SectionHeading name="upgrading">
+      Upgrading
+    </SectionHeading>
     <p>
       To upgrade a shulker box to the next material have the previous storage level shulker box in
       your inventory and surround it with a material of the next tier. Anything inside and any lock

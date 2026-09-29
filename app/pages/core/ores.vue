@@ -7,8 +7,15 @@
       Assorted Ores adds many ores that can be found that contain metals or gems. The other Assorted
       mods use them in their recipes.
     </p>
-    <h2><a name="metals">Metals</a></h2>
-    <h3><b>Ores</b></h3>
+    <SectionHeading name="metals">
+      Metals
+    </SectionHeading>
+    <SectionHeading
+      name="ores"
+      :level="3"
+    >
+      <b>Ores</b>
+    </SectionHeading>
     <p>
       <span class="muted">Every ore below has a deepslate variant and drops a raw ore instead of the
         block. Each raw ore can be crafted into a raw ore block.</span>
@@ -33,7 +40,9 @@
       <Recipe id="assortedores:silver_nugget" />
       <Recipe id="assortedores:silver_gear" />
     </div>
-    <h2><a name="gems">Gems</a></h2>
+    <SectionHeading name="gems">
+      Gems
+    </SectionHeading>
     <ul class="list-disc list-inside">
       <li>Ruby</li>
       <li>Sapphire</li>

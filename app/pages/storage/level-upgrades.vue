@@ -9,7 +9,9 @@
       boxes from the other Assorted Storage mods, and on the vanilla ones too.
     </p>
 
-    <h2><a name="upgrades">Upgrades</a></h2>
+    <SectionHeading name="upgrades">
+      Upgrades
+    </SectionHeading>
     <p>
       Eight of a material around a piece of paper makes the level upgrade for that material. With
       <NuxtLink
@@ -25,7 +27,9 @@
       <Recipe id="assortedlevelupgrades:level_upgrade_iron_from_blank_upgrade" />
     </div>
 
-    <h2><a name="using">Using</a></h2>
+    <SectionHeading name="using">
+      Using
+    </SectionHeading>
     <p>
       Upgrades work by <b>shift-right clicking</b> on the block you want to upgrade. Each upgrade
       names the material it upgrades to, and its tooltip lists what level it will become. An upgrade

@@ -5,7 +5,9 @@
   >
     <img src="\mods\cuisine\health.webp">
 
-    <h2><a name="sweets">Sweets</a></h2>
+    <SectionHeading name="sweets">
+      Sweets
+    </SectionHeading>
     <p>
       Powdered sugar makes sweets, and powdered sweets make some candy. Powdered sweets are also in
       the recipe for the <a href="#packs">super health pack</a>.
@@ -16,7 +18,9 @@
       <Recipe id="assortedhealth:powered_sweets" />
     </div>
 
-    <h2><a name="packs">Bandages and Packs</a></h2>
+    <SectionHeading name="packs">
+      Bandages and Packs
+    </SectionHeading>
     <p>
       These three can instantly heal you. Each one takes a moment to apply, and being hit interrupts it. None of them do anything
       while you are already on full health.

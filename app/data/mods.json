@@ -952,5 +952,18 @@
         }
       ]
     }
-  ]
+  ],
+  "lib": {
+    "id": "assortedlib",
+    "dir": "lib",
+    "name": "Assorted Lib",
+    "shortName": "Lib",
+    "slug": "lib",
+    "description": "Library mod to support the Assorted Mods.",
+    "curseforgeSlug": "assorted-lib",
+    "modrinthSlug": "KkmxwW72",
+    "logo": "/logos/assortedlib.webp",
+    "route": "/lib",
+    "github": "https://github.com/AssortedMods/AssortedLib"
+  }
 }

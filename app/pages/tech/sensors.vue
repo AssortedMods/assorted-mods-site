@@ -22,7 +22,9 @@
       <Recipe id="assortedsensors:iron_sensor" />
       <Recipe id="assortedsensors:emerald_sensor" />
     </div>
-    <h2><a name="types">Types</a></h2>
+    <SectionHeading name="types">
+      Types
+    </SectionHeading>
     <p>
       The current list of sensor types are below, some use entity_type tags to check if any given
       entity is within the current tag.
@@ -44,7 +46,9 @@
       <li>Hay Bale - Any entities in the entity_type tag (<b>assortedsensors:sensors/pets</b>)</li>
       <li>Feather - Any entities in the entity_type tag (<b>assortedsensors:sensors/flying</b>)</li>
     </ul>
-    <h2><a name="gps">GPS Sensors</a></h2>
+    <SectionHeading name="gps">
+      GPS Sensors
+    </SectionHeading>
     <p>
       Right click a block with a GPS to store the space in front of it. Sneak and use it in the air
       to forget it.
@@ -65,6 +69,18 @@
       <Recipe id="assortedsensors:gps_sensor" />
       <Recipe id="assortedsensors:upgraded_gps_sensor" />
     </div>
+
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
+    <p>
+      These are in the <i class="text-gray-600">assortedsensors-common</i> config file.
+    </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>gps.gpsSensorRange</i> is how far away the spot a GPS sensor watches can be. 7 blocks by default.</li>
+      <li><i>gps.upgradedGpsSensorRange</i> is the same for the upgraded GPS sensor. 11 blocks by default.</li>
+      <li><i>gps.upgradedGpsSensorMaxRadius</i> is how big an area around its spot the upgraded GPS sensor can watch. 4 blocks by default.</li>
+    </ul>
   </PartPage>
 </template>
 

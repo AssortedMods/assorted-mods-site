@@ -6,7 +6,9 @@
     <p>Two creatures from the old 8-bit games, the parabuzzy and the Bob-omb.</p>
     <img src="\mods\mobs\eight_bit.png">
 
-    <h2><a name="parabuzzy">Parabuzzy</a></h2>
+    <SectionHeading name="parabuzzy">
+      Parabuzzy
+    </SectionHeading>
     <p>
       A winged shell that hovers more than it falls and hunts monsters. Parabuzzies spawn all over the overworld.
     </p>
@@ -14,14 +16,18 @@
       They come in blue and red, and in spiked versions of each.
     </p>
 
-    <h2><a name="perching">On Your Head</a></h2>
+    <SectionHeading name="perching">
+      On Your Head
+    </SectionHeading>
     <p>
       A fish tames a parabuzzy and food heals a tame one. Right click a tamed parabuzzy and it climbs onto
       your head. There it slowly heals, and you drift down as gently as it does and take no fall
       damage. Sneak on the ground to put it down.
     </p>
 
-    <h2><a name="bobomb">Bob-omb</a></h2>
+    <SectionHeading name="bobomb">
+      Bob-omb
+    </SectionHeading>
     <img src="\mods\mobs\bobomb.png">
     <p>
       A Bob-omb is built from a parabuzzy's shell. One you put down follows you, and when a monster

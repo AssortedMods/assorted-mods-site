@@ -10,7 +10,9 @@
       those that have a key of the same code.
     </p>
 
-    <h2><a name="workbench">Locksmith Workbench</a></h2>
+    <SectionHeading name="workbench">
+      Locksmith Workbench
+    </SectionHeading>
     <div class="flex flex-wrap gap-4">
       <Recipe id="assortedlocks:locksmith_workbench" />
       <Recipe id="assortedlocks:locksmith_workbench_alt" />
@@ -21,21 +23,27 @@
     </p>
     <img src="\mods\storage\locksmith_workbench.png">
 
-    <h2><a name="lock">Locksmith Lock</a></h2>
+    <SectionHeading name="lock">
+      Locksmith Lock
+    </SectionHeading>
     <p>
       Once a code has been set on a lock simply right click a supported storage block to lock it and
       restrict access to it.
     </p>
     <Recipe id="assortedlocks:locksmith_lock" />
 
-    <h2><a name="key">Locksmith Key</a></h2>
+    <SectionHeading name="key">
+      Locksmith Key
+    </SectionHeading>
     <p>
       You just need to have this key somewhere within your inventory and you will be able to open
       storage blocks that are locked with its code.
     </p>
     <Recipe id="assortedlocks:locksmith_key" />
 
-    <h2><a name="key_ring">Key Ring</a></h2>
+    <SectionHeading name="key_ring">
+      Key Ring
+    </SectionHeading>
     <p>
       If you have a ton of spare keys lying around taking up your inventory there is a simple
       solution the <b>Key Ring</b>. This neat item allows you to store up to 12 separate keys in one
@@ -48,7 +56,9 @@
     </p>
     <img src="\mods\storage\key_ring_gui.png">
 
-    <h2><a name="containers">Locking Containers</a></h2>
+    <SectionHeading name="containers">
+      Locking Containers
+    </SectionHeading>
     <p>
       Use a padlock on a chest, barrel, hopper or shulker box and it becomes the locked version of
       itself. A locked chest, barrel, hopper or shulker box keeps whatever was inside when the
@@ -64,7 +74,9 @@
       and get the plain one back.
     </p>
 
-    <h2><a name="ender_chest">Locked Ender Chest</a></h2>
+    <SectionHeading name="ender_chest">
+      Locked Ender Chest
+    </SectionHeading>
     <p>
       The Locked Ender Chest adds the ability to have multiple separate Ender Chest inventories
       saved and can be accessed by anyone else who has the same code use to lock it.
@@ -91,7 +103,9 @@
       will pop off provided you are able to access the inventory of what it is locked with.
     </p>
 
-    <h2><a name="doors">Locking Doors</a></h2>
+    <SectionHeading name="doors">
+      Locking Doors
+    </SectionHeading>
     <p>
       Using the <i>Locksmith Lock</i> you are also able to lock all of the Vanilla doors so that you
       require the correct key with the correct combination to open them.

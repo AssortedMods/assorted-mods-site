@@ -14,7 +14,9 @@
       installed all of them except the Item Tower can also be locked.
     </p>
 
-    <h2><a name="crates">Warehouse Crates</a></h2>
+    <SectionHeading name="crates">
+      Warehouse Crates
+    </SectionHeading>
     <p>
       A warehouse crate is not a storage crate but more of a box you would see in a Warehouse.
       Warehouse crates are simple storage blocks that have 27 slots for items. There is one for each
@@ -36,11 +38,15 @@
       <Recipe id="assortedcontainers:pale_oak_warehouse_crate" />
     </div>
 
-    <h2><a name="obsidian_safe">Obsidian Safe</a></h2>
+    <SectionHeading name="obsidian_safe">
+      Obsidian Safe
+    </SectionHeading>
     <p>The obsidian safe is resistant to explosions and has 27 slots for storage.</p>
     <Recipe id="assortedcontainers:obsidian_safe" />
 
-    <h2><a name="gold_safe">Gold Safe</a></h2>
+    <SectionHeading name="gold_safe">
+      Gold Safe
+    </SectionHeading>
     <p>
       The gold safe works just like Shulker boxes where when you break it, it will keep its
       inventory. Once placed again the inventory will still remain when you open it up. The gold safe
@@ -48,7 +54,9 @@
     </p>
     <Recipe id="assortedcontainers:gold_safe" />
 
-    <h2><a name="cabinets">Cabinets</a></h2>
+    <SectionHeading name="cabinets">
+      Cabinets
+    </SectionHeading>
     <p>
       Cabinets are similar to the warehouse crates where they store a single chests worth of items
       but they come in two varieties and open from the front instead of the top.
@@ -58,7 +66,9 @@
       <Recipe id="assortedcontainers:glass_cabinet" />
     </div>
 
-    <h2><a name="lockers">Lockers</a></h2>
+    <SectionHeading name="lockers">
+      Lockers
+    </SectionHeading>
     <p>
       Lockers can be placed either one or two high. When placed two high you can access twice the
       items. Similar to a double chest but on its side. The inventory for the locker scrolls and
@@ -67,7 +77,9 @@
     <Recipe id="assortedcontainers:locker" />
     <img src="\mods\storage\locker.png">
 
-    <h2><a name="item_tower">Item Tower</a></h2>
+    <SectionHeading name="item_tower">
+      Item Tower
+    </SectionHeading>
     <p>
       Item Towers are an interesting way of storing your items but they cannot be locked. Each one
       can store 18 stacks in two rows. But when stacked on top of each other you can access all of

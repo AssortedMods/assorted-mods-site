@@ -3,7 +3,9 @@
     family="world"
     part="plants"
   >
-    <h2><a name="gunpowder_reed">Gunpowder Reed</a></h2>
+    <SectionHeading name="gunpowder_reed">
+      Gunpowder Reed
+    </SectionHeading>
     <p>
       Gunpowder Reed is a plant that grows like sugar cane but gives you gunpowder instead. It is a
       renewable source so you do not have to hunt creepers for it.
@@ -30,13 +32,25 @@
     <p>A single reed on its own turns back into one gunpowder.</p>
     <Recipe id="assortedplants:gunpowder" />
 
-    <h2><a name="glowstone_seeds">Glowstone Seeds</a></h2>
+    <SectionHeading name="glowstone_seeds">
+      Glowstone Seeds
+    </SectionHeading>
     <p>
       A glowstone seed takes on the underside of a netherrack ceiling and ripens before bursting into a
       blob of glowstone.
     </p>
     <img src="\mods\world\plants.webp">
     <Recipe id="assortedplants:glowstone_seeds" />
+
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
+    <p>
+      These are in the <i class="text-gray-600">assortedplants-common</i> config file.
+    </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>glowstoneSeeds.plantHeight</i> is the highest you can plant glowstone seeds on a netherrack ceiling outside the Nether. 15 by default. In the Nether they grow at any height.</li>
+    </ul>
   </PartPage>
 </template>
 

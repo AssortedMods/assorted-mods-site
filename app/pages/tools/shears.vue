@@ -26,11 +26,26 @@
     <p>You are able to upgrade from Diamond Shears to Netherite Shears using a Netherite ingot.</p>
     <Recipe id="assortedshears:netherite_shears_smithing" />
 
-    <h2><a name="enchantments">Enchantments</a></h2>
+    <SectionHeading name="enchantments">
+      Enchantments
+    </SectionHeading>
     <p>
       Assorted Shears adds one extra enchantment for Shears, <b>Coral Cutter</b>.
       This enchantment allows Shears to be able to pick up Coral without the need of a separate tool
       with Silk Touch.
+    </p>
+
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
+    <p>
+      Shears uses the tool materials every Assorted mod shares. Their values are explained on the
+      <NuxtLink
+        class="page-link"
+        to="/tools/gear-sets#tiers"
+      >
+        Gear Sets
+      </NuxtLink> page.
     </p>
   </PartPage>
 </template>

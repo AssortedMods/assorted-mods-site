@@ -11,7 +11,9 @@
     </p>
     <img src="\mods\tools\pokeball.webp">
     <Recipe id="assortedpokeball:pokeball" />
-    <h2><a name="displaying">Displaying</a></h2>
+    <SectionHeading name="displaying">
+      Displaying
+    </SectionHeading>
     <p>
       If you would like to be able to display your captured mobs you can do so via the
       Cage that
