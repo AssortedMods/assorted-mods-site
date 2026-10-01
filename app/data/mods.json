@@ -526,7 +526,7 @@
           "name": "Assorted Extruder",
           "shortName": "Extruder",
           "slug": "extruder",
-          "description": "Adds the extruder, a fuelled drill that mines a straight tunnel and lays blocks behind itself as it goes.",
+          "description": "Adds the extruder, a fueled drill that mines a straight tunnel and lays blocks behind itself as it goes.",
           "curseforgeSlug": "",
           "modrinthSlug": "",
           "logo": "/logos/assortedextruder.webp",
@@ -793,7 +793,18 @@
       "github": "https://github.com/AssortedMods/AssortedUtil",
       "description": "Small helpers that each do one job, like graves, double doors, item replacing, a clock, a light overlay and damage numbers.",
       "logo": "/logos/assortedutil.webp",
-      "bundle": null,
+      "bundle": {
+        "id": "assortedutil",
+        "dir": "util",
+        "name": "Assorted Util",
+        "shortName": "Util",
+        "slug": "util",
+        "description": "Adds small helpers that make everyday Minecraft a little easier.",
+        "curseforgeSlug": "assorted-util",
+        "modrinthSlug": "assorted-util",
+        "logo": "/logos/assortedutil.webp",
+        "route": "/util"
+      },
       "parts": [
         {
           "id": "assortedgraves",
@@ -802,8 +813,8 @@
           "shortName": "Graves",
           "slug": "graves",
           "description": "Adds graves that keep your items and experience when you die.",
-          "curseforgeSlug": "",
-          "modrinthSlug": "",
+          "curseforgeSlug": "assorted-graves",
+          "modrinthSlug": "assorted-graves",
           "logo": "/logos/assortedgraves.webp",
           "route": "/util/graves"
         },
@@ -814,8 +825,8 @@
           "shortName": "Double Doors",
           "slug": "double-doors",
           "description": "Opens both doors of a double door at once. Works with trapdoors and fence gates too.",
-          "curseforgeSlug": "",
-          "modrinthSlug": "",
+          "curseforgeSlug": "assorted-double-doors",
+          "modrinthSlug": "assorted-double-doors",
           "logo": "/logos/assorteddoubledoors.webp",
           "route": "/util/double-doors"
         },
@@ -826,8 +837,8 @@
           "shortName": "Item Replacer",
           "slug": "item-replacer",
           "description": "Refills your hand when a tool breaks or you run out of a block.",
-          "curseforgeSlug": "",
-          "modrinthSlug": "",
+          "curseforgeSlug": "assorted-item-replacer",
+          "modrinthSlug": "assorted-item-replacer",
           "logo": "/logos/assorteditemreplacer.webp",
           "route": "/util/item-replacer"
         },
@@ -838,8 +849,8 @@
           "shortName": "Time",
           "slug": "time",
           "description": "Adds a key to show the in-game time and your real time.",
-          "curseforgeSlug": "",
-          "modrinthSlug": "",
+          "curseforgeSlug": "assorted-time",
+          "modrinthSlug": "assorted-time",
           "logo": "/logos/assortedtime.webp",
           "route": "/util/time"
         },
@@ -850,8 +861,8 @@
           "shortName": "Light Overlay",
           "slug": "light-overlay",
           "description": "Adds a key to show the light level where mobs can spawn.",
-          "curseforgeSlug": "",
-          "modrinthSlug": "",
+          "curseforgeSlug": "assorted-light-overlay",
+          "modrinthSlug": "assorted-light-overlay",
           "logo": "/logos/assortedlightoverlay.webp",
           "route": "/util/light-overlay"
         },
@@ -862,8 +873,8 @@
           "shortName": "Damage Numbers",
           "slug": "damage-numbers",
           "description": "Shows damage and healing numbers when creatures get hurt.",
-          "curseforgeSlug": "",
-          "modrinthSlug": "",
+          "curseforgeSlug": "assorted-damage-numbers",
+          "modrinthSlug": "assorted-damage-numbers",
           "logo": "/logos/assorteddamagenumbers.webp",
           "route": "/util/damage-numbers"
         }

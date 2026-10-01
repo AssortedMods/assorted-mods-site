@@ -1,8 +1,8 @@
 {
-  "id": "assortedkitchen:chocolate_moulding",
+  "id": "assortedkitchen:chocolate_molding",
   "type": "cuisine_machine",
-  "typeLabel": "Moulding",
-  "station": "Chocolate Bar Mould",
+  "typeLabel": "Molding",
+  "station": "Chocolate Bar Mold",
   "gui": "cuisine_machine",
   "result": {
     "kind": "item",
@@ -18,18 +18,18 @@
       }
     ]
   },
-  "note": "Every block of ice or snow packed against the mould cools it faster.",
+  "note": "Every block of ice or snow packed against the mold cools it faster.",
   "machine": {
     "kind": "item",
-    "label": "Chocolate Bar Mould",
-    "note": "The Chocolate Bar Mould does the work. It is placed in the world, not held.",
+    "label": "Chocolate Bar Mold",
+    "note": "The Chocolate Bar Mold does the work. It is placed in the world, not held.",
     "count": 1,
     "items": [
       {
-        "id": "assortedkitchen:chocolate_bar_mould",
-        "name": "Chocolate Bar Mould",
+        "id": "assortedkitchen:chocolate_bar_mold",
+        "name": "Chocolate Bar Mold",
         "icon": {
-          "src": "/icons/assortedkitchen/chocolate_bar_mould.png",
+          "src": "/icons/assortedkitchen/chocolate_bar_mold.png",
           "pixelated": false
         }
       }

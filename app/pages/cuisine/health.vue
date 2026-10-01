@@ -9,8 +9,8 @@
       Sweets
     </SectionHeading>
     <p>
-      Powdered sugar makes sweets, and powdered sweets make some candy. Powdered sweets are also in
-      the recipe for the <a href="#packs">super health pack</a>.
+      Sugar and paper make sweets. Sugar and redstone make powered sugar, which makes powered sweets
+      with paper. Powered sugar is also in the recipe for the <a href="#packs">super health pack</a>.
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedhealth:powered_sugar" />
@@ -27,7 +27,7 @@
     </p>
     <p>
       The bandage is the cheapest one and heals the least, the health pack is in the middle, and the
-      super pack needs powdered sweets but is the most powerful.
+      super pack needs powered sugar but is the most powerful.
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedhealth:bandage" />

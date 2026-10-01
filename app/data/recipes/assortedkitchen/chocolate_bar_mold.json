@@ -1,5 +1,5 @@
 {
-  "id": "assortedkitchen:chocolate_bar_mould",
+  "id": "assortedkitchen:chocolate_bar_mold",
   "type": "shaped",
   "typeLabel": "Shaped crafting",
   "station": "Crafting Table",
@@ -9,10 +9,10 @@
     "count": 1,
     "items": [
       {
-        "id": "assortedkitchen:chocolate_bar_mould",
-        "name": "Chocolate Bar Mould",
+        "id": "assortedkitchen:chocolate_bar_mold",
+        "name": "Chocolate Bar Mold",
         "icon": {
-          "src": "/icons/assortedkitchen/chocolate_bar_mould.png",
+          "src": "/icons/assortedkitchen/chocolate_bar_mold.png",
           "pixelated": false
         }
       }

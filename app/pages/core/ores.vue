@@ -30,7 +30,7 @@
     </ul>
     <p>
       All the metals listed can be used to create ingots, nuggets, dusts, gears, and storage blocks.
-      Copper gets a nugget too. The grinding mill from Assorted Machines turns an ore into two dusts,
+      The grinding mill from Assorted Machines turns an ore into two dusts,
       and each one smelts back into an ingot.
     </p>
     <img src="\mods\core\metal_options.png">

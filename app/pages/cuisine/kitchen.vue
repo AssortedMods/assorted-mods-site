@@ -90,7 +90,7 @@
       Eggs
     </SectionHeading>
     <p>
-      Crack eggs into a pan, mix them with a whisk, then cook them in a furnace. Cooked eggs can be a filling meal.
+      Crack eggs into a bowl with some butter, mix them with a whisk, then cook them in a furnace. Cooked eggs can be a filling meal.
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedkitchen:eggs_unmixed" />
@@ -197,19 +197,19 @@
     <Recipe id="assortedkitchen:chocolate_ball" />
 
     <SectionHeading
-      name="mould"
+      name="mold"
       :level="3"
     >
-      Chocolate Bar Mould
+      Chocolate Bar Mold
     </SectionHeading>
     <p>
-      Place the mould and right click it with hot chocolate to pour. It steams while it sets, and
+      Place the mold and right click it with hot chocolate to pour. It steams while it sets, and
       every block of ice or snow packed against its sides cools it faster. Once it has set, right
-      click the mould for the bars.
+      click the mold for the bars.
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <Recipe id="assortedkitchen:chocolate_bar_mould" />
-      <Recipe id="assortedkitchen:chocolate_moulding" />
+      <Recipe id="assortedkitchen:chocolate_bar_mold" />
+      <Recipe id="assortedkitchen:chocolate_molding" />
     </div>
 
     <SectionHeading

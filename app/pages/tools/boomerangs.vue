@@ -34,9 +34,9 @@
       These are in the <i class="text-gray-600">assortedboomerangs-common</i> config file.
     </p>
     <ul class="list-disc list-outside mx-6">
-      <li><i>boomerangs.woodBoomerangRange</i> is how far the wood boomerang goes before it comes back. 20 blocks by default.</li>
+      <li><i>boomerangs.woodBoomerangRange</i> is how many blocks the wood boomerang flies out before it comes back. 10 by default.</li>
       <li><i>boomerangs.woodBoomerangDamage</i> is how much damage the wood boomerang does. 1 by default.</li>
-      <li><i>boomerangs.diamondBoomerangRange</i> is how far the diamond boomerang goes before it comes back. 30 blocks by default.</li>
+      <li><i>boomerangs.diamondBoomerangRange</i> is how many blocks the diamond boomerang flies out before it comes back. 15 by default.</li>
       <li><i>boomerangs.diamondBoomerangDamage</i> is how much damage the diamond boomerang does. 5 by default.</li>
       <li><i>boomerangs.diamondBoomerangFollows</i> makes the diamond boomerang follow where you are looking. Off by default.</li>
       <li><i>boomerangs.turnAroundItem</i> makes boomerangs come back after they pick up an item. Off by default.</li>
