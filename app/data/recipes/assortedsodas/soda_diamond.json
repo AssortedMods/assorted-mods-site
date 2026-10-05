@@ -1,0 +1,57 @@
+{
+  "id": "assortedsodas:soda_diamond",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedsodas:soda_diamond",
+        "name": "Diamond Soda",
+        "icon": {
+          "src": "/icons/assortedsodas/soda_diamond.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:gems/diamond",
+        "label": "diamond gems",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:diamond",
+            "name": "Diamond",
+            "icon": {
+              "src": "/icons/minecraft/diamond.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedsodas:soda_carbonated_water",
+            "name": "Carbonated Water",
+            "icon": {
+              "src": "/icons/assortedsodas/soda_carbonated_water.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

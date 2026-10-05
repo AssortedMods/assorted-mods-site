@@ -1,0 +1,35 @@
+{
+  "id": "assortedbuildingblocks:granite_bricks_from_granite_stonecutting",
+  "type": "stonecutting",
+  "typeLabel": "Stonecutting",
+  "station": "Stonecutter",
+  "gui": "stonecutter",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedbuildingblocks:granite_bricks",
+        "name": "Granite Bricks",
+        "icon": {
+          "src": "/icons/assortedbuildingblocks/granite_bricks.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:granite",
+        "name": "Granite",
+        "icon": {
+          "src": "/icons/minecraft/granite.png",
+          "pixelated": false
+        }
+      }
+    ]
+  }
+}

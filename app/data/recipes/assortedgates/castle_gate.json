@@ -1,0 +1,69 @@
+{
+  "id": "assortedgates:castle_gate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedgates:castle_gate",
+        "name": "Castle Gate",
+        "icon": {
+          "src": "/icons/assortedgates/castle_gate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 1,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedgates:gate_grating",
+            "name": "Gate Grating",
+            "icon": {
+              "src": "/icons/assortedgates/gate_grating.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedgates:gate_grating",
+            "name": "Gate Grating",
+            "icon": {
+              "src": "/icons/assortedgates/gate_grating.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedgates:gate_grating",
+            "name": "Gate Grating",
+            "icon": {
+              "src": "/icons/assortedgates/gate_grating.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "assortedkitchen:cheese",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 9,
+    "items": [
+      {
+        "id": "assortedkitchen:cheese",
+        "name": "Cheese",
+        "icon": {
+          "src": "/icons/assortedkitchen/cheese.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedkitchen:cheese_block",
+          "name": "Cheese Block",
+          "icon": {
+            "src": "/icons/assortedkitchen/cheese_block.png",
+            "pixelated": false
+          }
+        }
+      ]
+    }
+  ]
+}

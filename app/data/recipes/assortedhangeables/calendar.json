@@ -1,0 +1,111 @@
+{
+  "id": "assortedhangeables:calendar",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedhangeables:calendar",
+        "name": "Calendar",
+        "icon": {
+          "src": "/icons/assortedhangeables/calendar.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 2,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "name": "Paper",
+            "icon": {
+              "src": "/icons/minecraft/paper.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

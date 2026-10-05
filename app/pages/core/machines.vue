@@ -1,28 +1,38 @@
 <template>
-  <div id="content">
-    <h1><a name="machines">Machines</a></h1>
+  <PartPage
+    family="core"
+    part="machines"
+  >
     <p>
-      Assorted Core adds two machines to process the ores that it adds. Once allows you to break
-      ores and ingots down into the dust forms. The other allows you to smelt items together to
-      create alloys.
+      Assorted Machines adds two machines to process ores. One allows you to break ores and ingots
+      down into the dust forms. The other allows you to smelt items together to create alloys.
     </p>
+    <img src="\mods\core\machines.webp">
     <p>
       The machines added each have 4 tiers which determine how fast they process. The 4 tiers are
-      Basic, Intermediate, Advanced, and Expert. <b>All machines are setup to support JEI.</b>
+      Basic, Intermediate, Advanced, and Expert. <b>All machines are set up to support JEI.</b>
     </p>
-    <h2><a name="machine_core">Machine Core</a></h2>
-    <Recipe id="assortedcore:machine_core" />
+    <SectionHeading name="machine_core">
+      Machine Core
+    </SectionHeading>
     <p>
       To get started building the machines you will first need to craft a machine core that is used
-      as the base for all machines.
+      as the base for all machines. It can be made with copper ingots, or with aluminum ingots when a
+      mod like Assorted Ores adds them.
     </p>
-
-    <h2><a name="grinding_mill">Grinding Mill</a></h2>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <Recipe id="assortedcore:basic_grinding_mill" />
-      <Recipe id="assortedcore:intermediate_grinding_mill" />
-      <Recipe id="assortedcore:advanced_grinding_mill" />
-      <Recipe id="assortedcore:expert_grinding_mill" />
+      <Recipe id="assortedmachines:machine_core" />
+      <Recipe id="assortedmachines:machine_core_from_copper" />
+    </div>
+
+    <SectionHeading name="grinding_mill">
+      Grinding Mill
+    </SectionHeading>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedmachines:basic_grinding_mill" />
+      <Recipe id="assortedmachines:intermediate_grinding_mill" />
+      <Recipe id="assortedmachines:advanced_grinding_mill" />
+      <Recipe id="assortedmachines:expert_grinding_mill" />
     </div>
     <p>
       The grinding mill can be used to break ores and ingots down farther. If using an ore it will
@@ -31,24 +41,32 @@
     </p>
 
     <p>
-      The grinding mill requires an iron tier or better pickaxe in the tool slot. This will allow it
+      The grinding mill requires an iron tier or better pickaxe in the tool slot. A multitool from
+      Assorted Multitools of iron or better works too. This will allow it
       to be able to break open the ores. Besides a tool you will need a fuel source to power it. This can be any
       fuel that furnaces can use. You are able to pipe in items via the top and sides with hoppers.
       You can use a hopper underneath the Grinding Mill to pull out the output.
     </p>
 
-    <h3>Example Grinding Mill recipe:</h3>
+    <SectionHeading
+      name="grinding_mill_recipes"
+      :level="3"
+    >
+      Example Grinding Mill Recipes
+    </SectionHeading>
     <div class="flex flex-wrap gap-4">
-      <Recipe id="assortedcore:iron_dust_from_ingot" />
-      <Recipe id="assortedcore:iron_dust" />
+      <Recipe id="assortedmachines:iron_dust_from_ingot" />
+      <Recipe id="assortedmachines:iron_dust" />
     </div>
 
-    <h2><a name="alloy_forge">Alloy Forge</a></h2>
+    <SectionHeading name="alloy_forge">
+      Alloy Forge
+    </SectionHeading>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <Recipe id="assortedcore:basic_alloy_forge" />
-      <Recipe id="assortedcore:intermediate_alloy_forge" />
-      <Recipe id="assortedcore:advanced_alloy_forge" />
-      <Recipe id="assortedcore:expert_alloy_forge" />
+      <Recipe id="assortedmachines:basic_alloy_forge" />
+      <Recipe id="assortedmachines:intermediate_alloy_forge" />
+      <Recipe id="assortedmachines:advanced_alloy_forge" />
+      <Recipe id="assortedmachines:expert_alloy_forge" />
     </div>
 
     <p>
@@ -62,17 +80,43 @@
       hopper underneath the Alloy Forge to pull out the output.
     </p>
 
-    <h3>Added by Assorted Core:</h3>
+    <SectionHeading name="alloys">
+      Alloys
+    </SectionHeading>
     <p>
-      Assorted Core adds support for the Alloy Forge to create Bronze, Electrum, Invar, and Steel alloys. They are shown below.
+      Assorted Machines adds support for the Alloy Forge to create Bronze, Electrum, Invar, and
+      Steel alloys. They are shown below. Each alloy can be used to create ingots, nuggets, dusts,
+      gears, and storage blocks.
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <Recipe id="assortedcore:bronze_ingot" />
-      <Recipe id="assortedcore:electrum_ingot" />
-      <Recipe id="assortedcore:invar_ingot" />
-      <Recipe id="assortedcore:steel_ingot" />
+      <Recipe id="assortedmachines:bronze_ingot" />
+      <Recipe id="assortedmachines:electrum_ingot" />
+      <Recipe id="assortedmachines:invar_ingot" />
+      <Recipe id="assortedmachines:steel_ingot" />
     </div>
-  </div>
+
+    <SectionHeading name="dusts_and_gears">
+      Dusts and Gears
+    </SectionHeading>
+    <p>
+      Iron, gold, and copper also get a dust and a gear here. Every metal can be made into a gear.
+      Machines and the other Assorted mods can be built out of them.
+    </p>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <Recipe id="assortedmachines:iron_gear" />
+      <Recipe id="assortedmachines:steel_gear" />
+    </div>
+
+    <SectionHeading name="config">
+      Config
+    </SectionHeading>
+    <p>
+      These are in the <i class="text-gray-600">assortedmachines-common</i> config file.
+    </p>
+    <ul class="list-disc list-outside mx-6">
+      <li><i>general.grindingMillHasBreakSound</i> plays the breaking sound when the grinding mill breaks a block. On by default.</li>
+    </ul>
+  </PartPage>
 </template>
 
 <script setup lang="ts">

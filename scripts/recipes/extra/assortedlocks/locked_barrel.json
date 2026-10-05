@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:barrels/wooden",
+    "assortedlocks:locksmith_lock"
+  ],
+  "result": {
+    "id": "assortedlocks:locked_barrel"
+  },
+  "site": {
+    "note": "The lock needs a code set on a Locksmith Workbench first. The barrel is locked with that code."
+  }
+}

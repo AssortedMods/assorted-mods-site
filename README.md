@@ -31,9 +31,28 @@ yarn preview    # serve the built site locally
 yarn lint
 ```
 
+## Mods
+
+Each family (Assorted Tech and so on) has a page at `/<family>`, and each of its mods has its own
+page at `/<family>/<mod>` built on the `PartPage` component. The list of families and mods, their
+names, descriptions, download pages and logos come from the mod repos:
+
+```bash
+yarn mods          # regenerate app/data/mods.json and public/logos
+yarn mods --check  # only report what is missing
+```
+
+It reads each repo's root `gradle.properties` (`family_name`, `assorted_mods`) and every mod's own
+`gradle.properties` (`mod_name`, `mod_description`, `curseforge_slug`, `modrinth_id`). Assorted Lib is
+read the same way from `../AssortedLib` but is not a family. It has its own page at `/lib`, last in the
+sidebar and left off the landing page, where the config every mod shares is listed. A download link
+shows as "soon" until the mod has that id. `scripts/mods/overrides.json` holds what gradle.properties
+does not, like a nicer Modrinth slug or a family with no bundle. Rerun it when a mod gets its store
+pages or a new logo. When a page moves, add the old path to `redirects.json` so links keep working.
+
 ## Recipes
 
-Recipes on the pages are `<Recipe id="assortedcore:machine_core" />` components. They read
+Recipes on the pages are `<Recipe id="assortedmachines:machine_core" />` components. They read
 `app/data/recipes/<namespace>/<path>.json` and the item icons in `public/icons`, both generated
 from the mods' datagen output and icon exports by:
 
@@ -42,18 +61,20 @@ yarn recipes          # regenerate app/data/recipes and public/icons
 yarn recipes --check  # only report what would change and any problems
 ```
 
-The script scans the pages for every `<Recipe id>`, reads the recipe from the sibling mod
-checkout (`../Assorted*/common/src/generated/server`), resolves tags and names, and copies the
+The script scans the pages for every `<Recipe id>`, reads the recipe from each mod in the sibling
+repos (`../Assorted*/mods/*/common/src/generated/server`), resolves tags and names, and copies the
 icons out of the mods' icon exports. The icons are rendered by the game itself: in a mod
 checkout,
 
 ```bash
-./gradlew :neoforge:runExportIcons
+./gradlew :all:neoforge:runExportIcons
 ```
+
+(or `:<mod>:neoforge:runExportIcons` for a single mod)
 
 starts the client with the `IconExporter` from AssortedLib armed, which joins a throwaway flat
 world, draws every loaded item the way the inventory does (models, block entity renderers,
-tints, lighting) into `neoforge/build/icons` and quits. Rerun it in a mod whenever its models
+tints, lighting) into the repo's `build/icons` and quits. Rerun it in a mod whenever its models
 or textures change, then `yarn recipes`. Items whose icon depends on components (the coloured
 sidings) are listed in `scripts/recipes/icon-stacks.json`, which `yarn recipes` maintains and the
 export runs read, so a new variant takes one more export run after the page referencing it is

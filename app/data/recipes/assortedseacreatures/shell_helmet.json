@@ -1,0 +1,98 @@
+{
+  "id": "assortedseacreatures:shell_helmet",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedseacreatures:shell_helmet",
+        "name": "Shell Helmet",
+        "icon": {
+          "src": "/icons/assortedseacreatures/shell_helmet.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedseacreatures:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedseacreatures/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedseacreatures:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedseacreatures/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedseacreatures:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedseacreatures/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedseacreatures:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedseacreatures/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedseacreatures:sea_shell",
+            "name": "Sea Shell",
+            "icon": {
+              "src": "/icons/assortedseacreatures/sea_shell.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

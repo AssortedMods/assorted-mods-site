@@ -1,0 +1,111 @@
+{
+  "id": "assortedcolorizer:colorizer_door",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 3,
+    "items": [
+      {
+        "id": "assortedcolorizer:colorizer_door",
+        "name": "Colorizer Door",
+        "icon": {
+          "src": "/icons/assortedcolorizer/colorizer_door.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 2,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedcolorizer:colorizer",
+            "name": "Colorizer",
+            "icon": {
+              "src": "/icons/assortedcolorizer/colorizer.png",
+              "pixelated": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

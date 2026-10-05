@@ -1,0 +1,51 @@
+{
+  "id": "assortedbuildingblocks:mossy_granite_bricks_from_vine",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedbuildingblocks:mossy_granite_bricks",
+        "name": "Mossy Granite Bricks",
+        "icon": {
+          "src": "/icons/assortedbuildingblocks/mossy_granite_bricks.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedbuildingblocks:granite_bricks",
+          "name": "Granite Bricks",
+          "icon": {
+            "src": "/icons/assortedbuildingblocks/granite_bricks.png",
+            "pixelated": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "minecraft:vine",
+          "name": "Vines",
+          "icon": {
+            "src": "/icons/minecraft/vine.png",
+            "pixelated": true
+          }
+        }
+      ]
+    }
+  ]
+}

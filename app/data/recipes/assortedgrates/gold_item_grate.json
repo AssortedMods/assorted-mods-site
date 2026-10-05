@@ -1,0 +1,111 @@
+{
+  "id": "assortedgrates:gold_item_grate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 8,
+    "items": [
+      {
+        "id": "assortedgrates:gold_item_grate",
+        "name": "Gold Item Grate",
+        "icon": {
+          "src": "/icons/assortedgrates/gold_item_grate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:ingots/gold",
+        "label": "gold ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gold_ingot",
+            "name": "Gold Ingot",
+            "icon": {
+              "src": "/icons/minecraft/gold_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/gold",
+        "label": "gold ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gold_ingot",
+            "name": "Gold Ingot",
+            "icon": {
+              "src": "/icons/minecraft/gold_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/gold",
+        "label": "gold ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gold_ingot",
+            "name": "Gold Ingot",
+            "icon": {
+              "src": "/icons/minecraft/gold_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/gold",
+        "label": "gold ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gold_ingot",
+            "name": "Gold Ingot",
+            "icon": {
+              "src": "/icons/minecraft/gold_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      null,
+      {
+        "kind": "tag",
+        "tag": "c:ingots/gold",
+        "label": "gold ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:gold_ingot",
+            "name": "Gold Ingot",
+            "icon": {
+              "src": "/icons/minecraft/gold_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

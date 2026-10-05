@@ -1,90 +1,13 @@
 <template>
-  <div>
-    <ModHome mod="tech" />
-    <div class="flex justify-center">
+  <FamilyHome family="tech">
+    <div class="flex justify-center mb-8">
       <img
         class="border-black border-2 py-0"
-        src="\mods\tech\tech.png"
+        src="\mods\tech\tech.webp"
+        alt="A laser bridge across the lab, sensors lighting lamps, an alarm box, flip flop torches, instant elevators, a fan, a gravitor, attractor and repulsor, an extruder, spikes popped out of the floor and item grates."
       >
     </div>
-    <br>
-    <div class="flex justify-center">
-      <ul class="list-none">
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/tech/fans"
-          >
-            Fans
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/tech/sensors"
-          >
-            Sensors
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/tech/spikes"
-          >
-            Spikes
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/tech/bridges"
-          >
-            Bridges
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/tech/gravity"
-          >
-            Gravity
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/tech/alarm"
-          >
-            Alarm
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/tech/torches"
-          >
-            Torches
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/tech/extruder"
-          >
-            Extruder
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/tech/metal-mesh"
-          >
-            Metal Mesh
-          </NuxtLink>
-        </li>
-      </ul>
-    </div>
-  </div>
+  </FamilyHome>
 </template>
 
 <script setup lang="ts">

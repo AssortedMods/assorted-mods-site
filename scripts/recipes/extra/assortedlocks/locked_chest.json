@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:chests/wooden",
+    "assortedlocks:locksmith_lock"
+  ],
+  "result": {
+    "id": "assortedlocks:locked_chest"
+  },
+  "site": {
+    "note": "The lock needs a code set on a Locksmith Workbench first. The chest is locked with that code."
+  }
+}

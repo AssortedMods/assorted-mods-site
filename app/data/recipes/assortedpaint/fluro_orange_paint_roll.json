@@ -1,0 +1,173 @@
+{
+  "id": "assortedpaint:fluro_orange_paint_roll",
+  "type": "shapeless",
+  "typeLabel": "Shapeless crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedlights:fluro_orange",
+        "name": "Orange Fluro Tube",
+        "icon": {
+          "src": "/icons/assortedlights/fluro_orange.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "kind": "item",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedpaint:paint_roller_orange",
+          "name": "Orange Paint Roller",
+          "icon": {
+            "src": "/icons/assortedpaint/paint_roller_orange.png",
+            "pixelated": true
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tag",
+      "tag": "assortedlights:fluro",
+      "label": "fluro",
+      "count": 1,
+      "items": [
+        {
+          "id": "assortedlights:fluro_white",
+          "name": "White Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_white.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_orange",
+          "name": "Orange Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_orange.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_magenta",
+          "name": "Magenta Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_magenta.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_light_blue",
+          "name": "Light Blue Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_light_blue.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_yellow",
+          "name": "Yellow Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_yellow.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_lime",
+          "name": "Lime Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_lime.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_pink",
+          "name": "Pink Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_pink.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_gray",
+          "name": "Gray Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_gray.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_light_gray",
+          "name": "Light Gray Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_light_gray.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_cyan",
+          "name": "Cyan Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_cyan.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_purple",
+          "name": "Purple Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_purple.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_blue",
+          "name": "Blue Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_blue.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_brown",
+          "name": "Brown Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_brown.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_green",
+          "name": "Green Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_green.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_red",
+          "name": "Red Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_red.png",
+            "pixelated": false
+          }
+        },
+        {
+          "id": "assortedlights:fluro_black",
+          "name": "Black Fluro Tube",
+          "icon": {
+            "src": "/icons/assortedlights/fluro_black.png",
+            "pixelated": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "assortedbuildingblocks:decorative_path_stonecutting",
+  "type": "stonecutting",
+  "typeLabel": "Stonecutting",
+  "station": "Stonecutter",
+  "gui": "stonecutter",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedbuildingblocks:decorative_stone",
+        "name": "Decorative Stone",
+        "icon": {
+          "src": "/icons/assortedbuildingblocks/decorative_stone.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:stone",
+        "name": "Stone",
+        "icon": {
+          "src": "/icons/minecraft/stone.png",
+          "pixelated": false
+        }
+      }
+    ]
+  }
+}

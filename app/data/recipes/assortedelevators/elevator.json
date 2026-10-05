@@ -1,0 +1,169 @@
+{
+  "id": "assortedelevators:elevator",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedelevators:elevator",
+        "name": "Elevator",
+        "icon": {
+          "src": "/icons/assortedelevators/elevator.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:piston",
+            "name": "Piston",
+            "icon": {
+              "src": "/icons/minecraft/piston.png",
+              "pixelated": false
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:dusts/redstone",
+        "label": "redstone dusts",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:redstone",
+            "name": "Redstone Dust",
+            "icon": {
+              "src": "/icons/minecraft/redstone.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

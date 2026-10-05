@@ -1,0 +1,35 @@
+{
+  "id": "assortedbuildingblocks:framed_oak_planks_from_oak_planks_lumber_mill",
+  "type": "stonecutting",
+  "typeLabel": "Lumber milling",
+  "station": "Lumber Mill",
+  "gui": "stonecutter",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedbuildingblocks:framed_oak_planks",
+        "name": "Framed Oak Planks",
+        "icon": {
+          "src": "/icons/assortedbuildingblocks/framed_oak_planks.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:oak_planks",
+        "name": "Oak Planks",
+        "icon": {
+          "src": "/icons/minecraft/oak_planks.png",
+          "pixelated": false
+        }
+      }
+    ]
+  }
+}

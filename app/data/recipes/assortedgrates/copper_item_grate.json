@@ -1,0 +1,83 @@
+{
+  "id": "assortedgrates:copper_item_grate",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 4,
+    "items": [
+      {
+        "id": "assortedgrates:copper_item_grate",
+        "name": "Copper Item Grate",
+        "icon": {
+          "src": "/icons/assortedgrates/copper_item_grate.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 2,
+    "height": 2,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_bars",
+            "name": "Copper Bars",
+            "icon": {
+              "src": "/icons/minecraft/copper_bars.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_bars",
+            "name": "Copper Bars",
+            "icon": {
+              "src": "/icons/minecraft/copper_bars.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_bars",
+            "name": "Copper Bars",
+            "icon": {
+              "src": "/icons/minecraft/copper_bars.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_bars",
+            "name": "Copper Bars",
+            "icon": {
+              "src": "/icons/minecraft/copper_bars.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

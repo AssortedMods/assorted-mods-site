@@ -1,0 +1,35 @@
+{
+  "id": "assortedbuildingblocks:iron_bricks_from_iron_block_stonecutting",
+  "type": "stonecutting",
+  "typeLabel": "Stonecutting",
+  "station": "Stonecutter",
+  "gui": "stonecutter",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedbuildingblocks:iron_bricks",
+        "name": "Iron Bricks",
+        "icon": {
+          "src": "/icons/assortedbuildingblocks/iron_bricks.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:iron_block",
+        "name": "Block of Iron",
+        "icon": {
+          "src": "/icons/minecraft/iron_block.png",
+          "pixelated": false
+        }
+      }
+    ]
+  }
+}

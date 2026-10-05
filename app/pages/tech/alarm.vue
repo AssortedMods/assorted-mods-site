@@ -1,11 +1,13 @@
 <template>
-  <div id="content">
-    <h1><a name="alarm">Alarms</a></h1>
+  <PartPage
+    family="tech"
+    part="alarm"
+  >
     <p>
       Alarms are blocks that when powered with redstone will play a predefined sound that you set.
       They can also be placed on any side of a block as well as be waterlogged.
     </p>
-    <Recipe id="assortedtech:alarm" />
+    <Recipe id="assortedalarm:alarm" />
     <img src="\mods\tech\alarm.png">
 
     <p>
@@ -15,7 +17,7 @@
       changes make sure you click the <i>Done</i> button at the bottom.
     </p>
     <img src="\mods\tech\alarm_gui.png">
-  </div>
+  </PartPage>
 </template>
 
 <script setup lang="ts">

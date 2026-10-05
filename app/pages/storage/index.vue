@@ -1,74 +1,13 @@
 <template>
-  <div>
-    <ModHome mod="storage" />
-    <div class="flex justify-center">
+  <FamilyHome family="storage">
+    <div class="flex justify-center mb-8">
       <img
         class="border-black border-2 py-0"
-        src="\mods\storage\storage.png"
+        src="\mods\storage\storage.webp"
+        alt="A crate wall with its controller, material chests under hoppers, barrels and shulker boxes, lockers, safes, cabinets and an item tower, bags and level upgrades framed above, and a locked chest by the locksmith workbench."
       >
     </div>
-    <br>
-    <div class="flex justify-center">
-      <ul class="list-none">
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/storage/locksmith"
-          >
-            Locksmith
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/storage/storage-crates"
-          >
-            Storage Crates
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/storage/better-storage"
-          >
-            Better Storage
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/storage/bags"
-          >
-            Bags
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/storage/enderchest"
-          >
-            Locked Ender Chest
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/storage/lockeable"
-          >
-            Lockeable Storage
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="text-gray-300 hover:text-gray-500 text-lg block mb-2 mx-4 no-underline"
-            to="/storage/item-tower"
-          >
-            Item Tower
-          </NuxtLink>
-        </li>
-      </ul>
-    </div>
-  </div>
+  </FamilyHome>
 </template>
 
 <script setup lang="ts">

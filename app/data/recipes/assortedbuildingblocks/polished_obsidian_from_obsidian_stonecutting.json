@@ -1,0 +1,35 @@
+{
+  "id": "assortedbuildingblocks:polished_obsidian_from_obsidian_stonecutting",
+  "type": "stonecutting",
+  "typeLabel": "Stonecutting",
+  "station": "Stonecutter",
+  "gui": "stonecutter",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedbuildingblocks:polished_obsidian",
+        "name": "Polished Obsidian",
+        "icon": {
+          "src": "/icons/assortedbuildingblocks/polished_obsidian.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:obsidian",
+        "name": "Obsidian",
+        "icon": {
+          "src": "/icons/minecraft/obsidian.png",
+          "pixelated": false
+        }
+      }
+    ]
+  }
+}

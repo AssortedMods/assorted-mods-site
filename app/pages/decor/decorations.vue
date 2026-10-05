@@ -1,63 +1,72 @@
 <template>
-  <div id="content">
-    <h1><a name="decorations">Decorations</a></h1>
+  <PartPage
+    family="decor"
+    part="decorations"
+  >
     <p>
       Are you looking for a bit more decorations for interior design. Then check some of these
       blocks out!
     </p>
     <img src="\mods\decor\decorations.png">
 
-    <h2><a name="decorations">Decorations</a></h2>
+    <SectionHeading name="decorations">
+      Decorations
+    </SectionHeading>
     <p>
       These decorations have a number of different designs that they can cycle between with a right
       click to find the right look just for you.
     </p>
     <br>
-    <h3><a name="clay_decoration">Clay</a></h3>
+    <SectionHeading
+      name="clay_decoration"
+      :level="3"
+    >
+      Clay
+    </SectionHeading>
     <p>
       The clay decoration you will need to make sure that you smelt the unfired version to be able
       to place the fired version.
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <Recipe id="assorteddecor:unfired_clay_decoration" />
-      <Recipe id="assorteddecor:clay_decoration" />
+      <Recipe id="assorteddecorations:unfired_clay_decoration" />
+      <Recipe id="assorteddecorations:clay_decoration" />
     </div>
-    <h3><a name="bone_decoration">Bone</a></h3>
-    <Recipe id="assorteddecor:bone_decoration" />
+    <SectionHeading
+      name="bone_decoration"
+      :level="3"
+    >
+      Bone
+    </SectionHeading>
+    <p>A bone decoration needs no firing. Place it and right click to cycle through the shapes.</p>
+    <Recipe id="assorteddecorations:bone_decoration" />
 
-    <h2><a name="lanterns">Lanterns</a></h2>
+    <SectionHeading name="planter">
+      Planter Pot
+    </SectionHeading>
     <p>
-      There are also Lanterns that are added to provide a bit of variety in interior lighting
-      options. <i>All Lanterns crafting can use any Candle or any Torch</i>.
+      The planter pot can be used to plant all sorts of different plants on it depending on the top
+      that is currently set. Right clicking on the block with an empty hand will rotate the type
+      which you can see by the texture on the top. Depending on the top it will check if the plant
+      that is trying to be placed is supported. Other checks like if water is nearby still come into
+      play.
     </p>
-    <br>
-    <h3><a name="paper_lantern">Paper</a></h3>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <Recipe id="assorteddecor:paper_lantern" />
-    </div>
-    <h3><a name="bone_lantern">Bone</a></h3>
-    <Recipe id="assorteddecor:bone_lantern" />
-    <h3><a name="iron_lantern">Iron</a></h3>
-    <Recipe id="assorteddecor:iron_lantern" />
-
-    <h2><a name="fountain">Fountain</a></h2>
-    <Recipe id="assorteddecor:fountain" />
+    <Recipe id="assorteddecorations:unfired_planter_pot" />
     <p>
-      The Fountain is a block that when powered provides a tiny little splash of water effect.
+      You will need to smelt an unfired planter pot to get a block you can actually place.
+    </p>
+    <Recipe id="assorteddecorations:planter_pot" />
+    <img src="\mods\decor\planter_pot.png">
+
+    <SectionHeading name="fountain">
+      Fountain
+    </SectionHeading>
+    <Recipe id="assorteddecorations:fountain" />
+    <p>
+      The Fountain is a block that when powered provides a tiny little splash of water effect. Steel
+      or aluminum ingots can take the place of the iron if you have a mod that adds them.
     </p>
     <img src="\mods\decor\fountain.png">
-
-    <h2><a name="stone">Stone</a></h2>
-    <p>
-      There are also some extra variants of stone that you can now get when you put stone in the
-      Stonecutter.
-    </p>
-    <br>
-    <h3><a name="decorative_stone">Decorative Stone</a></h3>
-    <Recipe id="assorteddecor:decorative_path_stonecutting" />
-    <h3><a name="stone_path">Stone Path</a></h3>
-    <Recipe id="assorteddecor:stone_path_stonecutting" />
-  </div>
+  </PartPage>
 </template>
 
 <script setup lang="ts">

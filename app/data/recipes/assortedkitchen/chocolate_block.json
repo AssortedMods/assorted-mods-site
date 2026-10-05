@@ -1,0 +1,153 @@
+{
+  "id": "assortedkitchen:chocolate_block",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedkitchen:chocolate_block",
+        "name": "Chocolate Block",
+        "icon": {
+          "src": "/icons/assortedkitchen/chocolate_block.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedkitchen:chocolate_bar",
+            "name": "Chocolate Bar",
+            "icon": {
+              "src": "/icons/assortedkitchen/chocolate_bar.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedkitchen:chocolate_bar",
+            "name": "Chocolate Bar",
+            "icon": {
+              "src": "/icons/assortedkitchen/chocolate_bar.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedkitchen:chocolate_bar",
+            "name": "Chocolate Bar",
+            "icon": {
+              "src": "/icons/assortedkitchen/chocolate_bar.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedkitchen:chocolate_bar",
+            "name": "Chocolate Bar",
+            "icon": {
+              "src": "/icons/assortedkitchen/chocolate_bar.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedkitchen:chocolate_bar",
+            "name": "Chocolate Bar",
+            "icon": {
+              "src": "/icons/assortedkitchen/chocolate_bar.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedkitchen:chocolate_bar",
+            "name": "Chocolate Bar",
+            "icon": {
+              "src": "/icons/assortedkitchen/chocolate_bar.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedkitchen:chocolate_bar",
+            "name": "Chocolate Bar",
+            "icon": {
+              "src": "/icons/assortedkitchen/chocolate_bar.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedkitchen:chocolate_bar",
+            "name": "Chocolate Bar",
+            "icon": {
+              "src": "/icons/assortedkitchen/chocolate_bar.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "item",
+        "count": 1,
+        "items": [
+          {
+            "id": "assortedkitchen:chocolate_bar",
+            "name": "Chocolate Bar",
+            "icon": {
+              "src": "/icons/assortedkitchen/chocolate_bar.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

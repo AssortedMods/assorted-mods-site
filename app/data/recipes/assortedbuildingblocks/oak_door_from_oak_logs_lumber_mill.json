@@ -1,0 +1,61 @@
+{
+  "id": "assortedbuildingblocks:oak_door_from_oak_logs_lumber_mill",
+  "type": "stonecutting",
+  "typeLabel": "Lumber milling",
+  "station": "Lumber Mill",
+  "gui": "stonecutter",
+  "result": {
+    "kind": "item",
+    "count": 2,
+    "items": [
+      {
+        "id": "minecraft:oak_door",
+        "name": "Oak Door",
+        "icon": {
+          "src": "/icons/minecraft/oak_door.png",
+          "pixelated": true
+        }
+      }
+    ]
+  },
+  "input": {
+    "kind": "tag",
+    "tag": "minecraft:oak_logs",
+    "label": "oak logs",
+    "count": 1,
+    "items": [
+      {
+        "id": "minecraft:oak_log",
+        "name": "Oak Log",
+        "icon": {
+          "src": "/icons/minecraft/oak_log.png",
+          "pixelated": false
+        }
+      },
+      {
+        "id": "minecraft:oak_wood",
+        "name": "Oak Wood",
+        "icon": {
+          "src": "/icons/minecraft/oak_wood.png",
+          "pixelated": false
+        }
+      },
+      {
+        "id": "minecraft:stripped_oak_log",
+        "name": "Stripped Oak Log",
+        "icon": {
+          "src": "/icons/minecraft/stripped_oak_log.png",
+          "pixelated": false
+        }
+      },
+      {
+        "id": "minecraft:stripped_oak_wood",
+        "name": "Stripped Oak Wood",
+        "icon": {
+          "src": "/icons/minecraft/stripped_oak_wood.png",
+          "pixelated": false
+        }
+      }
+    ]
+  }
+}

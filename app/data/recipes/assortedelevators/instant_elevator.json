@@ -1,0 +1,171 @@
+{
+  "id": "assortedelevators:instant_elevator",
+  "type": "shaped",
+  "typeLabel": "Shaped crafting",
+  "station": "Crafting Table",
+  "gui": "crafting",
+  "result": {
+    "kind": "item",
+    "count": 1,
+    "items": [
+      {
+        "id": "assortedelevators:instant_elevator",
+        "name": "Instant Elevator",
+        "icon": {
+          "src": "/icons/assortedelevators/instant_elevator.png",
+          "pixelated": false
+        }
+      }
+    ]
+  },
+  "grid": {
+    "width": 3,
+    "height": 3,
+    "slots": [
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:dusts/redstone",
+        "label": "redstone dusts",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:redstone",
+            "name": "Redstone Dust",
+            "icon": {
+              "src": "/icons/minecraft/redstone.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ender_pearls",
+        "label": "ender pearls",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:ender_pearl",
+            "name": "Ender Pearl",
+            "icon": {
+              "src": "/icons/minecraft/ender_pearl.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      },
+      {
+        "kind": "tag",
+        "tag": "c:ingots/copper",
+        "label": "copper ingots",
+        "count": 1,
+        "items": [
+          {
+            "id": "minecraft:copper_ingot",
+            "name": "Copper Ingot",
+            "icon": {
+              "src": "/icons/minecraft/copper_ingot.png",
+              "pixelated": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

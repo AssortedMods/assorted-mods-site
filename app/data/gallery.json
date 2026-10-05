@@ -1,0 +1,2101 @@
+{
+ "core/core": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/core/core/1-everything.webp",
+    "title": "Everything in Core",
+    "caption": "Every machine tier in the workshop, with each ore beside its storage block and the alloy blocks in the middle.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/core/core/2-cave.webp",
+    "title": "Ores",
+    "caption": "A cave with all ten ores in its walls. Silver, ruby and platinum sit down in the deepslate.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/core/core/3-machines.webp",
+    "title": "Machines",
+    "caption": "Every tier of the grinding mill and alloy forge, fed by hoppers, with a machine core in the middle.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/core/core/4-blocks.webp",
+    "title": "Storage Blocks",
+    "caption": "Every metal and gem packs into a storage block, and the raw ores pack into raw blocks too.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/core/core/5-grinding-mill.webp",
+    "title": "Grinding Mill",
+    "caption": "Raw iron going into a grinding mill and coming out as two dusts each.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/core/core/6-alloy-forge.webp",
+    "title": "Alloy Forge",
+    "caption": "Copper and tin dust turning into bronze ingots.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/core/core/7-alloys.webp",
+    "title": "Alloys",
+    "caption": "Bronze, electrum, invar and steel ingots, gears, dusts and blocks.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "core/machines": {
+  "clips": [
+   {
+    "src": "/gallery/core/machines/clip.webp",
+    "caption": "An expert grinding mill turning raw iron into two iron dusts each."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/core/machines/1-machines.webp",
+    "title": "Machines",
+    "caption": "Every tier of the grinding mill and alloy forge, fed by hoppers, with a machine core in the middle.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/core/machines/2-grinding-mill.webp",
+    "title": "Grinding Mill",
+    "caption": "Raw iron going into an expert grinding mill and coming out as two dusts each. The pickaxe in the top slot does the grinding and wears down as it goes.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/core/machines/3-alloy-forge.webp",
+    "title": "Alloy Forge",
+    "caption": "Copper and tin dust turning into bronze ingots.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/core/machines/4-alloys.webp",
+    "title": "Alloys",
+    "caption": "Bronze, electrum, invar and steel ingots, gears, dusts and blocks.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "core/ores": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/core/ores/1-cave.webp",
+    "title": "Ores",
+    "caption": "A cave with all ten ores in its walls. Silver, ruby and platinum sit down in the deepslate.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/core/ores/2-blocks.webp",
+    "title": "Storage Blocks",
+    "caption": "Every metal and gem packs into a storage block, and the raw ores pack into raw blocks too.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/core/ores/4-inventory.webp",
+    "title": "Everything You Get",
+    "caption": "Raw ores, ingots, dusts, nuggets, gears and gems.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "cuisine/cuisine": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/cuisine/cuisine/1-everything.webp",
+    "title": "Everything in Cuisine",
+    "caption": "The kitchen machines on the counter, every soda, dragon fruit and health item on the shelf above, and pies on the table.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/cuisine/2-kitchen.webp",
+    "title": "Kitchen",
+    "caption": "The kitchen machines on the counter, with the foods and tools on the wall.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/cuisine/3-machines.webp",
+    "title": "Machines at Work",
+    "caption": "The chocolate bar mold and cheese maker at every stage, with the butter churn between them.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/cuisine/4-sodas.webp",
+    "title": "Sodas",
+    "caption": "Every soda flavor on the shelf.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/cuisine/5-pies.webp",
+    "title": "Pies",
+    "caption": "Five pies, eaten a slice at a time like a cake.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/cuisine/6-health.webp",
+    "title": "Health",
+    "caption": "Sweets, bandages and health packs.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/cuisine/7-cacti.webp",
+    "title": "Dragon Fruit",
+    "caption": "Dragon fruit in the desert, next to the cacti they come from.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "cuisine/dragonfruit": {
+  "clips": [
+   {
+    "src": "/gallery/cuisine/dragonfruit/clip.webp",
+    "caption": "Breaking three cacti in the desert, with dragon fruit dropping from the last one."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/cuisine/dragonfruit/1-cacti.webp",
+    "title": "Dragon Fruit",
+    "caption": "Dragon fruit in the desert, next to the cacti they come from.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/dragonfruit/3-breaking.webp",
+    "title": "Breaking Cacti",
+    "caption": "Breaking a cactus sometimes drops a dragon fruit as well.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/dragonfruit/2-cutting.webp",
+    "title": "Cutting",
+    "caption": "A knife cuts a dragon fruit out of a cactus.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "cuisine/health": {
+  "clips": [
+   {
+    "src": "/gallery/cuisine/health/clip.webp",
+    "caption": "Putting on a super health pack while hurt, with six hearts coming straight back."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/cuisine/health/1-health.webp",
+    "title": "Health",
+    "caption": "Sweets, powered sugar and powered sweets on top, the bandage, health pack and super health pack below.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/health/2-healing.webp",
+    "title": "Healing",
+    "caption": "A super health pack puts six hearts back the moment it is on.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/health/3-super-health-pack.webp",
+    "title": "Super Health Pack",
+    "caption": "Four wool around powered sugar.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "cuisine/kitchen": {
+  "clips": [
+   {
+    "src": "/gallery/cuisine/kitchen/clip.webp",
+    "caption": "Filling the butter churn with milk and turning the handle until it hands over two butter."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/cuisine/kitchen/1-kitchen.webp",
+    "title": "Kitchen",
+    "caption": "The cheese block, butter churn, cheese maker, chocolate bar mold, chocolate cake and chocolate block on the counter, with the foods and tools on the wall.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/kitchen/3-machines.webp",
+    "title": "Machines at Work",
+    "caption": "The chocolate bar mold empty, setting and done, the butter churn, and the cheese maker going from milk to a finished cheese block.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/kitchen/2-churning.webp",
+    "title": "Butter Churn",
+    "caption": "Keep right clicking the churn to turn the handle, and it hands over two butter when it is done.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/kitchen/2-pies.webp",
+    "title": "Pies",
+    "caption": "Apple, pumpkin, melon, chocolate and pork pies, eaten a slice at a time like a cake.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/kitchen/4-bread-slices.webp",
+    "title": "Knife",
+    "caption": "The knife cuts a loaf into two slices and stays in the grid to use again.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "cuisine/sodas": {
+  "clips": [
+   {
+    "src": "/gallery/cuisine/sodas/clip.webp",
+    "caption": "Drinking an orange soda while hurt, with four hearts coming straight back."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/cuisine/sodas/1-sodas.webp",
+    "title": "Sodas",
+    "caption": "Every flavor on the shelf, from orange to diamond soda.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/cuisine/sodas/2-carbonated-water.webp",
+    "title": "Carbonated Water",
+    "caption": "A soda bottle, a CO2 canister and a bucket of water make carbonated water, the start of every soda.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "decor/buildingblocks": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/decor/buildingblocks/1-temple.webp",
+    "title": "Calcite Temple",
+    "caption": "Calcite columns, tiles, bricks and polished calcite, with carved creepers and a herringbone floor.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/buildingblocks/2-stones.webp",
+    "title": "Stone Patterns",
+    "caption": "Tiles, mossy bricks, carved creepers and fluted stone in granite, diorite, andesite, calcite, tuff and dripstone, between granite columns.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/buildingblocks/3-wood.webp",
+    "title": "Wood",
+    "caption": "Oak parquet, framed spruce planks and a dark oak beam, with the glass, quartz and steel doors and the lumber mill.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "decor/colorizer": {
+  "clips": [
+   {
+    "src": "/gallery/decor/colorizer/clip.webp",
+    "caption": "Painting a plain colorizer table with cherry planks and its two chairs with red and lime wool."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/decor/colorizer/1-cabin.webp",
+    "title": "Cabin",
+    "caption": "The table, chairs, counters, lamp posts, fireplace and chimney are all colorizer blocks, brushed to dark oak, polished andesite, spruce and stone bricks.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/colorizer/2-showroom.webp",
+    "title": "Every Shape",
+    "caption": "Slopes, pyramids, corners, slabs, stairs, panels, beams, columns, walls, fences, doors and furniture, each brushed with a different block.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "decor/decor": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/decor/decor/1-everything.webp",
+    "title": "Everything in Decor",
+    "caption": "A shop front with calcite building blocks, a garage door, neon signs, a wall clock and calendar, display cases, fluro trim, a colorizer roof line, planter pots and a painted road with roadway lights.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/decor/2-temple.webp",
+    "title": "Building Blocks",
+    "caption": "A calcite temple of columns, tiles, bricks and carved creepers.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/decor/3-showroom.webp",
+    "title": "Colorizer",
+    "caption": "Colorizer blocks in every shape, each brushed with a different block.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/decor/4-museum.webp",
+    "title": "Displays",
+    "caption": "Museum cases and display cases in every material.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/decor/5-fluro.webp",
+    "title": "Lights",
+    "caption": "A dance floor of fluro blocks.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/decor/6-parlor.webp",
+    "title": "Hangeables",
+    "caption": "Wallpaper, frames, neon signs, a wall clock and a calendar.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/decor/7-neon.webp",
+    "title": "Neon Signs",
+    "caption": "Neon signs by day and at night, when the text glows.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/decor/8-castle-gate.webp",
+    "title": "Gates",
+    "caption": "A castle gate in a gatehouse.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/decor/9-courtyard.webp",
+    "title": "Decorations",
+    "caption": "A garden with the fountain, planter pots and decorations.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/decor/10-road.webp",
+    "title": "Roads",
+    "caption": "A road lit by roadway lights at night.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/decor/11-rollers.webp",
+    "title": "Paint",
+    "caption": "A paint roller for every color.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "decor/decorations": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/decor/decorations/1-courtyard.webp",
+    "title": "Courtyard",
+    "caption": "A garden with the fountain spraying in its pool, planter pots full of flowers and clay and bone decorations.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/decorations/2-shed.webp",
+    "title": "Planter Pots",
+    "caption": "A planter pot for every soil, holding a cactus, a cornflower, wheat, a sapling and nether wart, with clay decorations on the shelf.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "decor/displays": {
+  "clips": [
+   {
+    "src": "/gallery/decor/displays/clip.webp",
+    "caption": "Putting a filled pokeball and spawn eggs in a cage to show off the mob inside."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/decor/displays/1-museum.webp",
+    "title": "Museum",
+    "caption": "Museum cases with named placards at the back, and a display case in wood, stone, copper, iron, gold and diamond in front.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/displays/2-sizes.webp",
+    "title": "Case Sizes",
+    "caption": "The resizing tool sets a case to one large item, four or nine.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/displays/3-cage.webp",
+    "title": "Cage",
+    "caption": "A panda on show in a cage, put there with a spawn egg.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "decor/gates": {
+  "clips": [
+   {
+    "src": "/gallery/decor/gates/clip.webp",
+    "caption": "Blowing the gate trumpet from the road opens the whole castle gate, and blowing it again closes it."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/decor/gates/1-castle-gate.webp",
+    "title": "Castle Gate",
+    "caption": "A castle gate hung in a gatehouse, four gates wide that open and close as one.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/gates/2-garage-door.webp",
+    "title": "Garage Door",
+    "caption": "A garage door dropped from the top of a garage opening.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "decor/hangeables": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/decor/hangeables/1-parlor.webp",
+    "title": "Parlor",
+    "caption": "Wallpaper on every wall, a wood frame between two neon signs, two iron frames, the wall clock and the calendar.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/hangeables/2-wallpaper.webp",
+    "title": "Wallpaper",
+    "caption": "All 24 wallpaper designs.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/hangeables/3-neon.webp",
+    "title": "Neon Signs",
+    "caption": "The same shop front by day on the left and at night on the right. The text glows in the dark, on each of the three backgrounds.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "decor/lights": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/decor/lights/1-fluro.webp",
+    "title": "Fluro Blocks",
+    "caption": "A dance floor and back wall of fluro blocks, lit by nothing but themselves.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/lights/2-lanterns.webp",
+    "title": "Lanterns",
+    "caption": "Paper lanterns hanging from a pergola, with bone and iron lanterns along the path.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/lights/3-tubes.webp",
+    "title": "Tubes and Plates",
+    "caption": "Illumination tubes on the walls and plates set into the floor and ceiling of a stone hall.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "decor/paint": {
+  "clips": [
+   {
+    "src": "/gallery/decor/paint/clip.webp",
+    "caption": "Rolling a white wool wall into red, yellow, lime, light blue and purple stripes."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/decor/paint/1-rollers.webp",
+    "title": "Rollers",
+    "caption": "A paint roller for every one of the sixteen colors.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/paint/2-painting.webp",
+    "title": "Painting",
+    "caption": "Each roller recolors wool, carpet, concrete or concrete powder where it sits.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "decor/roads": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/decor/roads/1-road.webp",
+    "title": "Roads at Night",
+    "caption": "A roadway with a dashed center line and a crosswalk, sidewalks and stone paths either side, lit by roadway lights.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/decor/roads/2-crossing.webp",
+    "title": "Markings",
+    "caption": "White line markings, a crosswalk, an open manhole and roadway lights.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "mobs/eightbit": {
+  "clips": [
+   {
+    "src": "/gallery/mobs/eightbit/clip.webp",
+    "caption": "Stepping off a tower with a tamed parabuzzy on your head and drifting gently down."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/mobs/eightbit/1-parabuzzies.webp",
+    "title": "Parabuzzies",
+    "caption": "Blue, red and both spiked parabuzzies, with a Bob-omb in front.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/mobs/eightbit/2-gliding.webp",
+    "title": "Gliding",
+    "caption": "A tamed parabuzzy riding on your head lets you drift down from any height with no fall damage.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "mobs/icepixie": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/mobs/icepixie/1-pixies.webp",
+    "title": "Ice Pixies",
+    "caption": "Ice pixies around a frozen pond in a snowy spruce clearing.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/mobs/icepixie/2-close.webp",
+    "title": "Up Close",
+    "caption": "Ice pixies are small, antlered and quick on ice and snow.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "mobs/mobs": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/mobs/mobs/1-everything.webp",
+    "title": "Everything in Mobs",
+    "caption": "Seals, a walrus, a narwhal and a sea otter at the water, ice pixies on the snow, parabuzzies overhead, and a Bob-omb and a treasure mob in front.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/mobs/mobs/2-seals-walrus.webp",
+    "title": "Seals and Walrus",
+    "caption": "A walrus and two seals hauled out on a frozen shore.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/mobs/mobs/3-otter-pick.webp",
+    "title": "Sea Otter",
+    "caption": "A sea otter floating on its back.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/mobs/mobs/4-narwhal.webp",
+    "title": "Narwhal",
+    "caption": "A narwhal swimming among the kelp.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/mobs/mobs/5-parabuzzies.webp",
+    "title": "8-Bit Mobs",
+    "caption": "Parabuzzies in every look and a Bob-omb.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/mobs/mobs/6-pixies.webp",
+    "title": "Ice Pixies",
+    "caption": "Ice pixies around a frozen pond.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/mobs/mobs/7-mineshaft.webp",
+    "title": "Treasure Mobs",
+    "caption": "Treasure mobs wandering a mineshaft.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "mobs/seacreatures": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/mobs/seacreatures/1-seals-walrus.webp",
+    "title": "Seals and Walrus",
+    "caption": "A walrus and two seals hauled out on a frozen shore.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/mobs/seacreatures/2-otter-pick.webp",
+    "title": "Sea Otter",
+    "caption": "A sea otter floating on its back.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/mobs/seacreatures/3-narwhal.webp",
+    "title": "Narwhal",
+    "caption": "A narwhal swimming among the kelp.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/mobs/seacreatures/4-shell-gear.webp",
+    "title": "Shell Gear",
+    "caption": "Sea shell armor, the shell shovel and the narwhal sword.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "mobs/treasuremob": {
+  "clips": [
+   {
+    "src": "/gallery/mobs/treasuremob/clip.webp",
+    "caption": "Luring a treasure mob down a mineshaft with gold nuggets and feeding it until it is tamed."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/mobs/treasuremob/1-mineshaft.webp",
+    "title": "Treasure Mobs",
+    "caption": "Two treasure mobs wandering a mineshaft with their lids open.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/mobs/treasuremob/3-taming.webp",
+    "title": "Taming",
+    "caption": "Gold nuggets lure a treasure mob in, and feeding it may win it over.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/mobs/treasuremob/2-loot.webp",
+    "title": "Loot",
+    "caption": "Sneak and use a tamed treasure mob to open it like a chest, full of what that place would hold.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "storage/bags": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/storage/bags/1-bags.webp",
+    "title": "Bags",
+    "caption": "Bags dyed in two colors, from the basic bag to netherite, with the ender bag.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/bags/2-open-bag.webp",
+    "title": "Diamond Bag",
+    "caption": "A diamond bag opened from the hotbar, with the lock slot beside it.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "storage/barrels": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/storage/barrels/1-barrels.webp",
+    "title": "Barrels",
+    "caption": "A vanilla barrel and every material from stone to netherite, with the Assorted Core materials on top.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/barrels/2-diamond-barrel.webp",
+    "title": "Diamond Barrel",
+    "caption": "A diamond barrel holds as much as a diamond chest.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "storage/chests": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/storage/chests/1-chests.webp",
+    "title": "Chests",
+    "caption": "A vanilla chest and every material from stone to netherite, with the Assorted Core materials on top.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/chests/2-netherite-chest.webp",
+    "title": "Netherite Chest",
+    "caption": "A netherite chest holds 126 stacks.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "storage/containers": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/storage/containers/1-storeroom.webp",
+    "title": "Storeroom",
+    "caption": "An item tower between two tall lockers, the gold and obsidian safes, wood and glass cabinets and warehouse crates.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/containers/2-locker.webp",
+    "title": "Locker",
+    "caption": "A locker two blocks tall opens as one big inventory with a scroll bar.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/containers/3-item-tower.webp",
+    "title": "Item Tower",
+    "caption": "Four item towers stacked up open as one list you scroll through.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "storage/crates": {
+  "clips": [
+   {
+    "src": "/gallery/storage/crates/clip.webp",
+    "caption": "Filling a crate with one right click, then pulling every cobblestone in the inventory into it with a quick second one."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/storage/crates/1-crates.webp",
+    "title": "Crate Wall",
+    "caption": "A wall of crates in every wood and layout, joined by a crate controller in the middle.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/crates/2-compacting.webp",
+    "title": "Compacting Crate",
+    "caption": "Iron ingots put in by hand, counted as blocks, ingots and nuggets. Take out whichever you need.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/crates/3-filling.webp",
+    "title": "Filling a Crate",
+    "caption": "One right click puts in the stack in hand, a quick second one pulls in every matching item. The amount upgrade shows the count.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/crates/4-network.webp",
+    "title": "Controller and Bridges",
+    "caption": "Crate bridges join two banks of crates to the controller in the middle, so it reaches all of them.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "storage/hoppers": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/storage/hoppers/1-hoppers.webp",
+    "title": "Hoppers",
+    "caption": "Copper to netherite hoppers feeding chests of the same material.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/hoppers/2-diamond-hopper.webp",
+    "title": "Diamond Hopper",
+    "caption": "A diamond hopper has three rows of slots instead of one.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "storage/levelupgrades": {
+  "clips": [
+   {
+    "src": "/gallery/storage/levelupgrades/clip.webp",
+    "caption": "Upgrading a vanilla chest in place, from copper through gold to netherite."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/storage/levelupgrades/1-upgrading.webp",
+    "title": "Upgrading",
+    "caption": "A vanilla chest upgraded in place from copper through to netherite, with everything inside kept.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "storage/locks": {
+  "clips": [
+   {
+    "src": "/gallery/storage/locks/clip.webp",
+    "caption": "Sneak using a padlock on a chest to lock it where it sits."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/storage/locks/1-locks.webp",
+    "title": "Locks",
+    "caption": "A locked door, chests, barrels and ender chest, with the locksmith workbench.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/locks/2-locking.webp",
+    "title": "Locking",
+    "caption": "Sneak and use a padlock on a chest to lock it where it sits.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/locks/3-workbench.webp",
+    "title": "Locksmith Workbench",
+    "caption": "Put in a key or a lock and type a combination. The tooltip shows the combination it was given.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "storage/shulkers": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/storage/shulkers/1-shulkers.webp",
+    "title": "Shulker Boxes",
+    "caption": "A vanilla shulker box and every material from stone to netherite, with the Assorted Core materials on top.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/shulkers/2-diamond-shulker.webp",
+    "title": "Diamond Shulker Box",
+    "caption": "A diamond shulker box holds far more than a vanilla one.",
+    "width": 1280,
+    "height": 719
+   }
+  ]
+ },
+ "storage/storage": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/storage/storage/1-everything.webp",
+    "title": "Everything in Storage",
+    "caption": "A crate wall with its controller, material chests under hoppers, barrels and shulker boxes, lockers, safes, cabinets and an item tower, bags and level upgrades framed above, and a locked chest by the locksmith workbench.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/storage/2-chests.webp",
+    "title": "Chests",
+    "caption": "Every chest material by storage level.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/storage/3-crates.webp",
+    "title": "Crates",
+    "caption": "A wall of crates joined by a crate controller.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/storage/4-storeroom.webp",
+    "title": "Containers",
+    "caption": "Lockers, safes, cabinets, an item tower and warehouse crates.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/storage/5-bags.webp",
+    "title": "Bags",
+    "caption": "Dyed bags from basic to netherite, with the ender bag.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/storage/6-hoppers.webp",
+    "title": "Hoppers",
+    "caption": "Material hoppers feeding chests.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/storage/7-upgrading.webp",
+    "title": "Level Upgrades",
+    "caption": "A chest upgraded in place without emptying it.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/storage/8-locks.webp",
+    "title": "Locks",
+    "caption": "Locked doors, chests, barrels and an ender chest.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/storage/storage/9-netherite-chest.webp",
+    "title": "Netherite Chest",
+    "caption": "A netherite chest holds 126 stacks.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tech/alarm": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/tech/alarm/1-alarm.webp",
+    "title": "Alarm",
+    "caption": "An alarm box over a door, wired to a pressure plate in front of it.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/alarm/2-alarm-sounds.webp",
+    "title": "Alarm Sounds",
+    "caption": "Right click an alarm box to pick its sound and test it.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tech/bridges": {
+  "clips": [
+   {
+    "src": "/gallery/tech/bridges/clip.webp",
+    "caption": "Flipping a lever shoots a laser bridge across a ravine, and then walking out over it."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tech/bridges/1-bridges.webp",
+    "title": "Bridges",
+    "caption": "The laser, trick, acceleration, death and gravity bridges across a ravine.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/bridges/2-block-look.webp",
+    "title": "Block Looks",
+    "caption": "Right click a control with a block and its bridge looks like that block. These three are oak planks, glass and stone bricks.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tech/elevators": {
+  "clips": [
+   {
+    "src": "/gallery/tech/elevators/clip.webp",
+    "caption": "An elevator carrying a villager and a sheep up to the first floor, then on to the roof."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tech/elevators/1-riding.webp",
+    "title": "Elevator",
+    "caption": "A three by three elevator carrying a villager and a sheep up past the first floor to the roof.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/elevators/2-instant.webp",
+    "title": "Instant Elevators",
+    "caption": "Three floors with instant elevators set into them. Each color is its own lift, and a jump or a sneak takes you to the next floor.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tech/extruder": {
+  "clips": [
+   {
+    "src": "/gallery/tech/extruder/clip.webp",
+    "caption": "One extruder drilling a trench through stone and ore while two more lay walls behind themselves."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tech/extruder/1-extruders.webp",
+    "title": "Extruders",
+    "caption": "One extruder drills a trench through stone and ore while the two beside it lay a brick wall and a striped wall behind themselves.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/extruder/2-screen.webp",
+    "title": "Extruder Screen",
+    "caption": "Fuel, the blocks it lays, what it has mined, and the buttons that point it and start it.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tech/fan": {
+  "clips": [
+   {
+    "src": "/gallery/tech/fan/clip.webp",
+    "caption": "A fan blowing a sheep, a pig and a pile of items across the room."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tech/fan/1-fan.webp",
+    "title": "Fan",
+    "caption": "A fan blowing a sheep, a pig and some dropped items across the room.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/fan/2-fan-settings.webp",
+    "title": "Fan Settings",
+    "caption": "Right click a fan to pick blow, pull or off, and how far it reaches.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tech/grates": {
+  "clips": [
+   {
+    "src": "/gallery/tech/grates/clip.webp",
+    "caption": "A villager stands on a grate walkway while dropped items fall straight through it."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tech/grates/1-grates.webp",
+    "title": "Grates",
+    "caption": "A villager stands on the grate walkway while dropped items fall straight through.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tech/gravity": {
+  "clips": [
+   {
+    "src": "/gallery/tech/gravity/clip.webp",
+    "caption": "A gravitor lifting a sheep, a pig, a chicken and some items once it gets power."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tech/gravity/1-gravity.webp",
+    "title": "Gravitor",
+    "caption": "A powered gravitor holding a sheep, a pig, a chicken and some items up against the ceiling. The green box is its range.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/gravity/2-ranges.webp",
+    "title": "Ranges",
+    "caption": "An attractor, a gravitor and a repulsor with their ranges showing. Right click changes the range and a redstone torch shows it.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tech/redstone": {
+  "clips": [
+   {
+    "src": "/gallery/tech/redstone/clip.webp",
+    "caption": "One button press turns the flip flop torch and the lamp over it on, and the next turns them off."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tech/redstone/1-flip-flop.webp",
+    "title": "Flip Flop Torch",
+    "caption": "One button press turns the flip flop torch on, and the next turns it off.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/redstone/2-glowstone-torch.webp",
+    "title": "Glowstone Torch",
+    "caption": "The same torch in both booths at night. The lever is on in the right one, so it shines as bright as glowstone.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tech/sensors": {
+  "clips": [
+   {
+    "src": "/gallery/tech/sensors/clip.webp",
+    "caption": "Walking up to a wood sensor lights the lamp above it."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tech/sensors/1-sensors.webp",
+    "title": "Every Sensor",
+    "caption": "All twelve sensors, each lit by what it watches for. Top row is stone, mossy cobblestone, emerald, end stone, netherrack and iron. Bottom row is wood, gold, prismarine, cobweb, hay bale and feather.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/sensors/2-watching.webp",
+    "title": "GPS Sensor at Work",
+    "caption": "An upgraded GPS sensor in the wall watches the marked spot across the room and lights its lamp while a zombie stands there. The green box is the watched area.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/sensors/3-gps-sensor.webp",
+    "title": "GPS Sensor",
+    "caption": "Put a GPS in the slot, pick players, mobs or items, and type a name to narrow it down.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/sensors/4-upgraded-gps-sensor.webp",
+    "title": "Upgraded GPS Sensor",
+    "caption": "The upgraded sensor keeps a list of up to six entries, takes tags and can widen the area it watches.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tech/spikes": {
+  "clips": [
+   {
+    "src": "/gallery/tech/spikes/clip.webp",
+    "caption": "A row of spikes popping out of the floor when they get a redstone signal."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tech/spikes/1-spikes.webp",
+    "title": "Spikes",
+    "caption": "Spikes in every vanilla material, popped out by a redstone signal.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/spikes/2-hurt.webp",
+    "title": "Ouch",
+    "caption": "A zombie standing on diamond spikes while they are out.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tech/tech": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/tech/tech/1-everything.webp",
+    "title": "Everything in Tech",
+    "caption": "A laser bridge across the lab, sensors lighting lamps, an alarm box, flip flop torches, instant elevators, a fan, a gravitor, attractor and repulsor, an extruder, spikes popped out of the floor and item grates.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/tech/2-bridges.webp",
+    "title": "Bridges",
+    "caption": "All five bridges across a ravine.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/tech/3-riding.webp",
+    "title": "Elevators",
+    "caption": "An elevator carrying a villager and a sheep up to the roof.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/tech/4-extruders.webp",
+    "title": "Extruder",
+    "caption": "Extruders drilling a trench and laying walls behind themselves.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/tech/5-grates.webp",
+    "title": "Grates",
+    "caption": "Items fall through a grate walkway that a villager stands on.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/tech/6-sensors.webp",
+    "title": "Sensors",
+    "caption": "All twelve sensors, each lit by what it watches for.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/tech/7-spikes.webp",
+    "title": "Spikes",
+    "caption": "Spikes in every vanilla material.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/tech/8-gravity.webp",
+    "title": "Gravity",
+    "caption": "A gravitor holding mobs and items up inside its range.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tech/tech/9-flip-flop.webp",
+    "title": "Redstone",
+    "caption": "The flip flop torch lighting a lamp.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/boomerangs": {
+  "clips": [
+   {
+    "src": "/gallery/tools/boomerangs/clip.webp",
+    "caption": "A diamond boomerang flying through a husk and coming back with the items it flew over."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tools/boomerangs/1-boomerangs.webp",
+    "title": "Wood and Diamond",
+    "caption": "The wood boomerang and the diamond one, which flies farther and hits harder.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/boomerangs/2-hit.webp",
+    "title": "Hitting a Mob",
+    "caption": "A diamond boomerang flying through a husk and hurting it on the way.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/boomerangs/3-brought-back.webp",
+    "title": "Brought Back",
+    "caption": "It came back with the diamond, emerald and gold ingot it flew over, and they went straight into the hotbar.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/buckets": {
+  "clips": [
+   {
+    "src": "/gallery/tools/buckets/clip.webp",
+    "caption": "Walking up to a pond and scooping all of it into one diamond bucket, a click at a time."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tools/buckets/1-buckets.webp",
+    "title": "Every Bucket",
+    "caption": "A bucket in every material. Wood, stone, copper, gold, vanilla's iron bucket, diamond and netherite on top, with the metals and gems other mods add under them.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/buckets/2-tooltip.webp",
+    "title": "How Full It Is",
+    "caption": "The bar and the tooltip show how many buckets are inside.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/buckets/3-milking.webp",
+    "title": "Milking",
+    "caption": "A netherite bucket can milk cows, sheep and pigs.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/gearsets": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/tools/gearsets/1-armory.webp",
+    "title": "Armory",
+    "caption": "Emerald, ruby, sapphire, steel, amethyst, topaz and bronze sets, with their tools racked behind.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/gearsets/3-inventory.webp",
+    "title": "Every Material",
+    "caption": "A sword and pickaxe in every material, wearing emerald armor.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/hammers": {
+  "clips": [
+   {
+    "src": "/gallery/tools/hammers/clip.webp",
+    "caption": "A diamond hammer breaking a wall of stone, logs, dirt and planks one hit per block, with nothing left behind."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tools/hammers/1-hammers.webp",
+    "title": "Every Hammer",
+    "caption": "A hammer in every material. Wood, stone, copper, gold, iron, diamond and netherite on top, with the metals and gems other mods add under them.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/hammers/2-recipe.webp",
+    "title": "Recipe",
+    "caption": "A diamond hammer.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/machetes": {
+  "clips": [
+   {
+    "src": "/gallery/tools/machetes/clip.webp",
+    "caption": "A diamond machete slicing the vines off a jungle tree, then cutting through leaves."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tools/machetes/1-machetes.webp",
+    "title": "Every Machete",
+    "caption": "A machete in every material. Wood, stone, copper, gold, iron, diamond and netherite on top, with the metals and gems other mods add under them.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/machetes/3-recipe.webp",
+    "title": "Recipe",
+    "caption": "A diamond machete.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/multitools": {
+  "clips": [
+   {
+    "src": "/gallery/tools/multitools/clip.webp",
+    "caption": "One diamond multitool breaking a wall of stone, dirt, planks and logs, stripping a log, then tilling the grass."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tools/multitools/1-multitools.webp",
+    "title": "Every Multitool",
+    "caption": "A multitool in every material. Wood, stone, copper, gold, iron, diamond and netherite on top, with the metals and gems other mods add under them.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/multitools/2-crafting.webp",
+    "title": "Recipe",
+    "caption": "All five diamond tools and four diamonds make a diamond multitool.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/pokeball": {
+  "clips": [
+   {
+    "src": "/gallery/tools/pokeball/clip.webp",
+    "caption": "Catching a pink sheep in a pokeball, picking the ball up, and throwing it to let the sheep back out."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tools/pokeball/1-catch.webp",
+    "title": "Catching",
+    "caption": "Throw an empty pokeball at a mob and it goes inside.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/pokeball/2-let-out.webp",
+    "title": "Letting Out",
+    "caption": "Throw a full one at the ground and the mob comes back out just as it was. The ball is left to pick up.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/pokeball/3-tooltip.webp",
+    "title": "What's Inside",
+    "caption": "Hover a pokeball to see the mob inside, with its name if it has one.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/portableworkbench": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/tools/portableworkbench/1-crafting-anywhere.webp",
+    "title": "Crafting Anywhere",
+    "caption": "Right click the workbench and a full crafting grid opens wherever you are.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/portableworkbench/3-recipe.webp",
+    "title": "Recipe",
+    "caption": "A crafting table in the middle of eight iron ingots.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/shears": {
+  "clips": [
+   {
+    "src": "/gallery/tools/shears/clip.webp",
+    "caption": "Shears with Coral Cutter clipping coral out of a reef pool, every piece dropping itself to keep."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tools/shears/1-reef.webp",
+    "title": "Coral Cutter",
+    "caption": "Diamond shears with Coral Cutter over a reef pool.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/shears/2-shears.webp",
+    "title": "Every Pair",
+    "caption": "Shears in every material, with vanilla's iron shears among them. Wood, stone, copper, gold, iron, diamond and netherite on top, with the metals and gems other mods add under them.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/staffs": {
+  "clips": [
+   {
+    "src": "/gallery/tools/staffs/clip.webp",
+    "caption": "The Neptune staff freezes a few animals into ice and the Phoenix staff thaws them out."
+   },
+   {
+    "src": "/gallery/tools/staffs/clip-power.webp",
+    "caption": "Pulling steps out of a brick wall with the power staff, then pulling one more block out and letting it drop."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tools/staffs/1-frozen-mobs.webp",
+    "title": "Frozen Mobs",
+    "caption": "Mobs frozen by the Neptune staff stand still and silent until something thaws them.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/staffs/2-freeze-water.webp",
+    "title": "Freeze Water",
+    "caption": "The Neptune staff turns the still water around you to ice.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/staffs/3-staffs.webp",
+    "title": "Everything in Staffs",
+    "caption": "The Neptune staff, power staff and Phoenix staff on top, and the frost rod, frost powder and ice charge under them.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/suits": {
+  "clips": [
+   {
+    "src": "/gallery/tools/suits/clip.webp",
+    "caption": "Flapping up above the treetops in the chicken suit and gliding back down."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tools/suits/1-three-suits.webp",
+    "title": "The Three Suits",
+    "caption": "The chicken suit, the scuba suit and the lava suit.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/suits/1-flying.webp",
+    "title": "Chicken Suit",
+    "caption": "The full chicken suit flaps you up above the treetops, then glides you back down.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/suits/2-scuba-suit.webp",
+    "title": "Scuba Suit",
+    "caption": "The mask and tank let you breathe and see under water.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/suits/3-scuba-tank.webp",
+    "title": "Swimming",
+    "caption": "The legs and fins make you swim much faster.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/suits/4-lava-suit.webp",
+    "title": "Lava Suit",
+    "caption": "The full suit keeps you from burning, and you can see through the lava.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/throwingspears": {
+  "clips": [
+   {
+    "src": "/gallery/tools/throwingspears/clip.webp",
+    "caption": "Throwing a Conductive spear at a pillager and lightning striking it."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tools/throwingspears/1-spears.webp",
+    "title": "Every Spear",
+    "caption": "A throwing spear in every material. Wood, stone, copper, gold, iron, diamond and netherite on top, with the metals and gems other mods add under them.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/throwingspears/2-conductive.webp",
+    "title": "Conductive",
+    "caption": "A Conductive spear calling down lightning where it lands.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/throwingspears/3-unstable.webp",
+    "title": "Unstable",
+    "caption": "An Unstable spear blowing up when it hits.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/throwingspears/4-flammable.webp",
+    "title": "Flammable",
+    "caption": "Flammable spears setting the ground on fire around them.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/tools": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/tools/tools/1-everything.webp",
+    "title": "Everything in Tools",
+    "caption": "An emerald gear set and the chicken, scuba and lava suits on stands, with a hammer, machete, multitool, shears, boomerang, wand, staff, throwing spear, bucket, pokeball, portable workbench and the ultimate fist on the wall.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/tools/2-armory.webp",
+    "title": "Gear Sets",
+    "caption": "Armor and tools in the materials other mods add.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/tools/3-let-out.webp",
+    "title": "Pokeball",
+    "caption": "Catch a mob and let it back out anywhere.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/tools/4-build.webp",
+    "title": "Wands",
+    "caption": "Build and break whole areas at once.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/tools/5-frozen-mobs.webp",
+    "title": "Staffs",
+    "caption": "The Neptune staff freezes mobs solid.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/tools/6-flying.webp",
+    "title": "Suits",
+    "caption": "The chicken suit flaps you up and glides you down.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/tools/7-hammers.webp",
+    "title": "Hammers",
+    "caption": "A hammer in every material.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/tools/8-machetes.webp",
+    "title": "Machetes",
+    "caption": "A machete in every material.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/tools/9-spears.webp",
+    "title": "Throwing Spears",
+    "caption": "A throwing spear in every material.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/ultimatefist": {
+  "clips": [
+   {
+    "src": "/gallery/tools/ultimatefist/clip.webp",
+    "caption": "Punching through a stone wall in a couple of seconds, then a vindicator in one hit."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tools/ultimatefist/1-crafting.webp",
+    "title": "Putting It Together",
+    "caption": "All eight fragments and a nether star make the Ultimate Fist.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/ultimatefist/2-chest.webp",
+    "title": "Fragments",
+    "caption": "Fragments turn up in chests in the Overworld, the Nether and the End.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/ultimatefist/3-mining.webp",
+    "title": "Through Stone",
+    "caption": "Stone breaks the moment the fist touches it.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "tools/wands": {
+  "clips": [
+   {
+    "src": "/gallery/tools/wands/clip.webp",
+    "caption": "Clicking one corner with a Building Wand, walking to the far corner and clicking it, and a whole room of cherry planks going up."
+   },
+   {
+    "src": "/gallery/tools/wands/clip-breaking.webp",
+    "caption": "A Breaking Wand clicked on two corners of a block of stone and ore, which vanishes and leaves nothing behind."
+   },
+   {
+    "src": "/gallery/tools/wands/clip-mining.webp",
+    "caption": "A Mining Wand clicked on two corners of a block of stone and ore, which is mined and drops all of it."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/tools/wands/1-build.webp",
+    "title": "Building Wand",
+    "caption": "A whole room of cherry planks from two clicks with the Building Wand, one on each corner.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/wands/2-leave-ores.webp",
+    "title": "Leave Ores",
+    "caption": "A Breaking Wand in Leave Ores mode took all the stone and left every ore behind.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/wands/3-modes.webp",
+    "title": "Modes",
+    "caption": "The tooltip shows the mode each wand is in. Press Z to switch.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/tools/wands/4-wands.webp",
+    "title": "Every Wand",
+    "caption": "The Building, Breaking and Mining Wands on top and their reinforced versions under them.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "world/floatingislands": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/world/floatingislands/1-islands.webp",
+    "title": "Every Island",
+    "caption": "All seventeen kinds of floating island. Which one you find depends on the biome below it.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/floatingislands/2-woods.webp",
+    "title": "Meadows and Woods",
+    "caption": "Meadow, forest, cherry, dark forest, pale garden and taiga islands.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/floatingislands/3-cold-and-dry.webp",
+    "title": "Cold and Dry",
+    "caption": "Snowy, glacier, rocky, desert, savanna and badlands islands.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/floatingislands/4-wet.webp",
+    "title": "Wet",
+    "caption": "Jungle, swamp, mangrove, lush and mushroom islands.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "world/plants": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/world/plants/1-gunpowder-reed.webp",
+    "title": "Gunpowder Reed",
+    "caption": "Gunpowder reed growing along both banks of a stream.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/plants/2-glowstone-seeds.webp",
+    "title": "Glowstone Seeds",
+    "caption": "Glowstone seeds hanging under netherrack, with the glowstone a ripe one has turned into on the right.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "world/portals": {
+  "clips": [
+   {
+    "src": "/gallery/world/portals/clip.webp",
+    "caption": "Placing the last frame of a portal standing on its side, opening it with the void striker and walking through into the End."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/world/portals/1-portals.webp",
+    "title": "Void Portals",
+    "caption": "Three void portals in one hall. A five by five on the wall, a three by three in the floor and another in the ceiling.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/portals/2-nine-by-nine.webp",
+    "title": "Nine by Nine",
+    "caption": "The biggest ring there is, nine by nine, standing on its side.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "world/structures": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/world/structures/1-structures.webp",
+    "title": "Structures",
+    "caption": "A ruin, a spire, a pyramid, a snowball, a fountain and a water dome, each where it generates.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/structures/2-ruin.webp",
+    "title": "Ruin",
+    "caption": "A mossy ruin out on the plains, with a spawner still inside.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/structures/3-spire.webp",
+    "title": "Spire",
+    "caption": "A stone spire on the coast.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/structures/4-pyramid.webp",
+    "title": "Pyramid",
+    "caption": "A stepped sandstone pyramid out in the desert.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/structures/5-snowball.webp",
+    "title": "Snowball",
+    "caption": "A giant snowball standing over the snowy plains.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/structures/6-fountain.webp",
+    "title": "Fountain",
+    "caption": "A mossy fountain in a swamp, with water running down every level.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/structures/7-water-dome.webp",
+    "title": "Water Dome",
+    "caption": "A glass water dome on the ocean floor.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/structures/8-sand-pillar.webp",
+    "title": "Sandstone Pillar",
+    "caption": "A sandstone pillar standing over a desert river.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/structures/4-runes.webp",
+    "title": "Runes",
+    "caption": "All sixteen runes. Many structures hold one, and each gives an effect when you stand on it or use it.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "world/terrain": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/world/terrain/1-terrain.webp",
+    "title": "Terrain",
+    "caption": "Randomite, a wild crop field, a desert well, a cactus field and a sand pit.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/terrain/1-randomite.webp",
+    "title": "Randomite",
+    "caption": "Randomite and deepslate randomite in the walls of a cave.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/terrain/2-crop-field.webp",
+    "title": "Crop Field",
+    "caption": "A wild crop field out on the plains.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/terrain/3-desert-well.webp",
+    "title": "Desert Well",
+    "caption": "A desert well. These take the place of vanilla's, with a shaft up to 30 blocks deep and a chest at the bottom.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/terrain/4-cactus-field.webp",
+    "title": "Cactus Field",
+    "caption": "A field of cactus in the desert.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/terrain/5-sand-pit.webp",
+    "title": "Sand Pit",
+    "caption": "A sand pit stepping down into the desert.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "world/world": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/world/world/1-everything.webp",
+    "title": "Everything in World",
+    "caption": "A pyramid, a fountain, a snowball, a water dome, floating islands, void portals, gunpowder reed, randomite and a desert well.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/world/2-structures.webp",
+    "title": "Structures",
+    "caption": "The four big structures where they generate. A pyramid in the desert, a fountain in a swamp, a snowball in the snow and a water dome in the ocean.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/world/3-islands.webp",
+    "title": "Floating Islands",
+    "caption": "Seventeen kinds of island, each over its own biomes.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/world/4-spire.webp",
+    "title": "Spire",
+    "caption": "A stone spire on the coast.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/world/5-randomite.webp",
+    "title": "Randomite",
+    "caption": "Randomite in the walls of a cave.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/world/6-crop-field.webp",
+    "title": "Crop Field",
+    "caption": "A wild crop field out on the plains.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/world/7-gunpowder-reed.webp",
+    "title": "Gunpowder Reed",
+    "caption": "Gunpowder reed along a stream.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/world/8-runes.webp",
+    "title": "Runes",
+    "caption": "All sixteen runes.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/world/world/9-portals.webp",
+    "title": "Portals",
+    "caption": "Void portals on a wall, in the floor and in the ceiling, up to nine by nine.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ }
+}

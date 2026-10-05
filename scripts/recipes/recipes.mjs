@@ -7,31 +7,36 @@ const COOKING_DEFAULT_TIME = { 'minecraft:smelting': 200, 'minecraft:blasting': 
 const TYPE_INFO = {
   'minecraft:crafting_shaped': { kind: 'shaped', label: 'Shaped crafting', station: 'Crafting Table', gui: 'crafting' },
   'minecraft:crafting_shapeless': { kind: 'shapeless', label: 'Shapeless crafting', station: 'Crafting Table', gui: 'crafting' },
-  'assortedstorage:locked_upgrading': { kind: 'shaped', label: 'Shaped crafting', station: 'Crafting Table', gui: 'crafting', keeps: 'Keeps the lock, code and contents of the storage being upgraded.' },
+  ...Object.fromEntries(['assortedchests', 'assortedbarrels', 'assortedhoppers', 'assortedshulkers', 'assortedbags'].map(ns => [
+    `${ns}:locked_upgrading`,
+    { kind: 'shaped', label: 'Shaped crafting', station: 'Crafting Table', gui: 'crafting', keeps: 'Keeps the lock, code and contents of the storage being upgraded.' }
+  ])),
   'minecraft:smelting': { kind: 'cooking', label: 'Smelting', station: 'Furnace', gui: 'furnace' },
   'minecraft:blasting': { kind: 'cooking', label: 'Blasting', station: 'Blast Furnace', gui: 'blast_furnace' },
   'minecraft:smoking': { kind: 'cooking', label: 'Smoking', station: 'Smoker', gui: 'smoker' },
   'minecraft:campfire_cooking': { kind: 'cooking', label: 'Campfire cooking', station: 'Campfire', gui: 'furnace' },
   'minecraft:stonecutting': { kind: 'stonecutting', label: 'Stonecutting', station: 'Stonecutter', gui: 'stonecutter' },
+  // The lumber mill's recipes are laid out like the stonecutter's and it has no screen texture of its own.
+  'assortedbuildingblocks:lumber_mill': { kind: 'stonecutting', label: 'Lumber milling', station: 'Lumber Mill', gui: 'stonecutter' },
   'minecraft:smithing_transform': { kind: 'smithing', label: 'Smithing', station: 'Smithing Table', gui: 'smithing' },
-  'assortedcore:grinding_mill': { kind: 'grinding_mill', label: 'Grinding', station: 'Grinding Mill', gui: 'grinding_mill' },
-  'assortedcore:alloy_forge': { kind: 'alloy_forge', label: 'Alloying', station: 'Alloy Forge', gui: 'alloy_forge' },
+  'assortedmachines:grinding_mill': { kind: 'grinding_mill', label: 'Grinding', station: 'Grinding Mill', gui: 'grinding_mill' },
+  'assortedmachines:alloy_forge': { kind: 'alloy_forge', label: 'Alloying', station: 'Alloy Forge', gui: 'alloy_forge' },
   // The cuisine machines work in the world rather than in a screen: right click to load, wait,
   // right click again to take. `catalyst` is the block, shown in the left slot the way JEI does,
   // and `time` is the machine's default in ticks (CuisineMachine).
-  'assortedcuisine:churning': {
+  'assortedkitchen:churning': {
     kind: 'cuisine_machine', label: 'Churning', station: 'Butter Churn', gui: 'cuisine_machine',
-    catalyst: 'assortedcuisine:butter_churn', time: 400,
+    catalyst: 'assortedkitchen:butter_churn', time: 400,
     note: 'Right clicking the churn while it works turns the handle and hurries it along.'
   },
-  'assortedcuisine:cheese_making': {
+  'assortedkitchen:cheese_making': {
     kind: 'cuisine_machine', label: 'Cheese making', station: 'Cheese Maker', gui: 'cuisine_machine',
-    catalyst: 'assortedcuisine:cheese_maker', time: 600,
+    catalyst: 'assortedkitchen:cheese_maker', time: 600,
     note: 'The cheese maker cannot be hurried; watch it turn from pale to yellow orange.'
   },
-  'assortedcuisine:chocolate_moulding': {
+  'assortedkitchen:chocolate_moulding': {
     kind: 'cuisine_machine', label: 'Moulding', station: 'Chocolate Bar Mould', gui: 'cuisine_machine',
-    catalyst: 'assortedcuisine:chocolate_bar_mould', time: 400,
+    catalyst: 'assortedkitchen:chocolate_bar_mould', time: 400,
     note: 'Every block of ice or snow packed against the mould cools it faster.'
   }
 }
