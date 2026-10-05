@@ -24,7 +24,7 @@
     </SectionHeading>
     <p>
       Pyramids are large structures that have started to decay over the years. Most have many levels
-      but can be very rewarding.
+      but can be very rewarding. They are found in deserts.
     </p>
     <img src="\mods\world\pyramid.png">
     <SectionHeading name="fountain">
@@ -32,13 +32,16 @@
     </SectionHeading>
     <p>
       Fountains are large stone structures surrounded by flowing water. They can contain spawners and
-      rare loot.
+      rare loot. They are found in swamps.
     </p>
     <img src="\mods\world\fountain.png">
     <SectionHeading name="snowball">
       Snowballs
     </SectionHeading>
-    <p>Snowballs are massive snow and ice structures. They closely resemble massive snowmen.</p>
+    <p>
+      Snowballs are massive snow and ice structures. They closely resemble massive snowmen. They are
+      found in snowy biomes.
+    </p>
     <img src="\mods\world\snowball.png">
     <SectionHeading name="waterdome">
       Water Domes
@@ -53,14 +56,15 @@
     </SectionHeading>
     <p>
       Spires are natural structures that reach towards the sky. These can contain runes and very
-      rarely are 'death spires'.
+      rarely are 'death spires'. They turn up across most of the Overworld.
     </p>
     <img src="\mods\world\spires.png">
     <SectionHeading name="decayedruins">
       Decayed Ruins
     </SectionHeading>
     <p>
-      Ruins have decayed greatly over the years but can still contain treasures of old.
+      Ruins have decayed greatly over the years but can still contain treasures of old. They turn up
+      across most of the Overworld.
     </p>
     <img src="\mods\world\ruins.png">
     <SectionHeading name="sandstonepillars">
@@ -70,6 +74,7 @@
       Sandstone pillars stand out of the dunes in the desert. Some hide suspicious sand or a rune worth
       digging for.
     </p>
+    <img src="\mods\world\sandstone_pillar.png">
 
     <SectionHeading name="config">
       Config

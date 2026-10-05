@@ -38,6 +38,11 @@
     </header>
     <div id="content">
       <slot />
+      <br>
+      <ModGallery
+        :family="props.family"
+        :dir="mod.dir"
+      />
     </div>
   </div>
 </template>

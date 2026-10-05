@@ -19,7 +19,8 @@
       </NuxtLink> add gets a full gear set here, so tin, copper, silver, aluminum, nickel,
       platinum, lead, bronze, electrum, invar, steel, ruby, amethyst, sapphire, topaz, emerald and
       peridot. That is a Pickaxe, Axe, Shovel, Hoe, Sword, Spear, Helmet, Chestplate, Leggings and
-      Boots for each material. You need a mod that adds the ingot or gem to craft them, and it does
+      Boots for each material. Copper, amethyst and emerald are in the game already, so those sets
+      can be crafted with no other mod. The rest need a mod that adds the ingot or gem, and it does
       not have to be an Assorted one.
     </p>
     <img src="\mods\tools\armors.png">

@@ -33,6 +33,12 @@
       Desert wells are not just a well. The shaft under them runs ten to thirty blocks down through the
       sandstone to a chest, and the deeper the swim the better what is waiting at the bottom.
     </p>
+    <p>
+      These take the place of the desert wells Minecraft has. Wherever they can show up the plain well
+      is left out, so you never find the two side by side. Nothing is lost by that. Every well still
+      has two blocks of suspicious sand just under the water with the same finds a plain well has, so
+      the pottery sherds that only come from wells are all still there.
+    </p>
 
     <SectionHeading name="fuller_world">
       A Fuller World

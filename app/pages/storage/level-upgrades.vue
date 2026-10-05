@@ -8,6 +8,35 @@
       This way your items can stay inside. They work on the chests, barrels, hoppers and shulker
       boxes from the other Assorted Storage mods, and on the vanilla ones too.
     </p>
+    <p>
+      Level Upgrades does nothing by itself. It needs the mod that adds what you want to upgrade, so
+      install
+      <NuxtLink
+        class="page-link"
+        to="/storage/chests"
+      >
+        Assorted Chests
+      </NuxtLink> to upgrade chests,
+      <NuxtLink
+        class="page-link"
+        to="/storage/barrels"
+      >
+        Assorted Barrels
+      </NuxtLink> for barrels,
+      <NuxtLink
+        class="page-link"
+        to="/storage/hoppers"
+      >
+        Assorted Hoppers
+      </NuxtLink> for hoppers and
+      <NuxtLink
+        class="page-link"
+        to="/storage/shulkers"
+      >
+        Assorted Shulkers
+      </NuxtLink> for shulker boxes. A vanilla chest needs Assorted Chests too, since that mod adds
+      the material chests it turns into.
+    </p>
 
     <SectionHeading name="upgrades">
       Upgrades

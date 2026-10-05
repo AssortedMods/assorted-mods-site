@@ -275,7 +275,7 @@ function toggleMenu() {
 #content .muted {
   @apply text-gray-600;
 }
-#content a:not(.page-link):not(.changelog):not(.heading-anchor) {
+#content a:not(.page-link):not(.changelog):not(.heading-anchor):not(.gallery-link) {
   @apply text-blue-600 border-l-2 border-solid border-blue-600 pl-1;
 }
 #content a.page-link {

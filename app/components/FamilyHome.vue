@@ -36,6 +36,12 @@
           {{ LIB.name }}
         </NuxtLink> page.
       </p>
+      <br>
+      <ModGallery
+        v-if="details.bundle"
+        :family="props.family"
+        :dir="details.bundle.dir"
+      />
     </section>
   </div>
 </template>
