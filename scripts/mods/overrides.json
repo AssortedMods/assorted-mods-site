@@ -1,8 +1,7 @@
 {
   "families": {
     "util": {
-      "description": "Small helpers that each do one job, like graves, double doors, item replacing, a clock, a light overlay and damage numbers.",
-      "logo": "AssortedUtil-photos/logos/logo_util_family.png"
+      "description": "Small helpers that each do one job, like graves, double doors, item replacing, a clock, a light overlay and damage numbers."
     }
   },
   "mods": {
