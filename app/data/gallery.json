@@ -2097,5 +2097,52 @@
     "height": 720
    }
   ]
+ },
+ "util/util": {
+  "clips": [],
+  "shots": [
+   {
+    "src": "/gallery/util/util/1-everything.webp",
+    "title": "Everything in Assorted Util",
+    "caption": "A grave, double doors, a tool replaced as it breaks, the time panel, the light overlay and damage numbers.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/util/2-graves.webp",
+    "title": "Graves",
+    "caption": "When you die your things wait in a grave with your name on it.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/util/3-double-doors.webp",
+    "title": "Double Doors",
+    "caption": "Doors, trapdoor hatches and fence gates open together.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/util/4-time.webp",
+    "title": "Time",
+    "caption": "Press H to see the time in your world and your real time.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/util/5-light-overlay.webp",
+    "title": "Light Overlay",
+    "caption": "Press F7 to see where monsters can spawn.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/util/6-damage-numbers.webp",
+    "title": "Damage Numbers",
+    "caption": "Damage shows as numbers with what caused it.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
  }
 }
