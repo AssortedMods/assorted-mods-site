@@ -63,7 +63,7 @@
         "slug": "cuisine",
         "description": "Adds cheese, chocolate, pies, sodas and other foods to cook and eat.",
         "curseforgeSlug": "assorted-cuisine",
-        "modrinthSlug": "assortedcuisine",
+        "modrinthSlug": "assorted-cuisine-assorted-mods",
         "logo": "/logos/assortedcuisine.webp",
         "route": "/cuisine"
       },
