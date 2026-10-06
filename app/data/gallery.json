@@ -2144,5 +2144,162 @@
     "height": 720
    }
   ]
+ },
+ "util/damagenumbers": {
+  "clips": [
+   {
+    "src": "/gallery/util/damagenumbers/clip.webp",
+    "caption": "Hitting a pillager with a diamond sword, the damage numbers bouncing off it."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/util/damagenumbers/1-sword.webp",
+    "title": "Sword Hit",
+    "caption": "A hit from a player shows the damage and the weapon that did it.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/damagenumbers/2-sources.webp",
+    "title": "Where It Came From",
+    "caption": "Fire, magic, freezing and lightning each have their own color and name.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/damagenumbers/3-creature-healing.webp",
+    "title": "Creatures and Healing",
+    "caption": "A wolf's bite names the wolf, and healing comes up in green.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "util/doubledoors": {
+  "clips": [
+   {
+    "src": "/gallery/util/doubledoors/clip.webp",
+    "caption": "Opening one door opens both, and closing one closes both."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/util/doubledoors/1-doors.webp",
+    "title": "Double Doors",
+    "caption": "Both doors of a double door open together from one click.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/doubledoors/2-hatch.webp",
+    "title": "Trapdoor Hatch",
+    "caption": "A hatch of trapdoors opens all at once.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/doubledoors/3-gates.webp",
+    "title": "Fence Gates",
+    "caption": "Fence gates side by side in a fence line open together.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "util/graves": {
+  "clips": [
+   {
+    "src": "/gallery/util/graves/clip.webp",
+    "caption": "Right clicking a grave brings back the items, armor and experience."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/util/graves/1-grave.webp",
+    "title": "Grave",
+    "caption": "A grave with the name, date and time of the death on its headstone.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/graves/2-death-message.webp",
+    "title": "Where Your Grave Is",
+    "caption": "Chat tells you where your grave is when you die.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/graves/3-restored.webp",
+    "title": "Everything Back",
+    "caption": "Right click the grave and everything goes back in the same slots, armor included.",
+    "width": 960,
+    "height": 540
+   }
+  ]
+ },
+ "util/itemreplacer": {
+  "clips": [
+   {
+    "src": "/gallery/util/itemreplacer/clip.webp",
+    "caption": "A worn out pickaxe breaks and a spare from the inventory takes its place."
+   }
+  ],
+  "shots": []
+ },
+ "util/lightoverlay": {
+  "clips": [
+   {
+    "src": "/gallery/util/lightoverlay/clip.webp",
+    "caption": "Turning on the light overlay in a dark tunnel, then placing a torch."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/util/lightoverlay/1-dusk.webp",
+    "title": "Lighting Up the Grove",
+    "caption": "Green around a torch where monsters can never spawn, yellow where they can once it gets dark.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/lightoverlay/2-cave.webp",
+    "title": "Caves",
+    "caption": "Underground the numbers show how far a torch's light reaches, with red where monsters can spawn any time.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
+ },
+ "util/time": {
+  "clips": [
+   {
+    "src": "/gallery/util/time/clip.webp",
+    "caption": "Pressing H to step through the world time, the real time and both."
+   }
+  ],
+  "shots": [
+   {
+    "src": "/gallery/util/time/1-world-time.webp",
+    "title": "World Time",
+    "caption": "The day and the time of day in your world.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/time/2-both.webp",
+    "title": "World and Real Time",
+    "caption": "Both at once, with the date, the time and your time zone underneath.",
+    "width": 1280,
+    "height": 720
+   },
+   {
+    "src": "/gallery/util/time/3-nether.webp",
+    "title": "In the Nether",
+    "caption": "There is no sun in the Nether, so the world's time shows as dashes.",
+    "width": 1280,
+    "height": 720
+   }
+  ]
  }
 }
