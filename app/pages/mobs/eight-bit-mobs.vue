@@ -4,7 +4,7 @@
     part="eight-bit-mobs"
   >
     <p>Two creatures from the old 8-bit games, the parabuzzy and the Bob-omb.</p>
-    <img src="\mods\mobs\eight_bit.png">
+    <GalleryShot name="parabuzzies" />
 
     <SectionHeading name="parabuzzy">
       Parabuzzy
@@ -24,11 +24,15 @@
       your head. There it slowly heals, and you drift down as gently as it does and take no fall
       damage. Sneak on the ground to put it down.
     </p>
+    <GalleryShot name="gliding" />
 
     <SectionHeading name="bobomb">
       Bob-omb
     </SectionHeading>
-    <img src="\mods\mobs\bobomb.png">
+    <PageFigure
+      src="/figures/mobs/bobomb.webp"
+      caption="Bob-ombs standing on logs with their fuses lit."
+    />
     <p>
       A Bob-omb is built from a parabuzzy's shell. One you put down follows you, and when a monster
       hurts you it walks up to it and lights its fuse, going off a moment later. Be careful when hitting one yourself, as any hit lights its fuse.

@@ -11,9 +11,12 @@
       to get the text to look just the way you want it. It also comes with three different
       backgrounds.
     </p>
+    <GalleryShot name="neon" />
     <Recipe id="assortedhangeables:neon_sign" />
-    <img src="\mods\decor\neon_sign_gui.png">
-    <img src="\mods\decor\neon_signs.png">
+    <PageFigure
+      src="/figures/decor/neon-sign-screen.png"
+      caption="The neon sign screen, with a color and style for every line and the three backgrounds."
+    />
 
     <SectionHeading name="wallpaper">
       Wallpaper
@@ -38,7 +41,7 @@
       placed next to other wallpaper it will try and take on the texture of the surrounding
       wallpaper.
     </p>
-    <img src="\mods\decor\wallpaper.png">
+    <GalleryShot name="wallpaper" />
 
     <SectionHeading name="frames">
       Frames
@@ -64,7 +67,7 @@
       Similar to Wallpaper, once placed keep right clicking for available patterns, it will
       automatically cycle through only those that fit the given area.
     </p>
-    <img src="\mods\decor\frames.png">
+    <GalleryShot name="parlor" />
 
     <SectionHeading name="calendar">
       Calendar

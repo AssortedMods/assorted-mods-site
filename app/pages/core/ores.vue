@@ -7,6 +7,7 @@
       Assorted Ores adds many ores that can be found that contain metals or gems. The other Assorted
       mods use them in their recipes.
     </p>
+    <GalleryShot name="cave" />
     <SectionHeading name="metals">
       Metals
     </SectionHeading>
@@ -33,7 +34,8 @@
       The grinding mill from Assorted Machines turns an ore into two dusts,
       and each one smelts back into an ingot.
     </p>
-    <img src="\mods\core\metal_options.png">
+    <GalleryShot name="inventory" />
+    <GalleryShot name="blocks" />
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedores:silver_ingot_storage_block" />
       <Recipe id="assortedores:silver_block" />

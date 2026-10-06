@@ -8,16 +8,19 @@
       of which can be found across all three dimensions and are required to be able to craft it. All
       eight fragments and a nether star make the Ultimate Fist.
     </p>
-    <img src="\mods\tools\ultimate-fist.webp">
+    <GalleryShot name="chest" />
     <Recipe id="assortedultimatefist:ultimate_fist" />
+    <GalleryShot name="crafting" />
 
     <p>
       The Ultimate Fist by default is absurdly powerful and can break blocks extremely fast and one
       shot many mobs. How strong it is can be changed in the config.
     </p>
+    <GalleryShot name="mining" />
 
-    <br>
-    <br>
+    <SectionHeading name="fragments">
+      Fragments
+    </SectionHeading>
     <table class="border-collapse border border-slate-500 table-fixed">
       <caption class="caption-bottom text-sm">
         The default fragment distribution across dimensions and chest loot.

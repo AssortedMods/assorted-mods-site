@@ -6,8 +6,6 @@
     <p>
       Four water based mobs that live in rivers, lakes and oceans, and in snowy and frozen biomes.
     </p>
-    <img src="\mods\mobs\sea_creatures.png">
-
     <SectionHeading name="seal">
       Seal and Walrus
     </SectionHeading>
@@ -19,7 +17,7 @@
       hit. Then every walrus in earshot charges, a good deal faster than it lumbers, and into the sea
       after whoever did it.
     </p>
-    <img src="\mods\mobs\seals.png">
+    <GalleryShot name="seals-walrus" />
 
     <SectionHeading name="narwhal">
       Narwhal
@@ -28,7 +26,7 @@
       The unicorn of the cold seas. Narwhals swim cold and frozen oceans, under the ice too, and now
       and then one comes up and stands its tusk out of the water. They want nothing of anyone. Using the horn of a narwhal you can craft a sword.
     </p>
-    <img src="\mods\mobs\narwhal.png">
+    <GalleryShot name="narwhal" />
     <Recipe id="assortedseacreatures:narwhal_sword" />
 
     <SectionHeading name="sea_otter">
@@ -39,10 +37,11 @@
       one cracks open sea shells and leaves one behind every so often, and it drops a few when it
       dies. I hear they like fish.
     </p>
-    <img src="\mods\mobs\sea_otter.png">
+    <GalleryShot name="otter-pick" />
     <p>
       Sea shells make a set of armor and a shovel.
     </p>
+    <GalleryShot name="shell-gear" />
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedseacreatures:shell_helmet" />
       <Recipe id="assortedseacreatures:shell_chestplate" />

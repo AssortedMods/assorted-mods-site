@@ -9,7 +9,7 @@
       mobs data when captured and will be released exactly as before. A hostile mob let out of a
       pokeball is still hostile, and still remembers you so be careful.
     </p>
-    <img src="\mods\tools\pokeball.webp">
+    <GalleryShot name="tooltip" />
     <Recipe id="assortedpokeball:pokeball" />
     <SectionHeading name="displaying">
       Displaying

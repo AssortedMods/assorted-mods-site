@@ -3,7 +3,7 @@
     family="cuisine"
     part="health"
   >
-    <img src="\mods\cuisine\health.webp">
+    <GalleryShot name="health" />
 
     <SectionHeading name="sweets">
       Sweets
@@ -29,6 +29,7 @@
       The bandage is the cheapest one and heals the least, the health pack is in the middle, and the
       super pack needs powered sugar but is the most powerful.
     </p>
+    <GalleryShot name="healing" />
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedhealth:bandage" />
       <Recipe id="assortedhealth:healthpack" />

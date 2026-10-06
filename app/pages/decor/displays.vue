@@ -6,11 +6,11 @@
     <SectionHeading name="display_cases">
       Display Cases
     </SectionHeading>
-    <img src="\mods\decor\display_cases.png">
     <p>
       A display case holds items on a shelf behind glass. There is no screen. You can right click the spot
       you want an item to sit in, and right click it again empty handed to take it back from a specific shelf.
     </p>
+    <GalleryShot name="museum" />
     <p>
       Wooden, stone, copper, iron, gold and diamond cases differ only in the color of their frame.
       Breaking a case drops whatever is shown, and a comparator reads how full it is.
@@ -35,6 +35,7 @@
     <p>
       Shrinking a case hands back whatever it can no longer show.
     </p>
+    <GalleryShot name="sizes" />
     <Recipe id="assorteddisplays:resizing_tool" />
 
     <SectionHeading name="copper">
@@ -82,7 +83,7 @@
       Whatever the state of the Entity looks like within the Pokeball will be shown so baby animals
       and variants are supported unlike the Spawn Eggs.
     </p>
-    <img src="\mods\decor\cage.gif">
+    <GalleryShot name="cage" />
 
     <SectionHeading name="config">
       Config

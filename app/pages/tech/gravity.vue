@@ -9,7 +9,7 @@
       like to see the current range you can Right-Click on them with a Redstone Torch in your hand
       to toggle the bounds.
     </p>
-    <img src="\mods\tech\gravity_bounds.png">
+    <GalleryShot name="ranges" />
 
     <SectionHeading name="attractor">
       Attractor
@@ -44,6 +44,7 @@
       The Gravitor is a block that when powered makes entities float inside the range. The
       directional variant only floats entities in the range in the direction the block is placed.
     </p>
+    <GalleryShot name="gravity" />
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedgravity:gravitor" />
       <Recipe id="assortedgravity:gravitor_directional" />

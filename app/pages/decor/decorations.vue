@@ -7,7 +7,7 @@
       Are you looking for a bit more decorations for interior design. Then check some of these
       blocks out!
     </p>
-    <img src="\mods\decor\decorations.png">
+    <GalleryShot name="courtyard" />
 
     <SectionHeading name="decorations">
       Decorations
@@ -55,7 +55,7 @@
       You will need to smelt an unfired planter pot to get a block you can actually place.
     </p>
     <Recipe id="assorteddecorations:planter_pot" />
-    <img src="\mods\decor\planter_pot.png">
+    <GalleryShot name="shed" />
 
     <SectionHeading name="fountain">
       Fountain
@@ -65,7 +65,6 @@
       The Fountain is a block that when powered provides a tiny little splash of water effect. Steel
       or aluminum ingots can take the place of the iron if you have a mod that adds them.
     </p>
-    <img src="\mods\decor\fountain.png">
   </PartPage>
 </template>
 

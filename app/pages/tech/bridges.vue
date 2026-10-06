@@ -7,7 +7,7 @@
       laser bridges sound pretty cool right?! Well here is a variety of different Laser bridges to
       choose from.
     </p>
-    <img src="\mods\tech\bridges.png">
+    <GalleryShot name="bridges" />
 
     <SectionHeading name="bridges">
       Bridges
@@ -51,11 +51,11 @@
     <SectionHeading name="camo">
       Bridge Camo
     </SectionHeading>
-    <img src="\mods\tech\bridge_camo.png">
     <p>
       If you right click on a bridge with a supported block the bridge blocks will be changed to
       look like that block. Shift Right-Click with an empty hand to clear the saved block.
     </p>
+    <GalleryShot name="block-look" />
 
     <SectionHeading name="config">
       Config

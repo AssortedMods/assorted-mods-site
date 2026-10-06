@@ -6,12 +6,12 @@
     <p>
       Press F7 to show the block light on the ground around you. Press it again to turn it off.
     </p>
-    <img src="\mods\util\light-overlay.webp">
+    <GalleryShot name="dusk" />
     <p>
       Red is where a monster can spawn at any time, yellow where one can only at night or in a storm,
       and green where one never can.
     </p>
-    <img src="\mods\util\light-overlay-demo.webp">
+    <GalleryShot name="cave" />
     <p>
       You can change the key in the controls menu.
     </p>

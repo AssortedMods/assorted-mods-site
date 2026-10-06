@@ -1,12 +1,5 @@
 <template>
-  <FamilyHome family="core">
-    <div class="flex justify-center mb-8">
-      <img
-        class="border-black border-2 py-0"
-        src="\mods\core\core.png"
-      >
-    </div>
-  </FamilyHome>
+  <FamilyHome family="core" />
 </template>
 
 <script setup lang="ts">

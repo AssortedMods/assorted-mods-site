@@ -8,7 +8,7 @@
       some Roadway blocks. These blocks allow you to have roadways, manholes, lights, sidewalks and
       stone paths.
     </p>
-    <img src="\mods\decor\roadways.png">
+    <GalleryShot name="road" />
     <SectionHeading name="required">
       Requirements
     </SectionHeading>
@@ -64,6 +64,7 @@
       use the White Paint Roller it comes with extra patterns, just keep Right-Clicking. With a
       Water Bucket in hand you can clear Roadways.
     </p>
+    <GalleryShot name="crossing" />
     <Recipe id="assortedroads:roadway" />
     <p>You are also able to paint and clear the Roadway in a crafting table.</p>
     <div class="flex flex-wrap gap-4">
@@ -73,7 +74,10 @@
     <SectionHeading name="manhole">
       Roadway Manhole
     </SectionHeading>
-    <img src="\mods\decor\roadway_manhole.png">
+    <PageFigure
+      src="/figures/decor/manhole.webp"
+      caption="A manhole open and closed."
+    />
     <p>
       With a Roadway Manhole you can create a block that you are able to toggle (Right-Click) to
       pass in and out of the block. You can also use Steel from

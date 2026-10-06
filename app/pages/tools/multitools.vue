@@ -7,7 +7,7 @@
       Multitools are one combined tool to do all the work of the parts it is made out of. This will
       help save hotbar space so you only need one tool rather than 5.
     </p>
-    <img src="\mods\tools\multitools.webp">
+    <GalleryShot name="multitools" />
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
       <Recipe id="assortedmultitools:wooden_multitool" />
       <Recipe id="assortedmultitools:stone_multitool" />

@@ -24,6 +24,7 @@
       They also have 64 uses to color 64 different things.
     </p>
     <Recipe id="assortedpaint:paint_roller_orange" />
+    <GalleryShot name="rollers" />
 
     <p>
       They have a number of uses. They can color blocks in world, they can color blocks in crafting
@@ -77,6 +78,7 @@
       <li>Concrete</li>
       <li>Dye Sheep</li>
     </ul>
+    <GalleryShot name="painting" />
     <p>
       A roller in the crafting grid with one wool or carpet dyes it to the roller's color, and the
       same goes for concrete and concrete powder.
@@ -98,12 +100,11 @@
     <SectionHeading name="siding">
       Siding
     </SectionHeading>
-    <img src="\mods\decor\siding_example.png">
     <p>
       To go with the Paint Rollers are some basic design blocks from
       <NuxtLink
         class="page-link"
-        to="/decor/building-blocks"
+        to="/decor/building-blocks#siding"
       >
         Assorted Building Blocks
       </NuxtLink> that can be painted using these Paint Rollers. These are aptly named

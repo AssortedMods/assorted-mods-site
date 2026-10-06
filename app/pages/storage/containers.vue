@@ -13,6 +13,7 @@
       </NuxtLink>
       installed all of them except the Item Tower can also be locked.
     </p>
+    <GalleryShot name="storeroom" />
 
     <SectionHeading name="crates">
       Warehouse Crates
@@ -75,7 +76,7 @@
       you can use the right side buttons to navigate as well.
     </p>
     <Recipe id="assortedcontainers:locker" />
-    <img src="\mods\storage\locker.png">
+    <GalleryShot name="locker" />
 
     <SectionHeading name="item_tower">
       Item Tower
@@ -87,8 +88,7 @@
       the towers.
     </p>
     <Recipe id="assortedcontainers:item_tower" />
-    <img src="\mods\storage\item_tower_inventory.png">
-    <img src="\mods\storage\item_tower.png">
+    <GalleryShot name="item-tower" />
   </PartPage>
 </template>
 

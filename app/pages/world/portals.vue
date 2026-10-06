@@ -6,16 +6,17 @@
     <SectionHeading name="void_portals">
       Void Portals
     </SectionHeading>
-    <img src="\mods\world\portals.webp">
     <p>
       A void portal frame is an end portal frame you can make yourself. They are very slow to break as
       you would expect.
     </p>
+    <GalleryShot name="portals" />
     <Recipe id="assortedportals:void_portal_frame" />
     <p>
       You can place them in an opening of 3x3 to 9x9 on a floor, wall or ceiling. If they all face the
       same way you can build an End Portal of your own.
     </p>
+    <GalleryShot name="nine-by-nine" />
     <SectionHeading name="void_striker">
       Void Striker and Ender Flames
     </SectionHeading>

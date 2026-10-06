@@ -8,7 +8,7 @@
       the rest of the undergrowth at its material's speed. What it cuts is the block tag
       <b>assortedmachetes:mineable/machete</b>.
     </p>
-    <img src="\mods\tools\machetes.webp">
+    <GalleryShot name="machetes" />
     <p>
       There is a machete for every material, from wood up to netherite, and for each of the extra
       materials in

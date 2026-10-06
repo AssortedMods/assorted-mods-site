@@ -70,7 +70,10 @@
       <b>0 - 5</b>. A normal vanilla block being a <b>0</b> and a Netherite block being a level
       <b>5</b>.
     </p>
-    <img src="\mods\storage\storage_level_tooltip.png">
+    <PageFigure
+      src="/figures/storage/storage-level-tooltip.png"
+      caption="A netherite chest's tooltip, with its storage level on the last line."
+    />
     <p>
       Storage crates from
       <NuxtLink

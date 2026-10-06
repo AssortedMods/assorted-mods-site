@@ -10,7 +10,8 @@
       cycle through the allowed modes click <b>Z</b> by default. A chat message with the new mode
       should appear. The key sits under Assorted Mods in Controls.
     </p>
-    <img src="\mods\tools\wands.webp">
+    <GalleryShot name="wands" />
+    <GalleryShot name="modes" />
     <p>
       To get started right click a block and click on another block if the current mode and area
       used on is allowed then it will perform <i>magic</i>. A wand will tell you when you have picked
@@ -31,6 +32,8 @@
       <Recipe id="assortedwands:breaking_wand" />
       <Recipe id="assortedwands:mining_wand" />
     </div>
+    <GalleryClip name="breaking" />
+    <GalleryClip name="mining" />
     <SectionHeading name="reinforced">
       Reinforced Wands
     </SectionHeading>
@@ -40,6 +43,7 @@
       flooding a space with water, or pouring lava into one, and surface mining, all need a
       reinforced wand.
     </p>
+    <GalleryShot name="leave-ores" />
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
       <Recipe id="assortedwands:reinforced_building_wand" />
       <Recipe id="assortedwands:reinforced_breaking_wand" />

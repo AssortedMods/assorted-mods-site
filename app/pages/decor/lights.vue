@@ -33,7 +33,7 @@
         Roadways
       </NuxtLink>.
     </p>
-    <img src="\mods\decor\illumination_plate.png">
+    <GalleryShot name="tubes" />
     <div class="flex flex-wrap gap-4">
       <Recipe id="assortedlights:illumination_plate" />
       <Recipe id="assortedlights:illumination_plate_iron" />
@@ -57,7 +57,7 @@
       <Recipe id="assortedlights:fluro_blue" />
       <Recipe id="assortedlights:fluro_pink" />
     </div>
-    <img src="\mods\decor\fluro.png">
+    <GalleryShot name="fluro" />
 
     <SectionHeading name="lanterns">
       Lanterns
@@ -66,7 +66,7 @@
       There are also Lanterns that are added to provide a bit of variety in interior lighting
       options. <i>All Lanterns crafting can use any Candle or any Torch</i>.
     </p>
-    <br>
+    <GalleryShot name="lanterns" />
     <SectionHeading
       name="paper_lantern"
       :level="3"

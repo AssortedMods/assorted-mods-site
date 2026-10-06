@@ -9,7 +9,11 @@
       moves in a straight line, mining whatever the material it is made of can mine, and lays a
       block from its top slots behind itself at every step.
     </p>
-    <img src="\mods\tech\extruder.webp">
+    <p>
+      Its screen has the fuel slot, the direction and start buttons, and the slots for the blocks it
+      lays behind itself.
+    </p>
+    <GalleryShot name="screen" />
     <SectionHeading name="materials">
       Materials
     </SectionHeading>

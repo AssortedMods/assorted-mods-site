@@ -26,7 +26,7 @@
       </NuxtLink>
       installed every barrel can also be locked.
     </p>
-    <img src="\mods\storage\barrels.webp">
+    <GalleryShot name="barrels" />
 
     <SectionHeading name="materials">
       Materials and Levels
@@ -40,6 +40,7 @@
       level 0 and a netherite barrel is a level 5. Every barrel has a line on its tooltip showing
       its storage level.
     </p>
+    <GalleryShot name="diamond-barrel" />
 
     <SectionHeading name="upgrading">
       Upgrading

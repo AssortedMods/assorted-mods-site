@@ -8,7 +8,6 @@
       solid block and it fills down to the ground. Breaking any part of a gate takes the whole gate
       down and gives back the one item it was placed from.
     </p>
-    <img src="\mods\decor\gates.webp">
     <SectionHeading name="castle_gate">
       Castle Gate
     </SectionHeading>
@@ -28,6 +27,7 @@
       A garage door hangs and fills down the same way a castle gate does. The garage remote opens and closes it from afar just like the gate trumpet does for a castle gate.
       Redstone at the top block works on it too.
     </p>
+    <GalleryShot name="garage-door" />
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
       <Recipe id="assortedgates:garage_panel" />
       <Recipe id="assortedgates:garage_door" />

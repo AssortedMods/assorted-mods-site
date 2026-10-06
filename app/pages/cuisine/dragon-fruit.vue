@@ -4,7 +4,6 @@
     part="dragon-fruit"
   >
     <p>Cacti sometimes drop a dragon fruit when they break. These Dragon Fruit can be eaten to regain a bit of hunger.</p>
-    <img src="\mods\cuisine\dragon_fruit.png">
 
     <SectionHeading name="cutting">
       Cutting One Open
@@ -16,6 +15,7 @@
       </NuxtLink> or any other mod that adds one.
     </p>
     <Recipe id="assorteddragonfruit:dragon_fruit" />
+    <GalleryShot name="cutting" />
 
     <SectionHeading name="config">
       Config

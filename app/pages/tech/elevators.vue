@@ -3,8 +3,6 @@
     family="tech"
     part="elevators"
   >
-    <img src="\mods\tech\elevators.webp">
-
     <SectionHeading name="elevator">
       Elevator
     </SectionHeading>
@@ -40,6 +38,7 @@
       Dye one to change its color so you can go to different levels in the same column. There has to
       be room to stand on the one you are sent to.
     </p>
+    <GalleryShot name="instant" />
     <Recipe id="assortedelevators:instant_elevator" />
 
     <SectionHeading name="camouflage">

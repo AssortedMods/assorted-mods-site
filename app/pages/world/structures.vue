@@ -10,6 +10,7 @@
     <p>
       A lot of them can be changed in the config, like how rare they are and what shows up in them.
     </p>
+    <GalleryShot name="structures" />
     <SectionHeading name="runes">
       Runes
     </SectionHeading>
@@ -18,7 +19,7 @@
       different status effect to whoever stands on or uses it. You will need to find them all to
       figure out which ones are the best.
     </p>
-    <img src="\mods\world\runes.png">
+    <GalleryShot name="runes" />
     <SectionHeading name="pyramid">
       Pyramids
     </SectionHeading>
@@ -26,7 +27,7 @@
       Pyramids are large structures that have started to decay over the years. Most have many levels
       but can be very rewarding. They are found in deserts.
     </p>
-    <img src="\mods\world\pyramid.png">
+    <GalleryShot name="pyramid" />
     <SectionHeading name="fountain">
       Fountains
     </SectionHeading>
@@ -34,7 +35,7 @@
       Fountains are large stone structures surrounded by flowing water. They can contain spawners and
       rare loot. They are found in swamps.
     </p>
-    <img src="\mods\world\fountain.png">
+    <GalleryShot name="fountain" />
     <SectionHeading name="snowball">
       Snowballs
     </SectionHeading>
@@ -42,7 +43,7 @@
       Snowballs are massive snow and ice structures. They closely resemble massive snowmen. They are
       found in snowy biomes.
     </p>
-    <img src="\mods\world\snowball.png">
+    <GalleryShot name="snowball" />
     <SectionHeading name="waterdome">
       Water Domes
     </SectionHeading>
@@ -50,7 +51,7 @@
       Water Domes are found on the bottom of the ocean and can contain Runes. Some rare ones are made
       of uncommon materials.
     </p>
-    <img src="\mods\world\water_dome.png">
+    <GalleryShot name="water-dome" />
     <SectionHeading name="spire">
       Spires
     </SectionHeading>
@@ -58,7 +59,7 @@
       Spires are natural structures that reach towards the sky. These can contain runes and very
       rarely are 'death spires'. They turn up across most of the Overworld.
     </p>
-    <img src="\mods\world\spires.png">
+    <GalleryShot name="spire" />
     <SectionHeading name="decayedruins">
       Decayed Ruins
     </SectionHeading>
@@ -66,7 +67,7 @@
       Ruins have decayed greatly over the years but can still contain treasures of old. They turn up
       across most of the Overworld.
     </p>
-    <img src="\mods\world\ruins.png">
+    <GalleryShot name="ruin" />
     <SectionHeading name="sandstonepillars">
       Sandstone Pillars
     </SectionHeading>
@@ -74,7 +75,7 @@
       Sandstone pillars stand out of the dunes in the desert. Some hide suspicious sand or a rune worth
       digging for.
     </p>
-    <img src="\mods\world\sandstone_pillar.png">
+    <GalleryShot name="sand-pillar" />
 
     <SectionHeading name="config">
       Config

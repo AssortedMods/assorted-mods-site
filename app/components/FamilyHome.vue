@@ -1,11 +1,26 @@
 <template>
   <div>
     <ModHome :family="family" />
-    <slot />
+    <figure
+      v-if="hero"
+      class="max-w-4xl mx-auto px-5 mb-10"
+    >
+      <img
+        class="rounded-lg w-full"
+        :src="hero.src"
+        :alt="hero.caption"
+        :width="hero.width"
+        :height="hero.height"
+      >
+      <figcaption class="text-gray-400 text-sm mt-2 text-center">
+        {{ hero.caption }}
+      </figcaption>
+    </figure>
     <div class="flex flex-wrap -m-3 px-2 pb-10">
       <PartCard
         v-for="part in details.parts"
         :key="part.id"
+        :family="props.family"
         :mod="part"
       />
     </div>
@@ -36,12 +51,6 @@
           {{ LIB.name }}
         </NuxtLink> page.
       </p>
-      <br>
-      <ModGallery
-        v-if="details.bundle"
-        :family="props.family"
-        :dir="details.bundle.dir"
-      />
     </section>
   </div>
 </template>
@@ -54,4 +63,6 @@ const props = defineProps<{
 }>()
 
 const details = computed(() => getFamily(props.family))
+// The family's "everything" shot. The rest of its gallery is the first shot of each mod, shown on the cards.
+const hero = computed(() => getGallery(props.family, props.family)?.shots[0] ?? null)
 </script>

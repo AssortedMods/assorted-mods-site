@@ -8,6 +8,7 @@
       colorizers available from variants of already existing blocks like Doors, Stairs, or Fences.
       There are also new types of blocks that can represent furniture or adding slopes.
     </p>
+    <GalleryShot name="cabin" />
     <SectionHeading name="block">
       Colorizer Block
     </SectionHeading>
@@ -28,7 +29,6 @@
       the brush. If the brush consumes a block is configurable. Once you have a brush set up just
       right click on a <i>Colorizer Block</i> to texture it.
     </p>
-    <img src="\mods\decor\brush.png">
     <p>
       After you set a block the <i>Colorizer Brush</i> has 16 uses before or reverts to the empty
       version. If you need to clear the selected block before the uses are up you can put the brush
@@ -74,7 +74,6 @@
       <Recipe id="assortedcolorizer:colorizer_chair" />
       <Recipe id="assortedcolorizer:colorizer_chair_stonecutting" />
     </div>
-    <img src="\mods\decor\chairs_tables.png">
     <SectionHeading
       name="stool"
       :level="3"
@@ -92,7 +91,6 @@
       placed on top of them.
     </p>
     <Recipe id="assortedcolorizer:colorizer_stool" />
-    <img src="\mods\decor\stool_pot.png">
     <SectionHeading
       name="counter"
       :level="3"
@@ -112,7 +110,6 @@
       of the 3 blocks they all break. They are a good way to make nice looking lighting.
     </p>
     <Recipe id="assortedcolorizer:colorizer_lamp_post" />
-    <img src="\mods\decor\lamp_posts.png">
 
     <SectionHeading name="vanilla">
       Vanilla Alternatives
@@ -228,6 +225,7 @@
       side of the block that it is placed on and where on that side that it was, think upside down
       stairs.
     </p>
+    <GalleryShot name="showroom" />
     <SectionHeading
       name="slope"
       :level="3"
@@ -355,7 +353,10 @@
       posts when multiple are placed next to each other.
     </p>
     <Recipe id="assortedcolorizer:colorizer_fireplace" />
-    <img src="\mods\decor\fireplace_chimney.png">
+    <PageFigure
+      src="/figures/decor/fireplace-chimney.webp"
+      caption="A lit fireplace with a chimney stacked above it, smoking."
+    />
     <SectionHeading
       name="chimney"
       :level="3"

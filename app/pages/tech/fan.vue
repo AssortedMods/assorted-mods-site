@@ -9,18 +9,19 @@
     </p>
     <Recipe id="assortedfan:fan" />
 
+    <SectionHeading name="settings">
+      Settings
+    </SectionHeading>
     <p>
       Fans can be configured however you like by using the GUI that opens when you right click on a
       fan. From within the GUI you can adjust the mode `Blow/Suck` as well as adjust the range. The
       range that it is set to directly affects the speed at which entities are moved along.
     </p>
-    <img src="\mods\tech\fan_gui.png">
-
+    <GalleryShot name="fan-settings" />
     <p>
       Fans can be turned off by powering them and when they no longer have a redstone power they
       will go back to whatever they were previously set to.
     </p>
-    <img src="\mods\tech\fan_turn_off.png">
 
     <SectionHeading name="config">
       Config

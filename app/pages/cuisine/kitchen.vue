@@ -3,13 +3,14 @@
     family="cuisine"
     part="kitchen"
   >
+    <GalleryShot name="kitchen" />
     <SectionHeading name="dairy">
       Dairy
     </SectionHeading>
     <p>
       We have two machines that convert milk into a Dairy product.
     </p>
-    <img src="\mods\cuisine\machines.png">
+    <GalleryShot name="machines" />
 
     <SectionHeading
       name="butter_churn"
@@ -22,6 +23,7 @@
       click while it is working speeds up the output. Right click once more
       when it is done for two butter.
     </p>
+    <GalleryShot name="churning" />
     <Recipe id="assortedkitchen:butter_churn" />
 
     <SectionHeading
@@ -124,6 +126,7 @@
         Assorted Dragon Fruit
       </NuxtLink> it also cuts a dragon fruit out of a cactus.
     </p>
+    <GalleryShot name="bread-slices" />
     <Recipe id="assortedkitchen:knife" />
 
     <SectionHeading
@@ -254,7 +257,7 @@
       Every pie starts as dough in a pan, gets a filling, and then bakes in a furnace. A baked pie
       can be placed and eaten a slice at a time, the way a cake works.
     </p>
-    <img src="\mods\cuisine\pies.png">
+    <GalleryShot name="pies" />
 
     <SectionHeading
       name="ingredients"

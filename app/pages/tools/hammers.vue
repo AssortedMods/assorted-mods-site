@@ -6,7 +6,7 @@
     <p>
       Hammers are new tools that on use will destroy the block in one hit but not drop the items. So if you have a huge mountain of dirt to get rid of this will be very helpful.
     </p>
-    <img src="\mods\tools\hammers.webp">
+    <GalleryShot name="hammers" />
     <p>
       There is a hammer for every material, from wood up to netherite, and for each of the extra
       materials in

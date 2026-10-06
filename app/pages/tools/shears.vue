@@ -15,7 +15,7 @@
       the exact same way that vanilla Shears work except that their durability is dependent on the
       material that they are made out of.
     </p>
-    <img src="\mods\tools\shears.webp">
+    <GalleryShot name="shears" />
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
       <Recipe id="assortedshears:wood_shears" />
       <Recipe id="assortedshears:stone_shears" />
@@ -34,6 +34,7 @@
       This enchantment allows Shears to be able to pick up Coral without the need of a separate tool
       with Silk Touch.
     </p>
+    <GalleryShot name="reef" />
 
     <SectionHeading name="config">
       Config

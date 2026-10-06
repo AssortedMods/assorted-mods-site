@@ -14,11 +14,12 @@
       you to pickup more than one fluid depending on the type of bucket. By default the Wooden and
       Stone buckets only can store one buckets worth and after placement they break.
     </p>
-    <img src="\mods\tools\buckets.webp">
+    <GalleryShot name="buckets" />
     <p>
       Hotter fluids need a sturdier bucket, so what a bucket can pick up is a question of material as
       well. A wooden bucket leaves lava alone.
     </p>
+    <GalleryShot name="tooltip" />
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
       <Recipe id="assortedbuckets:wood_bucket" />
       <Recipe id="assortedbuckets:stone_bucket" />
@@ -36,6 +37,7 @@
       Any of these buckets can be used to milk cows. What you can milk depends on the bucket. All of
       them can manage a cow, better ones also manage a sheep, and the best of them a pig as well.
     </p>
+    <GalleryShot name="milking" />
 
     <SectionHeading name="config">
       Config

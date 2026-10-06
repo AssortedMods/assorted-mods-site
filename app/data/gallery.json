@@ -10,42 +10,42 @@
     "height": 720
    },
    {
-    "src": "/gallery/core/core/2-cave.webp",
+    "src": "/gallery/core/ores/1-cave.webp",
     "title": "Ores",
     "caption": "A cave with all ten ores in its walls. Silver, ruby and platinum sit down in the deepslate.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/core/core/3-machines.webp",
+    "src": "/gallery/core/machines/1-machines.webp",
     "title": "Machines",
     "caption": "Every tier of the grinding mill and alloy forge, fed by hoppers, with a machine core in the middle.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/core/core/4-blocks.webp",
+    "src": "/gallery/core/ores/2-blocks.webp",
     "title": "Storage Blocks",
     "caption": "Every metal and gem packs into a storage block, and the raw ores pack into raw blocks too.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/core/core/5-grinding-mill.webp",
+    "src": "/gallery/core/machines/2-grinding-mill.webp",
     "title": "Grinding Mill",
     "caption": "Raw iron going into a grinding mill and coming out as two dusts each.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/core/core/6-alloy-forge.webp",
+    "src": "/gallery/core/machines/3-alloy-forge.webp",
     "title": "Alloy Forge",
     "caption": "Copper and tin dust turning into bronze ingots.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/core/core/7-alloys.webp",
+    "src": "/gallery/core/machines/4-alloys.webp",
     "title": "Alloys",
     "caption": "Bronze, electrum, invar and steel ingots, gears, dusts and blocks.",
     "width": 1280,
@@ -128,42 +128,42 @@
     "height": 720
    },
    {
-    "src": "/gallery/cuisine/cuisine/2-kitchen.webp",
+    "src": "/gallery/cuisine/kitchen/1-kitchen.webp",
     "title": "Kitchen",
     "caption": "The kitchen machines on the counter, with the foods and tools on the wall.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/cuisine/cuisine/3-machines.webp",
+    "src": "/gallery/cuisine/kitchen/3-machines.webp",
     "title": "Machines at Work",
     "caption": "The chocolate bar mold and cheese maker at every stage, with the butter churn between them.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/cuisine/cuisine/4-sodas.webp",
+    "src": "/gallery/cuisine/sodas/1-sodas.webp",
     "title": "Sodas",
     "caption": "Every soda flavor on the shelf.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/cuisine/cuisine/5-pies.webp",
+    "src": "/gallery/cuisine/kitchen/2-pies.webp",
     "title": "Pies",
     "caption": "Five pies, eaten a slice at a time like a cake.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/cuisine/cuisine/6-health.webp",
+    "src": "/gallery/cuisine/health/1-health.webp",
     "title": "Health",
     "caption": "Sweets, bandages and health packs.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/cuisine/cuisine/7-cacti.webp",
+    "src": "/gallery/cuisine/dragonfruit/1-cacti.webp",
     "title": "Dragon Fruit",
     "caption": "Dragon fruit in the desert, next to the cacti they come from.",
     "width": 1280,
@@ -363,70 +363,70 @@
     "height": 720
    },
    {
-    "src": "/gallery/decor/decor/2-temple.webp",
+    "src": "/gallery/decor/buildingblocks/1-temple.webp",
     "title": "Building Blocks",
     "caption": "A calcite temple of columns, tiles, bricks and carved creepers.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/decor/decor/3-showroom.webp",
+    "src": "/gallery/decor/colorizer/2-showroom.webp",
     "title": "Colorizer",
     "caption": "Colorizer blocks in every shape, each brushed with a different block.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/decor/decor/4-museum.webp",
+    "src": "/gallery/decor/displays/1-museum.webp",
     "title": "Displays",
     "caption": "Museum cases and display cases in every material.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/decor/decor/5-fluro.webp",
+    "src": "/gallery/decor/lights/1-fluro.webp",
     "title": "Lights",
     "caption": "A dance floor of fluro blocks.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/decor/decor/6-parlor.webp",
+    "src": "/gallery/decor/hangeables/1-parlor.webp",
     "title": "Hangeables",
     "caption": "Wallpaper, frames, neon signs, a wall clock and a calendar.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/decor/decor/7-neon.webp",
+    "src": "/gallery/decor/hangeables/3-neon.webp",
     "title": "Neon Signs",
     "caption": "Neon signs by day and at night, when the text glows.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/decor/decor/8-castle-gate.webp",
+    "src": "/gallery/decor/gates/1-castle-gate.webp",
     "title": "Gates",
     "caption": "A castle gate in a gatehouse.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/decor/decor/9-courtyard.webp",
+    "src": "/gallery/decor/decorations/1-courtyard.webp",
     "title": "Decorations",
     "caption": "A garden with the fountain, planter pots and decorations.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/decor/decor/10-road.webp",
+    "src": "/gallery/decor/roads/1-road.webp",
     "title": "Roads",
     "caption": "A road lit by roadway lights at night.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/decor/decor/11-rollers.webp",
+    "src": "/gallery/decor/paint/1-rollers.webp",
     "title": "Paint",
     "caption": "A paint roller for every color.",
     "width": 1280,
@@ -657,42 +657,42 @@
     "height": 720
    },
    {
-    "src": "/gallery/mobs/mobs/2-seals-walrus.webp",
+    "src": "/gallery/mobs/seacreatures/1-seals-walrus.webp",
     "title": "Seals and Walrus",
     "caption": "A walrus and two seals hauled out on a frozen shore.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/mobs/mobs/3-otter-pick.webp",
+    "src": "/gallery/mobs/seacreatures/2-otter-pick.webp",
     "title": "Sea Otter",
     "caption": "A sea otter floating on its back.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/mobs/mobs/4-narwhal.webp",
+    "src": "/gallery/mobs/seacreatures/3-narwhal.webp",
     "title": "Narwhal",
     "caption": "A narwhal swimming among the kelp.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/mobs/mobs/5-parabuzzies.webp",
+    "src": "/gallery/mobs/eightbit/1-parabuzzies.webp",
     "title": "8-Bit Mobs",
     "caption": "Parabuzzies in every look and a Bob-omb.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/mobs/mobs/6-pixies.webp",
+    "src": "/gallery/mobs/icepixie/1-pixies.webp",
     "title": "Ice Pixies",
     "caption": "Ice pixies around a frozen pond.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/mobs/mobs/7-mineshaft.webp",
+    "src": "/gallery/mobs/treasuremob/1-mineshaft.webp",
     "title": "Treasure Mobs",
     "caption": "Treasure mobs wandering a mineshaft.",
     "width": 1280,
@@ -982,56 +982,56 @@
     "height": 720
    },
    {
-    "src": "/gallery/storage/storage/2-chests.webp",
+    "src": "/gallery/storage/chests/1-chests.webp",
     "title": "Chests",
     "caption": "Every chest material by storage level.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/storage/storage/3-crates.webp",
+    "src": "/gallery/storage/crates/1-crates.webp",
     "title": "Crates",
     "caption": "A wall of crates joined by a crate controller.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/storage/storage/4-storeroom.webp",
+    "src": "/gallery/storage/containers/1-storeroom.webp",
     "title": "Containers",
     "caption": "Lockers, safes, cabinets, an item tower and warehouse crates.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/storage/storage/5-bags.webp",
+    "src": "/gallery/storage/bags/1-bags.webp",
     "title": "Bags",
     "caption": "Dyed bags from basic to netherite, with the ender bag.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/storage/storage/6-hoppers.webp",
+    "src": "/gallery/storage/hoppers/1-hoppers.webp",
     "title": "Hoppers",
     "caption": "Material hoppers feeding chests.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/storage/storage/7-upgrading.webp",
+    "src": "/gallery/storage/levelupgrades/1-upgrading.webp",
     "title": "Level Upgrades",
     "caption": "A chest upgraded in place without emptying it.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/storage/storage/8-locks.webp",
+    "src": "/gallery/storage/locks/1-locks.webp",
     "title": "Locks",
     "caption": "Locked doors, chests, barrels and an ender chest.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/storage/storage/9-netherite-chest.webp",
+    "src": "/gallery/storage/chests/2-netherite-chest.webp",
     "title": "Netherite Chest",
     "caption": "A netherite chest holds 126 stacks.",
     "width": 1280,
@@ -1292,56 +1292,56 @@
     "height": 720
    },
    {
-    "src": "/gallery/tech/tech/2-bridges.webp",
+    "src": "/gallery/tech/bridges/1-bridges.webp",
     "title": "Bridges",
     "caption": "All five bridges across a ravine.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/tech/tech/3-riding.webp",
+    "src": "/gallery/tech/elevators/1-riding.webp",
     "title": "Elevators",
     "caption": "An elevator carrying a villager and a sheep up to the roof.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/tech/tech/4-extruders.webp",
+    "src": "/gallery/tech/extruder/1-extruders.webp",
     "title": "Extruder",
     "caption": "Extruders drilling a trench and laying walls behind themselves.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/tech/tech/5-grates.webp",
+    "src": "/gallery/tech/grates/1-grates.webp",
     "title": "Grates",
     "caption": "Items fall through a grate walkway that a villager stands on.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/tech/tech/6-sensors.webp",
+    "src": "/gallery/tech/sensors/1-sensors.webp",
     "title": "Sensors",
     "caption": "All twelve sensors, each lit by what it watches for.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/tech/tech/7-spikes.webp",
+    "src": "/gallery/tech/spikes/1-spikes.webp",
     "title": "Spikes",
     "caption": "Spikes in every vanilla material.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/tech/tech/8-gravity.webp",
+    "src": "/gallery/tech/gravity/1-gravity.webp",
     "title": "Gravity",
     "caption": "A gravitor holding mobs and items up inside its range.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/tech/tech/9-flip-flop.webp",
+    "src": "/gallery/tech/redstone/1-flip-flop.webp",
     "title": "Redstone",
     "caption": "The flip flop torch lighting a lamp.",
     "width": 1280,
@@ -1705,14 +1705,14 @@
     "height": 720
    },
    {
-    "src": "/gallery/tools/tools/2-armory.webp",
+    "src": "/gallery/tools/gearsets/1-armory.webp",
     "title": "Gear Sets",
     "caption": "Armor and tools in the materials other mods add.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/tools/tools/3-let-out.webp",
+    "src": "/gallery/tools/pokeball/2-let-out.webp",
     "title": "Pokeball",
     "caption": "Catch a mob and let it back out anywhere.",
     "width": 1280,
@@ -1726,35 +1726,35 @@
     "height": 720
    },
    {
-    "src": "/gallery/tools/tools/5-frozen-mobs.webp",
+    "src": "/gallery/tools/staffs/1-frozen-mobs.webp",
     "title": "Staffs",
     "caption": "The Neptune staff freezes mobs solid.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/tools/tools/6-flying.webp",
+    "src": "/gallery/tools/suits/1-flying.webp",
     "title": "Suits",
     "caption": "The chicken suit flaps you up and glides you down.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/tools/tools/7-hammers.webp",
+    "src": "/gallery/tools/hammers/1-hammers.webp",
     "title": "Hammers",
     "caption": "A hammer in every material.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/tools/tools/8-machetes.webp",
+    "src": "/gallery/tools/machetes/1-machetes.webp",
     "title": "Machetes",
     "caption": "A machete in every material.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/tools/tools/9-spears.webp",
+    "src": "/gallery/tools/throwingspears/1-spears.webp",
     "title": "Throwing Spears",
     "caption": "A throwing spear in every material.",
     "width": 1280,
@@ -2048,21 +2048,21 @@
     "height": 720
    },
    {
-    "src": "/gallery/world/world/3-islands.webp",
+    "src": "/gallery/world/floatingislands/1-islands.webp",
     "title": "Floating Islands",
     "caption": "Seventeen kinds of island, each over its own biomes.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/world/world/4-spire.webp",
+    "src": "/gallery/world/structures/3-spire.webp",
     "title": "Spire",
     "caption": "A stone spire on the coast.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/world/world/5-randomite.webp",
+    "src": "/gallery/world/terrain/1-randomite.webp",
     "title": "Randomite",
     "caption": "Randomite in the walls of a cave.",
     "width": 1280,
@@ -2076,21 +2076,21 @@
     "height": 720
    },
    {
-    "src": "/gallery/world/world/7-gunpowder-reed.webp",
+    "src": "/gallery/world/plants/1-gunpowder-reed.webp",
     "title": "Gunpowder Reed",
     "caption": "Gunpowder reed along a stream.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/world/world/8-runes.webp",
+    "src": "/gallery/world/structures/4-runes.webp",
     "title": "Runes",
     "caption": "All sixteen runes.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/world/world/9-portals.webp",
+    "src": "/gallery/world/portals/1-portals.webp",
     "title": "Portals",
     "caption": "Void portals on a wall, in the floor and in the ceiling, up to nine by nine.",
     "width": 1280,
@@ -2109,35 +2109,35 @@
     "height": 720
    },
    {
-    "src": "/gallery/util/util/2-graves.webp",
+    "src": "/gallery/util/graves/1-grave.webp",
     "title": "Graves",
     "caption": "When you die your things wait in a grave with your name on it.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/util/util/3-double-doors.webp",
+    "src": "/gallery/util/doubledoors/2-hatch.webp",
     "title": "Double Doors",
     "caption": "Doors, trapdoor hatches and fence gates open together.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/util/util/4-time.webp",
+    "src": "/gallery/util/time/2-both.webp",
     "title": "Time",
     "caption": "Press H to see the time in your world and your real time.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/util/util/5-light-overlay.webp",
+    "src": "/gallery/util/lightoverlay/1-dusk.webp",
     "title": "Light Overlay",
     "caption": "Press F7 to see where monsters can spawn.",
     "width": 1280,
     "height": 720
    },
    {
-    "src": "/gallery/util/util/6-damage-numbers.webp",
+    "src": "/gallery/util/damagenumbers/2-sources.webp",
     "title": "Damage Numbers",
     "caption": "Damage shows as numbers with what caused it.",
     "width": 1280,

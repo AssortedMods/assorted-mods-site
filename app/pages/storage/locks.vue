@@ -21,7 +21,7 @@
       Using this workbench will allow you to define a code for keys and locks. As long as the lock
       and key code are the same you will be able to open blocks.
     </p>
-    <img src="\mods\storage\locksmith_workbench.png">
+    <GalleryShot name="workbench" />
 
     <SectionHeading name="lock">
       Locksmith Lock
@@ -54,7 +54,10 @@
       To use it just right click it in your inventory and a GUI will open. Drag any keys you would
       like to store over and then you are good to go. It only supports 1 key in each slot.
     </p>
-    <img src="\mods\storage\key_ring_gui.png">
+    <PageFigure
+      src="/figures/storage/key-ring-screen.png"
+      caption="A key ring holding three keys."
+    />
 
     <SectionHeading name="containers">
       Locking Containers
@@ -65,6 +68,7 @@
       padlock went on. You can also craft a vanilla chest or barrel together with a lock that has a
       code to get a locked one.
     </p>
+    <GalleryShot name="locking" />
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedlocks:locked_chest" />
       <Recipe id="assortedlocks:locked_barrel" />
@@ -92,7 +96,10 @@
       <b>Locksmith Lock</b> with a saved code. This will turn the Ender Chest into a Locked Ender
       Chest locked with that code.
     </p>
-    <img src="\mods\storage\locked_ender_chest.png">
+    <PageFigure
+      src="/figures/storage/locked-ender-chests.webp"
+      caption="Two locked ender chests, each with its own inventory."
+    />
     <p>
       Each separate Locked Ender Chest locked with a different code is a completely separate
       inventory than the others. So you can have a huge amount of separate Locked Ender Chests to
@@ -120,7 +127,10 @@
       installed you will also be able to lock the 4 doors that it adds (Quartz, Steel, Glass, Chain
       Link).
     </p>
-    <img src="\mods\storage\locked_doors.png">
+    <PageFigure
+      src="/figures/storage/locked-doors.webp"
+      caption="A row of vanilla and Building Blocks doors, each with a padlock on it."
+    />
     <p>
       Doors that do not open by hand, like Iron, Quartz, and Steel, can be locked with a right click
       using a <i>Locksmith Lock</i> that has a combination.

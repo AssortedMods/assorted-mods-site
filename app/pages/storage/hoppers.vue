@@ -20,7 +20,7 @@
         Assorted Core
       </NuxtLink>.
     </p>
-    <img src="\mods\storage\hoppers.webp">
+    <GalleryShot name="hoppers" />
 
     <SectionHeading name="materials">
       Materials and Levels
@@ -34,6 +34,7 @@
       level 0 and a netherite hopper is a level 5. Every hopper has a line on its tooltip showing
       its storage level.
     </p>
+    <GalleryShot name="diamond-hopper" />
 
     <SectionHeading name="upgrading">
       Upgrading

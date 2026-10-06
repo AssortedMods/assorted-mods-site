@@ -2,22 +2,33 @@
   <div class="xl:w-1/3 md:w-1/2 p-3 w-full">
     <NuxtLink
       :to="mod.route"
-      class="page-link"
+      class="page-link block h-full"
     >
-      <div class="group flex gap-4 border border-gray-600 p-4 rounded-lg hover:bg-gray-100 cursor-pointer h-full">
+      <div class="group flex flex-col border border-gray-600 rounded-lg overflow-hidden hover:bg-gray-100 cursor-pointer h-full">
         <img
-          class="w-16 h-16 rounded-md shrink-0"
-          :src="mod.logo"
-          :alt="mod.name"
+          v-if="shot"
+          class="w-full aspect-video object-cover"
+          :src="shot.src"
+          :alt="shot.caption"
+          :width="shot.width"
+          :height="shot.height"
           loading="lazy"
         >
-        <div>
-          <h3 class="text-lg font-medium text-gray-200 group-hover:text-gray-900">
-            {{ mod.shortName }}
-          </h3>
-          <p class="text-sm leading-relaxed text-gray-400 group-hover:text-gray-700">
-            {{ mod.description }}
-          </p>
+        <div class="flex gap-4 p-4">
+          <img
+            class="w-14 h-14 rounded-md shrink-0"
+            :src="mod.logo"
+            :alt="mod.name"
+            loading="lazy"
+          >
+          <div>
+            <h3 class="text-lg font-medium text-gray-200 group-hover:text-gray-900">
+              {{ mod.shortName }}
+            </h3>
+            <p class="text-sm leading-relaxed text-gray-400 group-hover:text-gray-700">
+              {{ mod.description }}
+            </p>
+          </div>
         </div>
       </div>
     </NuxtLink>
@@ -25,9 +36,13 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
 import type { ModDetails } from '~/utils/mods'
 
-defineProps<{
+const props = defineProps<{
+  family: string
   mod: ModDetails
 }>()
+
+const shot = computed(() => getGallery(props.family, props.mod.dir)?.shots[0] ?? null)
 </script>

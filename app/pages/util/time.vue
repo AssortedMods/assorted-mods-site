@@ -7,11 +7,10 @@
       Press H to slide down a clock with the day and time in the world. Press it again for the date and
       time where you are, press it again for both, and once more to hide it.
     </p>
-    <img src="\mods\util\time.webp">
     <p>
       In the Nether the world's time cannot be told.
     </p>
-    <img src="\mods\util\time-demo.webp">
+    <GalleryShot name="nether" />
     <p>
       You can change the key in the controls menu.
     </p>

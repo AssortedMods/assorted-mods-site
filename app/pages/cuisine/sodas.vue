@@ -7,7 +7,7 @@
       Eleven bottled drinks. Every one of them starts the same way, and unlike food they can heal you
       directly.
     </p>
-    <img src="\mods\cuisine\sodas.png">
+    <GalleryShot name="sodas" />
 
     <SectionHeading name="carbonated">
       Carbonated Water
@@ -20,6 +20,7 @@
       <Recipe id="assortedsodas:soda_co2" />
       <Recipe id="assortedsodas:soda_carbonated_water" />
     </div>
+    <GalleryShot name="carbonated-water" />
 
     <SectionHeading name="types">
       Flavors

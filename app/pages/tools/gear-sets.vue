@@ -23,7 +23,7 @@
       can be crafted with no other mod. The rest need a mod that adds the ingot or gem, and it does
       not have to be an Assorted one.
     </p>
-    <img src="\mods\tools\armors.png">
+    <GalleryShot name="armory" />
     <p>
       Vanilla's own materials are not repeated as pickaxes and swords, since the game already has
       those. The extra materials also turn up in the tools vanilla has no version of, like
@@ -85,6 +85,7 @@
       If you forgot what the recipes look like or maybe just want a refresher here you go. Replace
       the Topaz Gem with the material of your choice to craft any of the tools or armor.
     </p>
+    <GalleryShot name="inventory" />
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
       <Recipe id="assortedgearsets:topaz_pickaxe" />
       <Recipe id="assortedgearsets:topaz_axe" />

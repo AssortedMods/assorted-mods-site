@@ -50,6 +50,26 @@ shows as "soon" until the mod has that id. `scripts/mods/overrides.json` holds w
 does not, like a nicer Modrinth slug or a family with no bundle. Rerun it when a mod gets its store
 pages or a new logo. When a page moves, add the old path to `redirects.json` so links keep working.
 
+## Pictures
+
+The pictures on a mod's page are the same ones as on its CurseForge and Modrinth pages. They live
+in `public/gallery/<family>/<dir>` with their captions in `app/data/gallery.json`, and a script
+outside this repo copies them in from the photo shoots, so they are not edited here. A page shows
+its main clip under the header and places the shots next to the text they go with:
+
+```html
+<GalleryShot name="pyramid" />   <!-- 4-pyramid.webp, named without its number -->
+<GalleryClip name="breaking" />  <!-- clip-breaking.webp; the main clip.webp is already at the top -->
+```
+
+Any shot or extra clip a page does not place is shown in the Gallery at the end, and clicking any
+shot opens the lightbox over all of them. A name that does not exist fails the build. A bundle's
+gallery is its parts' first shots, so a family page shows the "everything" shot and the part cards
+carry the rest.
+
+Pictures that are not in a gallery, like a screen or a tooltip, are in `public/figures/<family>`
+and go on a page with `<PageFigure src="/figures/tech/sensor-range.webp" caption="..." />`.
+
 ## Recipes
 
 Recipes on the pages are `<Recipe id="assortedmachines:machine_core" />` components. They read

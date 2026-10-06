@@ -27,7 +27,7 @@
       </NuxtLink>
       installed the Bags can all be locked.
     </p>
-    <img src="\mods\storage\bags.png">
+    <GalleryShot name="bags" />
 
     <SectionHeading name="crafting">
       Crafting
@@ -54,6 +54,7 @@
       <Recipe id="assortedbags:bag_iron" />
       <Recipe id="assortedbags:bag_iron_chest" />
     </div>
+    <GalleryShot name="open-bag" />
 
     <SectionHeading name="dyeing">
       Dyeing
@@ -82,8 +83,14 @@
       locked. And the bag's texture will have a little lock icon.
     </p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <img src="\mods\storage\bag_inventory.png">
-      <img src="\mods\storage\bag_tooltip.png">
+      <PageFigure
+        src="/figures/storage/bag-lock-slot.png"
+        caption="The padlock slot to the right of a bag's inventory."
+      />
+      <PageFigure
+        src="/figures/storage/bag-locked-tooltip.png"
+        caption="A locked bag's tooltip says only that it is locked."
+      />
     </div>
 
     <SectionHeading name="ender_bag">

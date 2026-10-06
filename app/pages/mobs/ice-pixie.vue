@@ -7,7 +7,7 @@
       Ice pixies live in snowy biomes and can be found during both day and night. They throw ice at any
       player they see, and they move faster on ice and snow.
     </p>
-    <img src="\mods\mobs\ice_pixie.png">
+    <GalleryShot name="pixies" />
 
     <SectionHeading name="fire">
       Only Fire
@@ -16,6 +16,7 @@
       Nothing hurts an ice pixie unless you are holding a torch or flint and steel when you hit it.
       Anything hot nearby will burn it too. Like torches, fire, campfires, magma, and lava.
     </p>
+    <GalleryShot name="close" />
 
     <SectionHeading name="drops">
       Drops

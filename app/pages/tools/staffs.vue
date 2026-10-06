@@ -7,7 +7,7 @@
       Each staff has several modes. Switch between them with the tool mode key,
       <b>Z</b> by default. It sits under Assorted Mods in Controls.
     </p>
-    <img src="\mods\tools\staffs.webp">
+    <GalleryShot name="staffs" />
     <SectionHeading name="neptune">
       Neptune Staff
     </SectionHeading>
@@ -16,6 +16,8 @@
       around you solid, and <b>Freeze Water</b> turns the still water around you to ice. A frozen mob stands still and silent,
       turned to ice, until a Phoenix Staff thaws it or it catches fire.
     </p>
+    <GalleryShot name="frozen-mobs" />
+    <GalleryShot name="freeze-water" />
     <Recipe id="assortedstaffs:neptune_staff" />
     <SectionHeading name="phoenix">
       Phoenix Staff
@@ -35,6 +37,7 @@
       the <b>Dropping</b> modes let it fall. It moves what a piston could, and packs can refuse more
       blocks with the block tag <b>assortedstaffs:power_staff_immovable</b>.
     </p>
+    <GalleryClip name="power" />
     <Recipe id="assortedstaffs:power_staff" />
     <SectionHeading name="frost">
       Frost Rods

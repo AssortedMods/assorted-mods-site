@@ -10,7 +10,7 @@
       Gunpowder Reed is a plant that grows like sugar cane but gives you gunpowder instead. It is a
       renewable source so you do not have to hunt creepers for it.
     </p>
-    <img src="\mods\world\gunpowder_reeds.png">
+    <GalleryShot name="gunpowder-reed" />
     <p>
       It follows the same rules as sugar cane. Plant it on dirt, sand, or another block sugar cane
       accepts with water next to the block underneath it, and it grows on its own up to 3 blocks
@@ -39,7 +39,7 @@
       A glowstone seed takes on the underside of a netherrack ceiling and ripens before bursting into a
       blob of glowstone.
     </p>
-    <img src="\mods\world\plants.webp">
+    <GalleryShot name="glowstone-seeds" />
     <Recipe id="assortedplants:glowstone_seeds" />
 
     <SectionHeading name="config">

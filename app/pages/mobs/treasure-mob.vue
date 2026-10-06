@@ -19,7 +19,7 @@
       Each one carries what that place's own chests would hold, anything from bread to diamonds, and
       drops all of it when it dies.
     </p>
-    <img src="\mods\mobs\treasure_mob.png">
+    <GalleryShot name="loot" />
 
     <SectionHeading name="taming">
       Taming
@@ -28,6 +28,7 @@
       A wild one keeps away from players, but gold nuggets lure it in. Feed it nuggets and it may
       decide to stay.
     </p>
+    <GalleryShot name="taming" />
     <p>
       A tamed treasure mob follows you and sits when told to. Sneak and use it to open it as a chest.
     </p>

@@ -7,11 +7,11 @@
       When you die, everything you carried and all of your experience goes into a grave where you
       died. Items with Curse of Vanishing still vanish.
     </p>
-    <img src="\mods\util\graves.webp">
     <p>
       You get a message in chat with where your grave is. If there is no room for a grave nearby your
       things drop on the ground like normal.
     </p>
+    <GalleryShot name="death-message" />
 
     <SectionHeading name="restore">
       Getting It Back
@@ -19,7 +19,7 @@
     <p>
       Right click your grave to get everything back where it was, in the same slots.
     </p>
-    <img src="\mods\util\graves-demo.webp">
+    <GalleryShot name="restored" />
     <p>
       Breaking it spills it all on the ground instead. Explosions, pistons and bosses cannot move or
       break a grave.

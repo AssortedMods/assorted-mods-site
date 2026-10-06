@@ -7,7 +7,6 @@
       A grate you can walk across that items drop straight through. Players and mobs stand on it,
       but any item dropped on it falls through.
     </p>
-    <img src="\mods\tech\grates.webp">
     <p>
       There is one for iron, gold, copper and every metal
       <NuxtLink

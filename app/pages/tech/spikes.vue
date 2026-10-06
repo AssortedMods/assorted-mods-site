@@ -8,8 +8,6 @@
       be placed on any side of the block. The spikes damage depends on the material that it is built
       from. Each spike has a tooltip with the damage for that material.
     </p>
-    <img src="\mods\tech\spikes_inventory.png">
-    <br>
     <p>
       All spikes follow the same basic pattern as seen below. Assorted Spikes currently supports all
       vanilla materials as well as all of the materials from

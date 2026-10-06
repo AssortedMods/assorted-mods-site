@@ -6,7 +6,7 @@
     <SectionHeading name="randomite">
       Randomite
     </SectionHeading>
-    <img src="\mods\world\randomite.png">
+    <GalleryShot name="randomite" />
     <p>
       Randomite looks like one more ore in the wall and drops as any of them. What it gives is decided
       when it breaks, not when it generates, so two blocks side by side rarely drop the same. The
@@ -39,16 +39,18 @@
       has two blocks of suspicious sand just under the water with the same finds a plain well has, so
       the pottery sherds that only come from wells are all still there.
     </p>
+    <GalleryShot name="desert-well" />
 
     <SectionHeading name="fuller_world">
       A Fuller World
     </SectionHeading>
-    <img src="\mods\world\terrain.webp">
+    <GalleryShot name="terrain" />
     <p>
       Wild fields of wheat, carrots, potatoes or beetroot grow on the plains, watered by holes dug in
       among the rows. Melons come up in loose patches around as well. Stray saplings and the stumps of
       felled trees are scattered through the woods.
     </p>
+    <GalleryShot name="crop-field" />
     <p>
       The desert has more variety with fields of cactus and pits sunk into the sand in terraces.
     </p>

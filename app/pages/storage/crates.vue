@@ -15,7 +15,7 @@
       </NuxtLink>
       installed every block added here can also be locked.
     </p>
-    <img src="\mods\storage\storage_crates.png">
+    <GalleryShot name="crates" />
 
     <SectionHeading name="crates">
       Crates
@@ -68,6 +68,7 @@
         see the items in the crate
       </li>
     </ul>
+    <GalleryShot name="filling" />
 
     <SectionHeading name="compacting">
       Compacting
@@ -78,7 +79,7 @@
       Iron Ingots -> Iron Nuggets. The Compacting Storage Crate will allow you to input any of these
       into it and if you need one of them you can get that form out automatically.
     </p>
-    <br>
+    <GalleryShot name="compacting" />
     <p>
       The crate only supports up to 3 levels. As such the recipe requires any
       <strong>Triple</strong> slot Storage Crate
@@ -101,6 +102,7 @@
       Storage Crates will automatically be connected to the controller as long as there is a direct
       connection of Crates back to the Controller.
     </p>
+    <GalleryShot name="network" />
     <Recipe id="assortedcrates:crate_controller" />
 
     <SectionHeading
@@ -134,7 +136,10 @@
       </NuxtLink>. You add these Upgrades either by Right-Clicking on a Storage Crate with them or by opening
       the interface of a Storage Crate and adding them within.
     </p>
-    <img src="\mods\storage\crate_interface.png">
+    <PageFigure
+      src="/figures/storage/crate-screen.png"
+      caption="A crate's screen, with its upgrade slots under the item slots."
+    />
     <p>The Blank Upgrade is the base the other upgrades are made from.</p>
     <Recipe id="assortedcrates:blank_upgrade" />
 
@@ -207,7 +212,10 @@
       <strong>Full</strong> will show the amount out of the total allowed in that slot.
     </p>
     <Recipe id="assortedcrates:amount_upgrade" />
-    <img src="\mods\storage\amount_upgrade.png">
+    <PageFigure
+      src="/figures/storage/amount-upgrade.png"
+      caption="Crates with the amount upgrade in Simple mode above and Full mode below."
+    />
 
     <SectionHeading
       name="glow_upgrade"
@@ -223,7 +231,10 @@
       <Recipe id="assortedcrates:glow_upgrade" />
       <Recipe id="assortedcrates:glow_upgrade_glowstone" />
     </div>
-    <img src="\mods\storage\glow_upgrade.png">
+    <PageFigure
+      src="/figures/storage/glow-upgrade.webp"
+      caption="Crates in the dark, the ones with a glow upgrade still showing their items."
+    />
 
     <SectionHeading
       name="level_upgrades"
@@ -244,7 +255,10 @@
       multiplier which you can see within the Storage Crate interface. Each Level Upgrade you add
       multiplies its multiplier by whatever the base stack size was and adds it.
     </p>
-    <img src="\mods\storage\crate_interface_level.png">
+    <PageFigure
+      src="/figures/storage/crate-level-upgrade.png"
+      caption="A netherite level upgrade in a crate, with its multiplier on the tooltip."
+    />
 
     <SectionHeading
       name="locking"

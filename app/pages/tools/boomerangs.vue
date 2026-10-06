@@ -8,7 +8,7 @@
       maximum distance. They hurt what they pass through on the way, and they might even pickup some
       items on the way.
     </p>
-    <img src="\mods\tools\boomerangs.webp">
+    <GalleryShot name="boomerangs" />
     <SectionHeading name="wooden">
       Wooden Boomerangs
     </SectionHeading>

@@ -26,7 +26,7 @@
         Gear Sets
       </NuxtLink>.
     </p>
-    <img src="\mods\tools\throwing_spears_all.png">
+    <GalleryShot name="spears" />
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedthrowingspears:diamond_throwing_spear" />
       <Recipe id="assortedthrowingspears:sapphire_throwing_spear" />

@@ -26,7 +26,7 @@
       </NuxtLink>
       installed every shulker box can also be locked.
     </p>
-    <img src="\mods\storage\shulkers.webp">
+    <GalleryShot name="shulkers" />
 
     <SectionHeading name="materials">
       Materials and Levels
@@ -41,6 +41,7 @@
       tooltip showing its storage level.
     </p>
     <p>Material shulker boxes can be dyed the same way as a vanilla one.</p>
+    <GalleryShot name="diamond-shulker" />
 
     <SectionHeading name="upgrading">
       Upgrading

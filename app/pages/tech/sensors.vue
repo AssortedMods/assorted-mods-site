@@ -8,15 +8,15 @@
       an entity of their type in view of their range. You are able to adjust the range of the sensor
       by right-clicking and shift-right clicking on them with an empty hand.
     </p>
-    <img src="\mods\tech\sensors.png">
-
-    <br>
+    <GalleryShot name="sensors" />
     <p>
       You can also view the range by right clicking on them with a redstone torch. The area will be
       green if there are no blocks blocking the range and red if so.
     </p>
-    <img src="\mods\tech\sensors_visible_range.png">
-    <br>
+    <PageFigure
+      src="/figures/tech/sensor-range.webp"
+      caption="Two sensors showing their ranges, green where the view is clear and red where the sand blocks it."
+    />
     <p>There are many different types of sensors each one follows the same recipe pattern.</p>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedsensors:iron_sensor" />
@@ -59,12 +59,15 @@
       right. From its screen you choose whether it detects players, mobs or items, and can narrow it
       to one player, one kind of mob or one item.
     </p>
+    <GalleryShot name="watching" />
+    <GalleryShot name="gps-sensor" />
     <p>
       The upgraded GPS sensor can sit farther from the position it watches and has an adjustable
       range. Its filter takes a list of up to 6 entries, and an entry starting with <b>#</b> is a
       tag, like <b>#minecraft:undead</b> for every undead mob or <b>#minecraft:logs</b> for every
       log.
     </p>
+    <GalleryShot name="upgraded-gps-sensor" />
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedsensors:gps_sensor" />
       <Recipe id="assortedsensors:upgraded_gps_sensor" />

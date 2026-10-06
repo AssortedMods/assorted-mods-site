@@ -7,11 +7,9 @@
       You can have two doors side by side and opening one door will open the other. The same goes for
       a large group of trapdoors, and for fence gates stacked on or beside each other.
     </p>
-    <img src="\mods\util\double-doors.webp">
     <p>
       Sneak to open just one. Doors, trapdoors and gates from other mods should work too.
     </p>
-    <img src="\mods\util\double-doors-demo.webp">
 
     <SectionHeading name="config">
       Config

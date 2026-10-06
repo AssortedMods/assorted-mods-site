@@ -6,7 +6,7 @@
     <p>
       A crafting table you can carry. Right click with it to open a crafting grid on the spot.
     </p>
-    <img src="\mods\tools\portable-workbench.webp">
+    <GalleryShot name="crafting-anywhere" />
     <Recipe id="assortedportableworkbench:portable_workbench" />
   </PartPage>
 </template>

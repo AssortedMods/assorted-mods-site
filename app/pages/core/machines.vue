@@ -7,7 +7,7 @@
       Assorted Machines adds two machines to process ores. One allows you to break ores and ingots
       down into the dust forms. The other allows you to smelt items together to create alloys.
     </p>
-    <img src="\mods\core\machines.webp">
+    <GalleryShot name="machines" />
     <p>
       The machines added each have 4 tiers which determine how fast they process. The 4 tiers are
       Basic, Intermediate, Advanced, and Expert. <b>All machines are set up to support JEI.</b>
@@ -47,6 +47,7 @@
       fuel that furnaces can use. You are able to pipe in items via the top and sides with hoppers.
       You can use a hopper underneath the Grinding Mill to pull out the output.
     </p>
+    <GalleryShot name="grinding-mill" />
 
     <SectionHeading
       name="grinding_mill_recipes"
@@ -79,6 +80,7 @@
       supports. You are able to pipe in items via the top and sides with hoppers. You can use a
       hopper underneath the Alloy Forge to pull out the output.
     </p>
+    <GalleryShot name="alloy-forge" />
 
     <SectionHeading name="alloys">
       Alloys
@@ -88,6 +90,7 @@
       Steel alloys. They are shown below. Each alloy can be used to create ingots, nuggets, dusts,
       gears, and storage blocks.
     </p>
+    <GalleryShot name="alloys" />
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Recipe id="assortedmachines:bronze_ingot" />
       <Recipe id="assortedmachines:electrum_ingot" />

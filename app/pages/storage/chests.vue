@@ -26,7 +26,7 @@
       </NuxtLink>
       installed every chest can also be locked.
     </p>
-    <img src="\mods\storage\better_storage.png">
+    <GalleryShot name="chests" />
 
     <SectionHeading name="materials">
       Materials and Levels
@@ -44,6 +44,7 @@
       Everything Assorted Core adds has a place in that order too, which gives tin, silver, ruby and
       the rest somewhere useful to go.
     </p>
+    <GalleryShot name="netherite-chest" />
 
     <SectionHeading name="upgrading">
       Upgrading

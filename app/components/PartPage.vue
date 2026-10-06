@@ -37,13 +37,12 @@
       </div>
     </header>
     <div id="content">
+      <GalleryLead />
       <slot />
       <br>
-      <ModGallery
-        :family="props.family"
-        :dir="mod.dir"
-      />
+      <GalleryGrid />
     </div>
+    <GalleryLightbox />
   </div>
 </template>
 
@@ -58,4 +57,6 @@ const props = defineProps<{
 
 const family = computed(() => getFamily(props.family))
 const mod = computed(() => getPart(props.family, props.part))
+// The page's GalleryShot and GalleryClip components find their pictures through this.
+provideModGallery(props.family, mod.value.dir)
 </script>

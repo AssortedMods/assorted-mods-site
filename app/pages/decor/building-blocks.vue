@@ -7,7 +7,7 @@
       Building Blocks adds about 300 new blocks. Bricks, tiles, columns, beams and panels for every
       stone and wood, plus siding, new doors, a chain link fence and the lumber mill.
     </p>
-    <img src="\mods\decor\building-blocks.webp">
+    <GalleryShot name="temple" />
     <p>
       Almost every block here comes off a stonecutter or lumber mill. Stone and metal are cut on the
       stonecutter, wood on the lumber mill. Most come as slabs and stairs too, and the bricks and
@@ -35,6 +35,7 @@
       Timber
     </SectionHeading>
     <p>The lumber mill cuts every kind of planks into parquet and framed planks.</p>
+    <GalleryShot name="wood" />
     <div class="flex flex-wrap gap-4">
       <Recipe id="assortedbuildingblocks:oak_parquet_from_oak_planks_lumber_mill" />
       <Recipe id="assortedbuildingblocks:framed_oak_planks_from_oak_planks_lumber_mill" />
@@ -70,6 +71,7 @@
       andesite, calcite, tuff, dripstone, deepslate, blackstone, sandstone and red sandstone. The
       stonecutter makes them from the raw stone or from its polished form.
     </p>
+    <GalleryShot name="stones" />
     <div class="flex flex-wrap gap-4">
       <Recipe id="assortedbuildingblocks:granite_bricks_from_granite_stonecutting" />
       <Recipe id="assortedbuildingblocks:granite_tiles_from_granite_stonecutting" />
@@ -161,7 +163,10 @@
     <SectionHeading name="siding">
       Siding
     </SectionHeading>
-    <img src="\mods\decor\siding_example.png">
+    <PageFigure
+      src="/figures/decor/siding.webp"
+      caption="Siding in purple, lime and blue."
+    />
     <p>
       Siding boards a wall in horizontal or vertical planking, in any of the sixteen colors. The
       color comes from the paint roller in the recipe, and the rollers come with
@@ -176,7 +181,10 @@
     <SectionHeading name="chain_link">
       Chain Link
     </SectionHeading>
-    <img src="\mods\decor\chain_link_fence.png">
+    <PageFigure
+      src="/figures/decor/chain-link-fence.webp"
+      caption="A chain link fence around a pool."
+    />
     <p>
       Chain Links allow for the construction of Chain Link fences and Chain Link doors. To build
       those you must first craft some chain links.
@@ -215,7 +223,10 @@
     <SectionHeading name="doors">
       Doors
     </SectionHeading>
-    <img src="\mods\decor\new_doors.png">
+    <PageFigure
+      src="/figures/decor/doors.webp"
+      caption="The four new doors in a row."
+    />
     <p>
       There are 4 new doors. Quartz, Steel, Glass, and Chain Link. The Quartz and Steel door both
       function the same as the Iron Door in vanilla. The Steel door is able to be crafted if a mod is
