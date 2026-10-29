@@ -1,8 +1,12 @@
 name: Deploy
 
-# Manual only. Run it from the Actions tab when you want the site published: "web" uploads the
-# site, "full" also applies infrastructure changes.
+# Pushes to main deploy automatically: "full" when the infrastructure, deploy script, dependencies
+# or workflows changed, otherwise "web" (just upload the site). Run it by hand from the Actions tab
+# to pick either one.
 on:
+  push:
+    branches: [main]
+    paths-ignore: ['**.md']
   workflow_dispatch:
     inputs:
       target:
@@ -27,7 +31,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          fetch-depth: 0 # to diff against the previous push
           persist-credentials: false
+
+      - name: Pick full or web deploy
+        id: target
+        env:
+          EVENT: ${{ github.event_name }}
+          INPUT: ${{ inputs.target }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ "$EVENT" = workflow_dispatch ]; then
+            target="$INPUT"
+          elif [ -z "$BEFORE" ] || ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            target=full # first push, or history we can't diff
+          elif git diff --name-only "$BEFORE" "$GITHUB_SHA"             | grep -qE '^infra/|^scripts/deploy.mjs$|^cdk.json$|^package.json$|^yarn.lock$|^.github/'; then
+            target=full
+          else
+            target=web
+          fi
+          echo "target=$target" >> "$GITHUB_OUTPUT"
+          echo "### Deploying: $target" >> "$GITHUB_STEP_SUMMARY"
 
       - uses: actions/setup-node@v4
         with:
@@ -58,4 +82,4 @@ jobs:
 
       - run: node scripts/deploy.mjs "$TARGET"
         env:
-          TARGET: ${{ inputs.target }}
+          TARGET: ${{ steps.target.outputs.target }}

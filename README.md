@@ -112,4 +112,4 @@ Both outputs are committed, so a deploy does not need the mods or the game.
 
 ## Deploy
 
-Deployed to AWS with CDK. Publish by running the Deploy workflow from the Actions tab.
+Deployed to AWS with CDK. Pushes to `main` publish automatically, and the Deploy workflow can also be run from the Actions tab.
