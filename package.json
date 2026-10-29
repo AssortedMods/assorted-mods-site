@@ -26,7 +26,7 @@
     "@napi-rs/canvas": "^1.0.11",
     "@nuxt/eslint": "^1.17.0",
     "@nuxtjs/robots": "^6.2.4",
-    "@nuxtjs/sitemap": "^8.6.1",
+    "@nuxtjs/sitemap": "^9.1.0",
     "@tailwindcss/vite": "^4.3.3",
     "@types/node": "^26.6.5",
     "aws-cdk": "^2.1146.1",
