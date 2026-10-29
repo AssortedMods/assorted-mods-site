@@ -1,23 +1,33 @@
 name: Deploy
 
-# Manual only. Run it from the Actions tab when you want the site published.
+# Manual only. Run it from the Actions tab when you want the site published: "web" uploads the
+# site, "full" also applies infrastructure changes.
 on:
   workflow_dispatch:
+    inputs:
+      target:
+        description: What to deploy
+        type: choice
+        options:
+          - web
+          - full
+        default: web
+
+permissions:
+  id-token: write # sign in to AWS with OIDC (no stored AWS keys)
+  contents: read
 
 concurrency:
   group: deploy
   cancel-in-progress: false
 
-env:
-  BUCKET: www.assortedmods.com
-  AWS_REGION: us-west-2
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: production
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - uses: actions/setup-node@v4
         with:
@@ -30,22 +40,22 @@ jobs:
 
       - run: yarn generate
 
+      - name: Write infra config
+        env:
+          INFRA_CONFIG_JSON: ${{ secrets.INFRA_CONFIG_JSON }}
+        run: |
+          if [ -z "$INFRA_CONFIG_JSON" ]; then
+            echo "::error::Add the INFRA_CONFIG_JSON repository secret (contents of infra/config.json)."
+            exit 1
+          fi
+          printf '%s' "$INFRA_CONFIG_JSON" > infra/config.json
+
       - uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ env.AWS_REGION }}
+          role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: us-west-2
+          mask-aws-account-id: true # the logs are public
 
-      # Hashed bundles first, so no page can reference a file that is not up yet.
-      - name: Sync hashed assets
-        run: |
-          aws s3 sync .output/public/_nuxt "s3://$BUCKET/_nuxt" \
-            --delete \
-            --cache-control "public,max-age=31536000,immutable"
-
-      - name: Sync pages and assets
-        run: |
-          aws s3 sync .output/public "s3://$BUCKET" \
-            --delete \
-            --exclude "_nuxt/*" \
-            --cache-control "public,max-age=300"
+      - run: node scripts/deploy.mjs "$TARGET"
+        env:
+          TARGET: ${{ inputs.target }}

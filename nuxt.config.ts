@@ -1,5 +1,6 @@
 import tailwindcss from '@tailwindcss/vite'
 import redirects from './redirects.json'
+import { withCspMeta } from './infra/lib/csp'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -29,6 +30,14 @@ export default defineNuxtConfig({
       crawlLinks: true,
       // The old paths are listed so the static site still has a page at each that sends you on.
       routes: ['/', ...Object.keys(redirects)]
+    },
+    hooks: {
+      // Give every generated page a CSP that allows exactly its own inline scripts.
+      'prerender:generate'(route) {
+        if (typeof route.contents === 'string' && route.fileName?.endsWith('.html')) {
+          route.contents = withCspMeta(route.contents)
+        }
+      }
     }
   },
   vite: {

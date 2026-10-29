@@ -9,12 +9,13 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "typecheck": "nuxt typecheck",
+    "typecheck": "nuxt typecheck && tsc --noEmit -p infra",
     "recipes": "node scripts/build-recipes.mjs",
     "mods": "node scripts/build-mods.mjs",
-    "deploy": "nuxt generate && npm run deploy:assets && npm run deploy:rest",
-    "deploy:assets": "aws s3 sync .output/public/_nuxt s3://www.assortedmods.com/_nuxt --delete --cache-control \"public,max-age=31536000,immutable\"",
-    "deploy:rest": "aws s3 sync .output/public s3://www.assortedmods.com --delete --exclude \"_nuxt/*\" --cache-control \"public,max-age=300\""
+    "deploy": "nuxt generate && node scripts/deploy.mjs full",
+    "diff": "cdk diff",
+    "deploy:web": "nuxt generate && node scripts/deploy.mjs web",
+    "destroy": "node scripts/deploy.mjs destroy"
   },
   "dependencies": {
     "nuxt": "^4.6.2",
@@ -28,10 +29,14 @@
     "@nuxtjs/sitemap": "^8.6.1",
     "@tailwindcss/vite": "^4.3.3",
     "@types/node": "^26.6.5",
+    "aws-cdk": "^2.1146.1",
+    "aws-cdk-lib": "^2.275.0",
+    "constructs": "^10.8.1",
     "eslint": "^10.12.0",
     "fflate": "^0.8.3",
     "nuxt-link-checker": "^5.3.0",
     "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
     "typescript": "^6.0.3",
     "vue-tsc": "^3.3.13",
     "zod": "^4.6.6"
