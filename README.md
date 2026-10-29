@@ -8,8 +8,8 @@ files.
 
 ## Setup
 
-Needs Node 26, pinned in `.nvmrc` (`nvm use` if you use nvm). The deploy workflow reads the same file,
-and `@types/node` follows the same major.
+Needs Node 26, pinned in `.nvmrc` (`nvm use` if you use nvm). CI reads the same file, and
+`@types/node` follows the same major.
 
 ```bash
 yarn install
@@ -112,19 +112,4 @@ Both outputs are committed, so a deploy does not need the mods or the game.
 
 ## Deploy
 
-The site is hosted as a static S3 website in the `www.assortedmods.com` bucket. To build and publish
-in one step:
-
-```bash
-yarn deploy
-```
-
-That runs `nuxt generate`, then syncs `.output/public` to the bucket in two passes: the hashed
-`_nuxt` bundles with a one year immutable cache, then everything else with a five minute cache.
-Both passes use `--delete`, so files removed from the site are removed from the bucket.
-
-It needs the AWS CLI installed and credentials that can write to the bucket, for example through
-`aws configure` or `AWS_PROFILE`.
-
-The same deploy is available in GitHub Actions as a manual run: **Actions -> Deploy -> Run
-workflow**. It needs `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` set as repository secrets.
+Deployed to AWS with CDK. Publish by running the Deploy workflow from the Actions tab.
