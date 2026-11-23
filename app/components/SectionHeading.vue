@@ -11,7 +11,7 @@
       :aria-label="copied ? 'Link copied' : 'Copy a link to this section'"
       :title="copied ? 'Link copied' : 'Copy a link to this section'"
       @click.prevent="copyLink"
-    >{{ copied ? '✓' : '#' }}</a><a :name="name"><slot /></a>
+    >{{ copied ? '✓' : '#' }}</a><span class="text-blue-600 border-l-2 border-solid border-blue-600 pl-1"><slot /></span>
   </component>
 </template>
 
